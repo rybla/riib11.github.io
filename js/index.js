@@ -1,0 +1,1 @@
+log_loaded("js/index.js")

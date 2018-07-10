@@ -1,0 +1,15 @@
+.structural {
+    color: grey;
+}
+
+.dirname {
+    color: green;
+}
+
+.filename {
+    color: cyan;
+}
+
+.runnable {
+    color: red;
+}
