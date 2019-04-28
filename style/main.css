@@ -1,0 +1,123 @@
+/****************************************************************************************************************************
+/ html
+/***************************************************************************************************************************/
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+/****************************************************************************************************************************
+/ body
+/***************************************************************************************************************************/
+body {
+  margin: 0px;
+  padding: 0px;
+
+  background: var(--tint1);
+}
+
+/****************************************************************************************************************************
+/ page
+/***************************************************************************************************************************/
+:root {
+  --overhang-width: 5px;
+  --overhang-max: 20px;
+}
+
+#page-wrapper {
+  width: 800px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  border-radius: 7px;
+
+  /* box-shadow:
+    0px calc(-1*var(--overhang-width)) 0px 0px var(--accent1),
+    0px var(--overhang-width) 0px 0px var(--accent1),
+    calc(var(--overhang-max) - var(--overhang-width)) 0px 0px 0px var(--tint1) inset,
+    var(--overhang-max) 0px 0px 0px var(--accent1) inset,
+    calc(-1*var(--overhang-max) + var(--overhang-width)) 0px 0px 0px var(--tint1) inset,
+    calc(-1*var(--overhang-max)) 0px 0px 0px var(--accent1) inset; */
+
+  /* background: var(--tint1); */
+}
+
+#page {
+  padding: 20px;
+  font-family: Spectral-Regular;
+}
+
+/****************************************************************************************************************************
+/ header
+/***************************************************************************************************************************/
+#header-wrapper {
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+
+  background: var(--tint1);
+  color: black
+}
+
+#header {
+
+}
+
+.header-title {
+  display: block;
+  margin-top: 50px;
+  /* margin-bottom: 50px; */
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  text-align: center;
+  font-size: 20pt;
+
+  box-shadow:
+    0px 5px 0px 0px var(--accent1),
+    0px -5px 0px 0px var(--accent1);
+
+  text-decoration: none;
+  color: black;
+
+  transition-timing-function: linear;
+  transition-property: background-color, color;
+  transition-duration: 0.25s;
+  transition-delay: 0s;
+}
+
+.header-title:hover {
+  background-color: var(--accent1);
+  color: var(--accent3);
+  cursor: pointer;
+}
+
+/****************************************************************************************************************************
+/ body
+/***************************************************************************************************************************/
+#body-wrapper {
+  padding: 50px;
+}
+
+#body {
+
+}
+
+/****************************************************************************************************************************
+/ footer
+/***************************************************************************************************************************/
+#footer-wrapper {}
+#footer {}
+
+
+/****************************************************************************************************************************
+/ separator
+/***************************************************************************************************************************/
+
+.horizontal-separator {
+  margin: auto;
+  width: 90%;
+  height: 5px;
+  background: var(--accent1);
+}

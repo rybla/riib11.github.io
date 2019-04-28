@@ -1,0 +1,11 @@
+:root {
+  --body-background: white;
+
+  --tint1: #fff4c6;
+  /* --tint1: #333333; */
+  --tint2: white;
+
+  --accent1: black;
+  --accent2: red;
+  --accent3: white;
+}
