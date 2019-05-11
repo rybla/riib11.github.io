@@ -1,4 +1,4 @@
-/* :root {
+:root {
   --theme-background1: white;
   --theme-background2: rgb(200, 200, 200);
   --theme-background3: rgb(245, 245, 245);
@@ -8,9 +8,9 @@
 
   --theme-font1: black;
   --theme-font2: black;
-} */
+}
 
-:root {
+/* :root {
   --theme-background1: black;
   --theme-background2: rgb(55, 55, 55);
   --theme-background3: rgb(25, 25, 25);
@@ -20,4 +20,4 @@
 
   --theme-font1: white;
   --theme-font2: lime;
-}
+} */
