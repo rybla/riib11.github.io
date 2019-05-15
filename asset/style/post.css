@@ -43,8 +43,8 @@
   text-align: right;
   /* text-decoration: overline; */
   font-size: 24px;
-  font-family: Spectral-Bold;
-  color: var(--theme-font1);
+  font-family: Spectral-Normal;
+  color: var(--theme-font3);
 }
 
 .post-divider {
@@ -56,6 +56,6 @@
   margin-bottom: 8px;
 }
 
-.post-body {
+.post-abstract {
   color: var(--theme-font1);
 }
