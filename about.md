@@ -4,15 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This is Henry Blanchette's website. The primary topics covered here are: programming languages, computaric logic, mathematics, philosophy, evolution, game theory, game design.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Henry Blanchette is a computer science & mathematics undergraduate at Reed College (Portland, Oregon).
+He will graduate with a Bachelor of Arts' degree in May 2020. His academic interests have centered around mathematics, computer science, and philosophy. Henry is currently developing a thesis on formal verification in regards to programming language design.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+The purpose of this website is to informally publish writings, programs, podcasts, and other content that Henry find's interesting and worthwhile.
