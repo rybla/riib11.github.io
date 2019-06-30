@@ -6,6 +6,8 @@ permalink: /books/
 
 A compilation of books that I hope to or have read.
 
+A very comprehensive compilation of books that I have and hope to read are recorded on my GoodReads account here: [Henry Blanchette](https://www.goodreads.com/review/list/91617543). The following is a more procured list of books that I've found particularly interesting and/or influencial.
+
 _Categories:_
 
 - [Politics](#political)
