@@ -17,7 +17,7 @@
 .post {
   background-color: var(--theme-background3);
   padding: 20px;
-  /* box-shadow: -2px -2px 0px 0px var(--theme-border1); */
+  box-shadow: -2px -2px 0px 0px var(--theme-border1);
 }
 
 .post-title {
