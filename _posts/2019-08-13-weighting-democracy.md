@@ -3,8 +3,6 @@ layout: post
 title: Weighting Democracy
 ---
 
-<!-- An article about the pros and cons of democracy in the view of its popular conception in the United States of America. -->
-
 In the United States of America, Democracy is viewed as an integral to both the nation's identity and political system. However sympathies to alternatives have always been present in the popular discourse as well. Additionally, "Democracy" has gained so many political and moral connotations that the distinction between it and a more accurate description of our political process - as a democratic republic.
 
 These observations inspire a few questions:
@@ -16,7 +14,7 @@ This article attempts to answer the second question, while touching contextually
 
 _Note_: I use "Democracy" capitalized not to refer to the Democratic political party in the USA, but to specifically refer to "democracy" as popularly conceived in the USA.
 
-## What is Democract?
+## What is Democracy?
 
 This section serves as an overview of what Democracy means in this article. There are many other resources that provide a more thorough foundation, but that isn't necessary here.
 
@@ -30,7 +28,7 @@ Next, there are some important lines to draw between democracy and Democracy.
 
 _Direct democracy_ is democracy where _all_ political desicions, legislative and executive, are made through some kind of popular vote among citizens. While this is commonly used in small groups, it is not how the American government operates or even pretends to operate at the national level.
 
-_Absolute democracy_ is democracy where all democratic desicions are executed regardless of conflicts with the current law. The American national government contains a Supreme Court that is appointed and can, in some circumstances, rule against democractic desicions. The vast buerocracy that makes up the American national and state governments ensures that many democratic desicions are not faithfully executed as they are presented to the voting citizenry. And finally, new democratic desicions cannot override the American constitution unless the constitution is first ammeded to allow it. For example, American citizens cannot be declared guilty of serious crimes without the option for a preceeding trial by jury. So, the USA does not practice absolute democracy.
+_Absolute democracy_ is democracy where _all_ democratic desicions are executed regardless of conflicts with the current law. The American national government contains a Supreme Court that is appointed and can, in some circumstances, rule against democractic desicions. The vast buerocracy that makes up the American national and state governments ensures that many democratic desicions are not faithfully executed as they are presented to the voting citizenry. And finally, new democratic desicions cannot override the American constitution unless the constitution is first ammeded to allow it. For example, American citizens cannot be declared guilty of serious crimes without the option for a preceeding trial by jury. So, the USA does not practice absolute democracy.
 
 ## The Upsides of Democracy
 
@@ -42,7 +40,7 @@ Much of the USA's political success is popularly attributed to its faithful prac
 - political stability
 - political representation for citizens
 - citizen participation in politics
-- <TODO>
+-  TODO
 
 Additionally, the USA does not practice absolute democracy. 
 
