@@ -1,4 +1,4 @@
- ---
+---
 layout: post
 title: Weighting Democracy
 ---
@@ -41,15 +41,17 @@ As for domestic concerns, Americans enjoy some of the highest living standards e
 Much of the USA's political success is popularly attributed to its faithful practice of Democracy. Some plausible positive contributions of Democracy are:
 
 **1. relative political stability**
+
 **2. political representation for citizens**
+
 **3. citizen participation in politics**
+
 **4. moderation of power-hungry politians**
+
 **5. federated legislation executive power**
+
 **6. cohesive national identity**
 
-
-
-Additionally, the USA does not practice absolute democracy. 
 
 ## The Downsides of Democracy
 
