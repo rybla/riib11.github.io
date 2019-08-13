@@ -30,17 +30,24 @@ _Direct democracy_ is democracy where _all_ political desicions, legislative and
 
 _Absolute democracy_ is democracy where _all_ democratic desicions are executed regardless of conflicts with the current law. The American national government contains a Supreme Court that is appointed and can, in some circumstances, rule against democractic desicions. The vast buerocracy that makes up the American national and state governments ensures that many democratic desicions are not faithfully executed as they are presented to the voting citizenry. And finally, new democratic desicions cannot override the American constitution unless the constitution is first ammeded to allow it. For example, American citizens cannot be declared guilty of serious crimes without the option for a preceeding trial by jury. So, the USA does not practice absolute democracy.
 
+_Note_: A democratic republic being a kind of democracy, I take the republican side of this category to be an aspect of Democracy in the USA.
+
 ## The Upsides of Democracy
 
 From a historical perspective,   Democracy seems to have coincided with the development of a hugely powerful and influencial country that is the USA. The USA is currently a global superpower unmatched in almost every aspect of international influence, and has been a top global superpower for at least a century.
 
 As for domestic concerns, Americans enjoy some of the highest living standards ever experienced in any part of the world at any point in the past. Of course, the USA is not alone in this status --- these luxurious living standards are matched or surpassed in most of North America, most of Europe, and much in North-Eastern Asia.
 
-Much of the USA's political success is popularly attributed to its faithful practice of Democracy. Some possible contributions of Democracy are:
-- political stability
-- political representation for citizens
-- citizen participation in politics
--  TODO
+Much of the USA's political success is popularly attributed to its faithful practice of Democracy. Some plausible positive contributions of Democracy are:
+
+**1. relative political stability**
+**2. political representation for citizens**
+**3. citizen participation in politics**
+**4. moderation of power-hungry politians**
+**5. federated legislation executive power**
+**6. cohesive national identity**
+
+
 
 Additionally, the USA does not practice absolute democracy. 
 
