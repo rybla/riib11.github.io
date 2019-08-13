@@ -72,8 +72,8 @@ _Categories:_
 - ReConsider (Podcast)
 - Quillette Podcast
 - Art of Thought (Podcast)
-- Half Hour of Heterodoxy
-- The Next Debate
+- Half Hour of Heterodoxy (Podcast)
+- The Next Debate (Podcast)
 - Po the Person (YouTube)
 - Timcast (YouTube)
 - Tim Pool (YouTube)
@@ -233,7 +233,8 @@ _Categories:_
 
 # Minecraft
 
-- Hytale iftkryo (YouTube)
+- Hytale (Youtube)
+- iftkryo (YouTube)
 - Direwolf20 (YouTube)
 - Grian (YouTube)
 - Mumbo Jumbo (YouTube)
