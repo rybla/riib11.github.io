@@ -34,28 +34,37 @@ _Note_: A democratic republic being a kind of democracy, I take the republican s
 
 ## The Upsides of Democracy
 
-From a historical perspective,   Democracy seems to have coincided with the development of a hugely powerful and influencial country that is the USA. The USA is currently a global superpower unmatched in almost every aspect of international influence, and has been a top global superpower for at least a century.
+From a historical perspective, Democracy seems to have coincided with the development of a hugely powerful and influencial country that is the USA. The USA is currently a global superpower unmatched in almost every aspect of international influence, and has been a top global superpower for at least a century.
 
 As for domestic concerns, Americans enjoy some of the highest living standards ever experienced in any part of the world at any point in the past. Of course, the USA is not alone in this status --- these luxurious living standards are matched or surpassed in most of North America, most of Europe, and much in North-Eastern Asia.
 
-Much of the USA's political success is popularly attributed to its faithful practice of Democracy. Some plausible positive contributions of Democracy are:
+Much of the USA's political success is popularly attributed to its faithful practice of Democracy. Some plausible upside of Democracy are:
 
-**1. relative political stability**
+**U1. relative political stability**
 
-**2. political representation for citizens**
+**U2. political representation for citizens**
 
-**3. citizen participation in politics**
+**U3. citizen participation in politics**
 
-**4. moderation of power-hungry politians**
+**U4. moderation of power-hungry politians**
 
-**5. federated legislation executive power**
+**U5. federated legislation executive power**
 
-**6. cohesive national identity**
-
+**U6. cohesive national identity**
 
 ## The Downsides of Democracy
 
-TODO
+Although Democracy is almost unanimously pronounced good by the Americans both publically and privately, it is not without is downsides. Notably, the history of democratic practice is littered with failures. As Plato hypothesized (with ample evidence) in _Republic_, democracies tend toward tyranny.
+
+Democracy's central virtue is also is central vice. The public citizenry, which can providing an anchorpoint for political moderation, can also be swayed easily towards political mistakes. With the upsides from the previous section in mind, some plausible downsides of Democracy are:
+
+**D1. those involved in desicions are often unknowledgable about them**
+
+**D2. politicians are incentivized to look good more than to perform well**
+
+**D3. the citizenry often have irrational views on policy in regards to their goals**
+
+**D4. short-term interests often are more popular than long-term interests of greater importance**
 
 ## The Net Weighting of Democracy
 
