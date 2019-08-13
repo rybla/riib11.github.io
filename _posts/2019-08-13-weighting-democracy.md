@@ -46,11 +46,11 @@ Much of the USA's political success is popularly attributed to its faithful prac
 
 **U3. citizen participation in politics**
 
-**U4. moderation of power-hungry politians**
+**U4. moderation of the concentration of political power**
 
 **U5. federated legislation executive power**
 
-**U6. cohesive national identity**
+**U6. cohesion of national identity**
 
 ## The Downsides of Democracy
 
@@ -58,13 +58,17 @@ Although Democracy is almost unanimously pronounced good by the Americans both p
 
 Democracy's central virtue is also is central vice. The public citizenry, which can providing an anchorpoint for political moderation, can also be swayed easily towards political mistakes. With the upsides from the previous section in mind, some plausible downsides of Democracy are:
 
-**D1. those involved in desicions are often unknowledgable about them**
+**D1. unknowledgable voters involced many desicions**
 
-**D2. politicians are incentivized to look good more than to perform well**
+**D2. political incentive to appear good to voters rather than perform well**
 
-**D3. the citizenry often have irrational views on policy in regards to their goals**
+**D3. irrational views of citizenry when it comes to policy**
 
-**D4. short-term interests often are more popular than long-term interests of greater importance**
+**D4. greater popularity of the short-term over the long-term**
+
+**D5. slow processing for desicion-making**
+
+**D6. distributed and vague responsibiltiy**
 
 ## The Net Weighting of Democracy
 
