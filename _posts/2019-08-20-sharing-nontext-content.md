@@ -37,3 +37,5 @@ In these and many other ways, the idea of timestamped comments has been addresse
 The actual UI implementation of this feature seems to be a main sticking point. YouTube's automatically-recognized timestamps are a good approach to start with. The next step would be to allow a user to select the time rather to be the current time of the player or by allowing a scrubber interfact for choosing a timestamp. This removes the middle step of reading, remembering, and then typing the timestamp.
 
 ## Chapters, Sections, Etc.
+
+## Modular Video and Audio Widgets
