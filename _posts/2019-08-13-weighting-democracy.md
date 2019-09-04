@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Weighting Democracy
+author: Henry Blanchette
 ---
 
 In the United States of America, Democracy is viewed as an integral to both the nation's identity and political system. However sympathies to alternatives have always been present in the popular discourse as well. Additionally, "Democracy" has gained so many political and moral connotations that the distinction between it and a more accurate description of our political process - as a democratic republic.

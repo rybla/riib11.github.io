@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Cities and Design
+author: Henry Blanchette
 ---
 
 Lately I've been reading the book [Order without Design: How Markets Shape Cities](https://www.goodreads.com/book/show/39644188-order-without-design) by [Alain Bertaud](https://www.goodreads.com/author/show/1264012.Alain_Bertaud). I'm only about a third of the way through, but already I can tell this read is very worthwhile. So, in this article, I hope to portray some of the key ideas that this book has given me so far, along with a brief characterization of the arguments that led to them. They are the following:
