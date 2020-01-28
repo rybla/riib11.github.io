@@ -16,7 +16,7 @@
 title: Compuguistics
 email: do-not@email.me
 description: >- # this means to ignore newlines until "baseurl:"
-  This is Henry Blanchette's website. The primary topics covered here are: programming languages, computarics, mathematics, philosophy, evolution, game theory, game design, economics.
+  This is Henry Blanchette's website and primary blog. Some topics are: programming languages, computarics, mathematics, philosophy, evolution, game theory, game design, economics.
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "riib11.github.io"
 # twitter_username: jekyllrb
@@ -27,29 +27,24 @@ linkedin_uid: henry-blanchette-520542a1
 # Build settings
 markdown:     kramdown
 # remote_theme: chesterhow/tale
-theme:        tale
+# theme:        tale
 permalink:    /:year-:month-:day/:title
-paginate:     5
+paginate:     20
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  # - jekyll-paginate
+  - jekyll-paginate
   # - jekyll-remote-theme
-
-# TODO: sign up for this and put in username
-# Disqus
-# disqus:
-#   shortname: my_disqus_shortname
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

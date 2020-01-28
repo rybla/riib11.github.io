@@ -1,0 +1,42 @@
+$card-margin-vertical: 20px;
+$card-width: 80%;
+
+$card-padding: 10px;
+
+.card {
+  color: $color-primary;
+  display: block;
+  font-style: normal;
+
+  margin-bottom: $card-margin-vertical;
+  padding: $card-padding;
+  padding-left: 0;
+
+  text-decoration: none;
+
+  transition: 0.2s box-shadow;
+
+  .title {
+    font-size: $font-size-card-title;
+    color: $color-primary;
+    font-weight: bold;
+  }
+
+  .categories {
+    margin-top: 10px;
+    .category {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+
+  .subtitle {
+    font-size: $font-size-card-subtitle;
+    margin-top: 10px;
+  }
+}
+
+.card:hover {
+  box-shadow: -20px 0 0 0 $color-base, -24px 0 0 0 $color-primary;
+  transition: 0.2s box-shadow;
+}

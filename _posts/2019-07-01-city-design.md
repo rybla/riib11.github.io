@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Cities and Design
+subtitle: A short exploration of how markets and planning shape cities.
 author: Henry Blanchette
+categories: economics
 ---
 
 <img src="/assets/city-design/header.jpg" class="header">

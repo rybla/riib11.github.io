@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Golden Bubble
+subtitle: How solid is the value inflating Bitcoin?
 author: Henry Blanchette
+categories: economics technology
 ---
 
 A common argument is that Bitcoin and other cryptocurrencies have no _real value_ because they have no backing asset with _intrinsic value_. Call these kinds of cryptocurrencies "Intangibles." The conclusion of this arguemnt is that Intangibles are really just thinkly-veiled Ponzi schemes, since their only value is that in trading them to suckers for fiat currencies. I disagree with this line of argument, and in this article I defend the following theses in refutation:

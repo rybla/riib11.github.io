@@ -1,6 +1,9 @@
 ---
 layout: post
 title: No Explanation
+subtitle: Is it possible, and under what circumstances, for there to be no valid explanation of a phenomenon?
+author: Henry Blanchette
+categories: philosophy, science
 ---
 
 Can some phenomena be so complex that there cannot be an _understandable_ explanation for it? If so, could systems like brains and economies harbor such phenomena?

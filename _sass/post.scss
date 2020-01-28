@@ -1,0 +1,16 @@
+.post {
+  display: block;
+
+  .title {
+    font-size: $font-size-page-title;
+    font-weight: bold;
+  }
+
+  .categories {
+    margin-top: 10px;
+    .category {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+}

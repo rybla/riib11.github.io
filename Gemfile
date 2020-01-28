@@ -10,10 +10,8 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 3.8.5"
 
-
 # Jekyll theme
 # gem "minima", "~> 2.0" # defaul
-gem "tale"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
