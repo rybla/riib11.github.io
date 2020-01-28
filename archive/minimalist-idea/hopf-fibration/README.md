@@ -7,3 +7,7 @@ A responsive interactive [visualization](https://wgxli.github.io/hopf-fibration)
 * Click on the sphere to add points.
 * The main view shows the fibers over the given points under the Hopf map, stereographically projected into three-space.
 * Drag to orbit and scroll to zoom. Touch gestures should work on mobile.
+
+## TODO
+
+Make feed validate...
