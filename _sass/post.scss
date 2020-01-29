@@ -1,9 +1,15 @@
 .post {
   display: block;
 
+  padding: 20px;
+
   .title {
     font-size: $font-size-page-title;
     font-weight: bold;
+  }
+
+  p, ul, ol {
+    text-align: justify;
   }
 
   .categories {
@@ -13,4 +19,10 @@
       margin-right: 10px;
     }
   }
+
+  img {
+    width: 100%;
+  }
+
+
 }

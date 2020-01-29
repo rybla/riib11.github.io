@@ -9,7 +9,8 @@ $font-family-serif: 'Cormorant Garamond', serif;
 $font-family-monospace: 'Source Code Pro', monospace;
 
 $font-size-base: 16pt;
-$font-size-code: 10pt;
+$font-size-inline-code: 12pt;
+$font-size-block-code: 10pt;
 $font-size-site-title: 50pt;
 $font-size-page-title: 30pt;
 $font-size-card-title: 20pt;
@@ -51,6 +52,10 @@ h1, h2, h3, h4, h5, h6 {
 p, ul, ol {
   line-height: $base-line-height;
   font-size: $font-size-base;
+
+  code {
+    font-size: $font-size-inline-code;
+  }
 }
 
 a {
@@ -64,7 +69,7 @@ pre {
 
   code {
     font-family: $font-family-monospace;
-    font-size: $font-size-code;
+    font-size: $font-size-block-code;
     padding: 10px;
   }
 }
