@@ -18,8 +18,9 @@ $font-size-card-subtitle: 14pt;
 $base-line-height: 1.5;
 
 $container-width:  600px;
-$container-margin: 20px;
-$container-padding: 20px;
+$container-margin-vertical: 20px;
+$container-margin-left: 4px;
+$container-padding: 0px;
 
 
 //
@@ -30,10 +31,14 @@ body {
   background-color: $color-base;
   color: $color-primary;
   font-family: $font-family-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 .container {
-  margin: $container-margin;
+  margin-top: $container-margin-vertical;
+  margin-bottom: $container-margin-vertical;
+  margin-left: $container-margin-left;
   padding: $container-padding;
   width: $container-width;
   // word-wrap: break-word;

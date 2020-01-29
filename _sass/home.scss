@@ -1,7 +1,11 @@
 $card-margin-vertical: 20px;
 $card-width: 80%;
 
-$card-padding: 10px;
+$card-padding: 20px;
+
+$handle-hover-thickness: -40px;
+// calculated
+$handle-unhover-horizontal: $handle-horizontal + $handle-hover-thickness;
 
 .card {
   color: $color-primary;
@@ -10,9 +14,11 @@ $card-padding: 10px;
 
   margin-bottom: $card-margin-vertical;
   padding: $card-padding;
-  padding-left: 0;
 
   text-decoration: none;
+
+  box-shadow:
+    $handle-unhover-horizontal 0 0 $handle-hover-thickness $color-primary;
 
   transition: 0.2s box-shadow;
 
@@ -37,6 +43,6 @@ $card-padding: 10px;
 }
 
 .card:hover {
-  box-shadow: -20px 0 0 0 $color-base, -24px 0 0 0 $color-primary;
+  box-shadow: $handle-horizontal 0 0 0 $color-primary;
   transition: 0.2s box-shadow;
 }

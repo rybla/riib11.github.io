@@ -9,30 +9,33 @@ layout: default
 <div class="cards">
   {%- for post in site.posts -%}
   <div class="card">
-    <!-- title -->
-    <a href="{{ post.url | relative_url }}">
-    <div class="title">
-      {{ post.title | escape }}
-    </div>
-    </a>
-
-    <!-- categories -->
-    {%- if post.categories.size > 0 -%}
-    <div class="categories">
-      {%- for category in post.categories -%}
-      <div class="category">
-        <a href="/categories/#{{ category | escape }}">#{{ category }}</a>
+    <!-- content -->
+    <div class="content">
+      <!-- title -->
+      <a href="{{ post.url | relative_url }}">
+      <div class="title">
+        {{ post.title | escape }}
       </div>
-      {%- endfor -%}
-    </div>
-    {%- endif -%}
+      </a>
 
-    <!-- subtitle -->
-    {%- if post.subtitle != "" -%}
-    <div class="subtitle">
-      {{ post.subtitle | escape }}
+      <!-- categories -->
+      {%- if post.categories.size > 0 -%}
+      <div class="categories">
+        {%- for category in post.categories -%}
+        <div class="category">
+          <a href="/categories/#{{ category | escape }}">#{{ category }}</a>
+        </div>
+        {%- endfor -%}
+      </div>
+      {%- endif -%}
+
+      <!-- subtitle -->
+      {%- if post.subtitle != "" -%}
+      <div class="subtitle">
+        {{ post.subtitle | escape }}
+      </div>
+      {%- endif -%}
     </div>
-    {%- endif -%}
   </div>
   {%- endfor -%}
 </div>

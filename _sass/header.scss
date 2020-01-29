@@ -1,16 +1,15 @@
+$handle-width: 4px;
+$handle-horizontal: -1 * $handle-width;
+
 header {
 
   display: block;
 
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 20px;
 
   margin-bottom: 10px;
 
-  // box-shadow: -20px -20px 0 0 $color-base,
-  //             -24px -24px 0 0 $color-primary;
-  box-shadow: -20px 0 0 0 $color-base,
-              -24px 0 0 0 $color-primary;
+  box-shadow: $handle-horizontal 0 0 0 $color-primary;
 
   .title {
     color: $color-primary;
