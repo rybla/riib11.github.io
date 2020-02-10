@@ -5,10 +5,12 @@
 //
 // Variables
 //
+
 $font-family-serif: 'Cormorant Garamond', serif;
 $font-family-monospace: 'Source Code Pro', monospace;
 
 $font-size-base: 16pt;
+
 $font-size-inline-code: 12pt;
 $font-size-block-code: 10pt;
 $font-size-site-title: 50pt;
@@ -18,11 +20,14 @@ $font-size-card-subtitle: 14pt;
 
 $base-line-height: 1.5;
 
-$container-width:  600px;
+$container-width: 600px;
 $container-margin-vertical: 20px;
 $container-margin-left: 4px;
 $container-padding: 0px;
 
+$mobile-media-min-width: 320px;
+$mobile-media-max-width: 480px;
+$mobile-font-size-factor: 0.8;
 
 //
 // Global
@@ -45,16 +50,30 @@ body {
   // word-wrap: break-word;
 }
 
+@media (min-width: $mobile-media-min-width) and (max-width: $mobile-media-max-width) {
+  .container {
+    width: 100%;
+  }
+}
+
+
+
+//
+// Layout
+//
+
 h1, h2, h3, h4, h5, h6 {
   font-variant: small-caps;
 }
 
-p, ul, ol {
+p {
   line-height: $base-line-height;
   font-size: $font-size-base;
+}
 
-  code {
-    font-size: $font-size-inline-code;
+@media (min-width: $mobile-media-min-width) and (max-width: $mobile-media-max-width) {
+  p {
+    font-size: $mobile-font-size-factor*$font-size-base;
   }
 }
 
@@ -63,14 +82,27 @@ a {
   text-decoration: none;
 }
 
-pre {
-  overflow-x: scroll;
-  width: 100%;
+p a {
+    color: $color-secondary;
+    text-decoration: underline;
+}
 
-  code {
-    font-family: $font-family-monospace;
-    font-size: $font-size-block-code;
-    padding: 10px;
+//
+// Highlight/Markup
+//
+
+//
+// Lists
+//
+
+ul, ol {
+  line-height: $base-line-height;
+  font-size: $font-size-base;
+}
+
+@media (min-width: $mobile-media-min-width) and (max-width: $mobile-media-max-width) {
+  ul, ol {
+    font-size: $mobile-font-size-factor*$font-size-base;
   }
 }
 
@@ -80,39 +112,18 @@ table {
   thead {
     border-bottom: 1px solid $color-primary;
 
-    tr {
-
-    }
-
-    th {
-
-    }
+    tr {}
+    th {}
   }
 
   tbody {
-    tr {
-
-    }
-
+    tr {}
     td {
       border: 1px solid $color-primary;
       padding: 5px;
     }
   }
-
 }
-
-//
-// Layout
-//
-
-//
-// Highlight/Markup
-//
-
-//
-// Lists
-//
 
 //
 // Header/Navigation
@@ -125,3 +136,18 @@ table {
 //
 // Syntax Highlighting
 //
+
+code {
+  font-size: $font-size-inline-code;
+}
+
+pre {
+  overflow-x: scroll;
+  width: 100%;
+
+  code {
+    font-family: $font-family-monospace;
+    font-size: $font-size-block-code;
+    padding: 10px;
+  }
+}
