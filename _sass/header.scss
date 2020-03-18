@@ -20,6 +20,17 @@ header {
   }
 
   .navigation {
+    table, td {
+      // border: 1px solid lime;
+      border: none;
+    }
+
+    td {
+      text-align: center;
+      padding-right: 10px;
+      padding-bottom: 10px;
+    }
+
     .tab {
       display: inline-block;
       color: $color-primary;
@@ -28,7 +39,6 @@ header {
       font-family: $font-family-monospace;
       width: 20px;
       padding: 10px;
-      margin-right: 10px;
       text-align: center;
     }
     .tab:hover {

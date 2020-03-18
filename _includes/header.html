@@ -1,13 +1,28 @@
 <header>
   <div class="title">
-    <span>{{ site.title }}</span>
+    <span id="site-title"></span>
+    <script type="text/javascript">
+      var names = ["endoblog", "compuguistics", "hypertext"];
+      var i = Math.floor(Math.random() * names.length);
+      var name = names[i];
+      document.getElementById("site-title").innerHTML = name;
+    </script>
+    <!-- <span>{{ site.title }}</span> -->
   </div>
   <div class="navigation">
-    <a class="tab" href="/">~</a>
-    <a class="tab" href="/categories">#</a>
-    <a class="tab" href="/about">?</a>
-    <a class="tab" href="/resources">+</a>
-    <a class="tab" href="/contact">@</a>
-    <a class="tab" href="/feed.xml">✳</a>
+    <table>
+      <tr>
+        <td><a class="tab" href="/">~</a></td>
+        <td><a class="tab" href="/categories">#</a></td>
+        <td><a class="tab" href="/about">?</a></td>
+        <td><a class="tab" href="/resources">+</a></td>
+      </tr>
+      <tr>
+        <td><a class="tab" href="/contact">@</a></td>
+        <td><a class="tab" href="/feed.xml">r</a></td>
+      </tr>
+    </table>
+
+    <div>
   </div>
 </header>
