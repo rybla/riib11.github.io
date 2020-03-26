@@ -3,15 +3,12 @@ $card-width: 80%;
 
 $card-padding: 20px;
 
-$handle-hover-thickness: -40px;
-// calculated
-$handle-unhover-horizontal: $handle-horizontal + $handle-hover-thickness;
-
 .card {
   color: $color-primary;
   display: block;
   font-style: normal;
 
+  // margin-left: $handle-unhover-horizontal;
   margin-bottom: $card-margin-vertical;
   padding: $card-padding;
 

@@ -20,9 +20,15 @@ $font-size-card-subtitle: 14pt;
 
 $base-line-height: 1.5;
 
+$handle-width: 12px;
+$handle-horizontal: -1 * $handle-width;
+$handle-hover-thickness: -40px;
+// calculated
+$handle-unhover-horizontal: $handle-horizontal + $handle-hover-thickness;
+
 $container-width: 600px;
 $container-margin-vertical: 20px;
-$container-margin-left: 4px;
+$container-margin-left: $handle-width;
 $container-padding: 0px;
 
 $mobile-media-min-width: 320px;

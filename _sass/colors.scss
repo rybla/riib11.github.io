@@ -1,5 +1,8 @@
-$color-base: black;
-$color-primary: white;
-$color-secondary: cyan;
+$color-dark-cyan: #016d6d;
+$color-dark-lime: #236d01;
+
+$color-base: white;
+$color-primary: black;
+$color-secondary: $color-dark-cyan;
 $color-terterary: brown;
-$color-accent: lime;
+$color-accent: $color-dark-lime;
