@@ -24,6 +24,7 @@ Today's practice day is for "One-on-One Job Interviews". I've been looking forwa
 - mention you took _PFIN 376 - Honors Job Interviews_
 - list your extracurriculars
 - list your best previous job experience
+
 Fortunately the professor is reciting the same material from the instruction sheet, so I can easily reference them during the practice. Now it's time to start; I decide to be the interviewer first. I ask Friend3 some questions from the instruction sheet, and they answer. Everything goes really well! Then we switch positions and repeat the exercise. We almost got through all 10 questions before the class ended, so we had an especially productive session today.
 
 
