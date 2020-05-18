@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Consequence
+subtitle: To survive guilt.
 author: Henry Blanchette
 categories: short-story
 ---

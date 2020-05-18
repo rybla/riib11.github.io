@@ -1,6 +1,7 @@
 ---
 layout: post
 title: As Expected
+subtitle: Favor skepticism or pedagogy?
 author: Henry Blanchette
 categories: short-story science
 ---
