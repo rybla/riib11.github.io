@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Features for Sharing Nontext Content
-subtitle: I express my frustration with the current state of podcast-sharing capabilities, and outline what kinds of solutions I'd like to see.
+abstract: I express my frustration with the current state of podcast-sharing capabilities, and outline what kinds of solutions I'd like to see.
 author: Henry Blanchette
 categories: technology
 ---

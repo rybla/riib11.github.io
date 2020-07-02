@@ -1,0 +1,72 @@
+//
+// cards
+//
+
+.cards {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+
+.card {
+
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  background-color: white;
+
+  .title {
+    display: block;
+    margin-bottom: 8px;
+    margin-left: -30px;
+    padding-left: 30px;
+
+    font-size: 1.5em;
+    text-decoration: none;
+    // font-weight: bold;
+    color: white;
+
+    background-color: black;
+    box-shadow: -5px 5px 10px black;
+  }
+
+  .abstract {
+    font-size: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+  }
+
+  hr {
+    // box-shadow: 0 10px 10px black;
+  }
+
+  .data {
+    margin-top: 10px;
+    display: block;
+    height: 20px;
+
+    font-size: 0.8em;
+  }
+
+  .date {
+    float: left;
+    width: 50%;
+
+    font-style: italic;
+  }
+
+  .categories {
+    float: right;
+    width: 50%;
+  }
+
+  .category {
+    margin-left: 5px;
+    float: right;
+
+    font-style: italic;
+  }
+
+}

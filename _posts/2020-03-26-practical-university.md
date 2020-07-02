@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Practical University
-subtitle: A day in the life of a student at a most practical university.
+abstract: A day in the life of a student at a most practical university.
 author: Henry Blanchette
 categories: short-story economics
 ---

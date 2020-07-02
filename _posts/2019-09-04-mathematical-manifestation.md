@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mathematical Manifestation
-subtitle: How can we expect expect mathematical explanations to manifest in real phenomenon in the actual world?
+abstract: How can we expect expect mathematical explanations to manifest in real phenomenon in the actual world?
 author: Henry Blanchette
 categories: mathematics, philosophy, science
 ---

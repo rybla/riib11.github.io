@@ -1,0 +1,175 @@
+//
+// top-level
+//
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+//
+// html
+//
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+//
+// body
+//
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.frame {
+  max-width: calc(100% - 40px);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+//
+// header
+//
+
+header {
+  position: relative;
+  z-index: 1;
+
+  background-color: black;
+  box-shadow: 0 0 20px black;
+
+  .title {
+    display: block;
+    margin-bottom: 20px;
+
+    font-family: heading;
+    font-size: 4.5em;
+    text-decoration: none;
+
+    color: white;
+    text-decoration: none;
+  }
+}
+
+//
+// navigation
+//
+
+.navigation {
+
+  .tab {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 2px;
+
+    background: orange;
+
+    div {
+      display: inline-block;
+
+      padding-left: 3px;
+      padding-right: 6px;
+      padding-top: 3px;
+      padding-bottom: 6px;
+
+      font-size: 1.2em;
+      font-family: typewriter;
+      text-decoration: none;
+
+      background-color: black;
+      color: white;
+    }
+  }
+
+  .tab:hover {
+    background: linear-gradient(to right, lime, orange);
+
+    div {
+      background-color: black;
+      color: white;
+    }
+  }
+
+
+}
+
+//
+// main
+//
+
+main {
+  width: 600px;
+  padding-left: 40px;
+  position: relative;
+  z-index: 0;
+
+  font-size: 1.2em;
+  font-family: normal;
+  color: black;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  box-shadow: 0 0 20px black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  box-shadow: -10px 0 0 0 white, -40px 0 0 0 black;
+
+  font-family: heading;
+}
+
+h1 { font-size: 2.3em; }
+h2 { font-size: 2.0em; }
+h3 { font-size: 1.7em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.0em; }
+
+pre {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow-x: scroll;
+
+  background-color: black;
+  color: white;
+
+  box-shadow: 0 0 20px black;
+}
+
+pre code {
+
+}
+
+//
+// footer
+//
+
+footer {
+  position: relative;
+  z-index: 0;
+
+  color: white;
+  background-color: black;
+  box-shadow: 0 0 20px black;
+}

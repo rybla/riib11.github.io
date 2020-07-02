@@ -3,23 +3,7 @@ layout: default
 ---
 
 <div class="post">
-
-  <!-- title -->
-  <div class="title">
-    {{ page.title }}
-  </div>
-
-  <!-- categories -->
-  {%- if page.categories.size > 0 -%}
-  <div class="categories">
-    {%- for category in page.categories -%}
-    <div class="category">
-      <a href="/categories/#{{ category | escape }}">#{{ category }}</a>
-    </div>
-    {%- endfor -%}
-  </div>
-  {%- endif -%}
-
+  <div class="title">{{ page.title }}</div>
+  <div class="title-underbar"></div>
   {{ content }}
-
 </div>

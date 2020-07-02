@@ -1,0 +1,19 @@
+{% for panel in site.projects %}
+  <p>panel:</p>
+  <div class="panel">
+    <!-- title -->
+    {% if panel.title %}
+      <!-- if panel has href -->
+      {% if panel.href %}
+        <a href="{{ panel.href }}" class="title">{{ panel.title }}</a>
+      <!-- if panel does not have href -->
+      {% else %}
+        <span class="title">{{ panel.title }}</span>
+      {% endif %}
+    {% endif %}
+    <!-- content -->
+    {% if panel.content != "" %}
+      <div class="content">{{ project.content | markdownify }}</div>
+    {% endif %}
+  </div>
+{% endfor %}

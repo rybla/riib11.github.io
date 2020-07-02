@@ -1,28 +1,26 @@
-<header>
-  <div class="title">
-    <span id="site-title"></span>
-    <script type="text/javascript">
-      var names = ["endoblog", "compuguistics", "hypertext", "chthology", "mimesis", "antitopos", "computarics", "gameconics"];
-      var i = Math.floor(Math.random() * names.length);
-      var name = names[i];
-      document.getElementById("site-title").innerHTML = name;
-    </script>
-    <!-- <span>{{ site.title }}</span> -->
-  </div>
-  <div class="navigation">
-    <table>
-      <tr>
-        <td><a class="tab" href="/">~</a></td>
-        <td><a class="tab" href="/categories">#</a></td>
-        <td><a class="tab" href="/about">?</a></td>
-        <td><a class="tab" href="/resources">+</a></td>
-      </tr>
-      <tr>
-        <td><a class="tab" href="/contact">@</a></td>
-        <td><a class="tab" href="/feed.xml">r</a></td>
-      </tr>
-    </table>
+<!-- title -->
+<a href="/" class="title" id="site_title">{{ site.titles }}</a>
+<div class="hidden">
+  {% for title in site.titles %}
+  <span class="site_title_option">{{ title }}</span>
+  {% endfor %}
+</div>
+<script type="text/javascript">
+  var site_title_options = document.getElementsByClassName("site_title_option");
+  var site_title_i = Math.floor(Math.random() * site_title_options.length);
+  var site_title = site_title_options[site_title_i].innerText;
+  document.getElementById("site_title").innerText = site_title;
+</script>
 
-    <div>
-  </div>
-</header>
+<!-- navigation -->
+{%- if site.pages.size > 0 -%}
+<div class="navigation">
+
+  {%- for tab in site.tabs -%}
+  <a href="/{{ tab | escape }}">
+    <div class="tab"><div>{{ tab }}</div></div>
+  </a>
+  {%- endfor -%}
+
+</div>
+{%- endif -%}

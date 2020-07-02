@@ -1,15 +1,16 @@
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>{{ page.title }}</title>
+<!-- title -->
+<title>{{ page.title }}</title>
 
-  <!-- styles -->
-  <link rel="stylesheet" type="text/css"
-    href="{{ "assets/main.css" | relative_url }}">
+<!-- favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
-  <!-- highlight -->
-  <link rel="stylesheet" href="{{ "assets/gruvbox-dark.css" | relative_url }}">
-  <script src="{{ "assets/highlight.pack.js" | relative_url }}"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-</head>
+<!-- styles -->
+<link rel="stylesheet" type="text/css" href="/css/main.css">
+
+<!-- highlight -->
+<link rel="stylesheet" href="{{ "assets/highlight/gruvbox-dark.css" | relative_url }}">
+<script src="{{ "assets/highlight/highlight.pack.js" | relative_url }}"></script>
+<script>hljs.initHighlightingOnLoad();</script>

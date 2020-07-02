@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<!-- cards -->
+{%- if site.posts.size > 0 -%}
+<div class="cards">
+{%- for post in site.posts -%}
+
+    <!-- card -->
+    <div class="card bordered">
+
+        <!-- title -->
+
+        <a href="{{ post.url | relative_url }}" class="title">{{ post.title }}</a>
+
+        <!-- <hr> -->
+
+        <!-- subtitle -->
+        {%- if post.subtitle != "" -%}
+        <div class="abstract">
+          {{ post.abstract }}
+        </div>
+        {%- endif -%}
+
+        <hr>
+
+        <div class="data">
+
+            {%- if post.date != "" -%}
+            <div class="date">
+              {{ post.date | date: "%d/%m/%Y" }}
+            </div>
+            {%- endif -%}
+
+            <!-- categories -->
+            {%- if post.categories.size > 0 -%}
+            <div class="categories">
+              {%- for category in post.categories -%}
+                <span class="category">[{{ category | escape }}]</span>
+              {%- endfor -%}
+            </div>
+            {%- endif -%}
+
+        </div>
+
+    </div>
+
+{%- endfor -%}
+</div>
+{%- endif -%}

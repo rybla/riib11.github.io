@@ -6,10 +6,23 @@ permalink: /projects/
 
 This is a collection of the main projects I have worked on or am working on. Most of them have external links to GitHub, itch.io, etc.
 
-# Gimel (Game)
+I work on projects with a variety of different themes, but mostly focus on software development, amateur scientific research, and building theoretical frameworks.
 
-A laissez-faire God starts life anew. ([GitHub](https://github.com/Riib11/Gimel))
+
+# Active
+
+# Passive
+
+{% include panels_projects_passive.html %}
+
+# Finished
+
+# Abandoned
+
+<!-- # Gimel (Game)
+
+
 
 # Escaigne
 
-A programming language for defining integer sequences. ([GitHub](https://github.com/Riib11/Escaigne))
+A programming language for defining integer sequences. ([GitHub](https://github.com/Riib11/Escaigne)) -->

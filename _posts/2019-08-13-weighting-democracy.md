@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Weighting Democracy
-subtitle: How should the upsides and downsides of Democracy be weighted?
+abstract: How should the upsides and downsides of Democracy be weighted?
 author: Henry Blanchette
 categories: politics
 ---

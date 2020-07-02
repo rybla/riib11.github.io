@@ -1,7 +1,7 @@
 ---
 layout: post
 title: No Explanation
-subtitle: Is it possible, and under what circumstances, for there to be no valid explanation of a phenomenon?
+abstract: Is it possible, and under what circumstances, for there to be no valid explanation of a phenomenon?
 author: Henry Blanchette
 categories: philosophy, science
 ---

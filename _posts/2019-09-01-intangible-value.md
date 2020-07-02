@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Golden Bubble
-subtitle: How solid is the value inflating Bitcoin?
+abstract: How solid is the value inflating Bitcoin?
 author: Henry Blanchette
 categories: economics technology
 ---
