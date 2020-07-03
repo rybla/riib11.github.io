@@ -3,7 +3,7 @@ layout: post
 title: Mathematical Manifestation
 abstract: How can we expect expect mathematical explanations to manifest in real phenomenon in the actual world?
 author: Henry Blanchette
-categories: mathematics, philosophy, science
+categories: mathematics philosophy science
 ---
 
 Question: _Why is mathematics useful for, and often seemingly prophetic of, physics?_

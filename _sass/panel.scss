@@ -1,11 +1,63 @@
 .panel {
-  border: 1px solid black;
+  padding: 4px;
+  margin-bottom: 40px;
+
+  // background: linear-gradient(300deg, black 20%, white 20% 80%, black 80%);
+  background: black;
+  box-shadow: 0 0 10px 0 black;
+
+  div {
+    background: white;
+  }
+
+  .header {
+    background-color: black;
+    color: white;
+  }
 
   .title {
-    border: 1px solid black;
+    display: inline-block;
+    width: calc(100% - 80px);
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    font-size: $subtitle-font-size;
   }
 
   .content {
-    border: 1px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 2px;
   }
+
+  img {
+    box-shadow: 0 0 0 0 black;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .toggle-collapse {
+    display: inline-block;
+    width: 30px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+
+    font-size: $subtitle-font-size;
+    background-color: white;
+    color: black;
+  }
+
+  .toggle-collapse:hover{
+    cursor: pointer;
+    background: linear-gradient(315deg, lime, orange);
+  }
+}
+
+.panel:hover {
+  // background: linear-gradient(300deg, lime 30%, black 30% 70%, orange 70%);
 }

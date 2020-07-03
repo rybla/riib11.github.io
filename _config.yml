@@ -29,12 +29,16 @@ description: >-
   This is Henry Blanchette's primary blog. Some topics are: programming languages, computarics, mathematics, philosophy, evolution, game theory, game design, economics.
 
 tabs:
-  - about
+  - categories
   - projects
   - media
+  - about
 
 collections:
+  projects_active:
   projects_passive:
+  projects_stable:
+  projects_forsaken:
 
 url: riib11.github.io
 # baseurl: "" # the subpath of your site, e.g. /blog

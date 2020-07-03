@@ -11,13 +11,19 @@ I work on projects with a variety of different themes, but mostly focus on softw
 
 # Active
 
+{% include panels_projects_active.html collapsable="true" %}
+
 # Passive
 
-{% include panels_projects_passive.html %}
+{% include panels_projects_passive.html  collapsable="true"  %}
 
-# Finished
+# Stable
 
-# Abandoned
+{% include panels_projects_stable.html collapsable="true"  %}
+
+# Forsaken
+
+{% include panels_projects_forsaken.html collapsable="true"  %}
 
 <!-- # Gimel (Game)
 

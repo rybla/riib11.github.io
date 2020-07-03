@@ -1,14 +1,55 @@
+//
+// font-face
+//
+
+
 @font-face {
   src: url(../assets/fonts/Baskerville.ttc);
-  font-family: heading;
+  // src: url(../assets/fonts/cmunsl.otf);
+  font-family: title;
+}
+
+@font-face {
+  src: url(../assets/fonts/cmunss.otf);
+  font-family: cmu-sans-serif;
 }
 
 @font-face {
   src: url(../assets/fonts/cmuntt.otf);
-  font-family: typerwriter;
+  font-family: typewriter;
 }
 
 @font-face {
   src: url(../assets/fonts/cmunrm.otf);
   font-family: normal;
 }
+
+
+// classes
+
+
+.title {
+  font-family: title;
+  // font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+
+
+//
+// font-size
+//
+
+$supertitle-font-size: 2.8em;
+$title-font-size: 2.5em;
+$subtitle-font-size: 1.7em;
+$tab-font-size: 1.2em;
+
+$h1-font-size: 2.3em;
+$h2-font-size: 2.0em;
+$h3-font-size: 1.7em;
+$h4-font-size: 1.4em;
+$h5-font-size: 1.2em;
+$h6-font-size: 1.0em;
+$normal-font-size: 1.0em;
+$small-font-size: 0.8em;

@@ -1,4 +1,4 @@
-{% for project in site.projects_passive %}
+{% for project in site.projects_active %}
   <div class="panel"><div>
     <div class="header">
       <!-- title -->
@@ -17,4 +17,4 @@
     <!-- content -->
     <div class="content hidden" id="{{ project.title | slugify }}">{{ project.content | markdownify }}</div>
   </div></div>
-  {% endfor %}
+{% endfor %}

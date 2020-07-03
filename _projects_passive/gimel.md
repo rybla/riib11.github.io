@@ -1,6 +1,11 @@
 ---
 title: Gimel
-href: https://github.com/Riib11
+# href: https://github.com/Riib11
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+_A laissez-faire God starts life anew._
+
+Inspired by [Dwarf Fortress](http://www.bay12games.com/dwarves/), Gimel focusses on the fortress-building aspect where the player influences the behavior of units in an indirect way to guide emergent productivity.
+In other words, rather than schedule the specific actions of specific units, the player defines incentive rules to which each unit responds according to their personal traits e.g. skills, occupation, personality, etc.
+Gimel aims to be a proof-of-concept of an interesting civilization-building game where the player _only_ has control over incentive rules and has no fine-grained control.
+In this way, the player fills the role of a sort of naturalistic, laissez-faire God.

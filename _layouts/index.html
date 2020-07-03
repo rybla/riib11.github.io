@@ -37,7 +37,8 @@ layout: default
             {%- if post.categories.size > 0 -%}
             <div class="categories">
               {%- for category in post.categories -%}
-                <span class="category">[{{ category | escape }}]</span>
+                <!-- <span class="category">#{{ category | escape }}</span> -->
+                <a href="/categories/#{{ category }}" class="category">#{{ category | escape }}</a>
               {%- endfor -%}
             </div>
             {%- endif -%}
