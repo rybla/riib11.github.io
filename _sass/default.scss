@@ -50,7 +50,7 @@ header {
     display: block;
     margin-bottom: 20px;
 
-    font-size: $title-font-size;
+    font-size: $supertitle-font-size;
     color: white;
     text-decoration: none;
   }
@@ -61,17 +61,19 @@ header {
 //
 
 .navigation {
+  margin-bottom: -20px;
 
   .tab {
     display: inline-block;
     margin-right: 10px;
     padding: 1px;
+    margin-bottom: 20px;
 
     background: linear-gradient(to right, white 20%, black 20% 80%, white 80%);
 
     div {
       display: inline-block;
-      width: 80px;
+      width: 90px;
 
       // padding-left: 3px;
       // padding-right: 6px;
@@ -146,7 +148,7 @@ h2 { font-size: $h2-font-size; }
 h3 { font-size: $h3-font-size; }
 h4 { font-size: $h4-font-size; }
 h5 { font-size: $h5-font-size; }
-h6 { font-size: $h6-font-size; }
+h6 { font-size: $h6-font-size; font-variant: small-caps; }
 
 pre {
   padding-top: 10px;

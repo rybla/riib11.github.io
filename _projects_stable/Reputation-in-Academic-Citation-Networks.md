@@ -1,6 +1,8 @@
 ---
-title: Social Networks in Computer Science Academic Citation Networks
+layout: project
+title: Reputation in Academic Citation Networks
 href: https://github.com/Riib11/SocialNetworks/blob/master/report/Report.pdf
+abstract: Investigation of reputation measures in citation networks for papers in major computer science publications.
 ---
 
 The data set I used for this study is the record of papers published in a selection of computer systems conferences and a few control, non-computer systems conferences from 2017.

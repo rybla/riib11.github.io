@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Name or Value?
+title: Of Name or Value?
 abstract: A narrative demonstration of call-by-name's nature in the dual calculus of Gentzen's sequential calculus.
 author: Henry Blanchette
-categories: computarics short-story
+categories: computics short-story
 ---
 
 _(This parable is borrowed from [Philip Wadler 2003])_
@@ -22,6 +22,6 @@ The devil took possession of the valise. Then he said, "Oh, did I say (b) before
 And the devil handed back to the man the same valise that the man had just handed to him.
 
 
----
+###### References
 
 Philip Wadler. 2003. _Call-by-value is dual to call-by-name_. In Proceedings of the eighth ACM SIGPLAN international conference on Functional programming (ICFP '03). Association for Computing Machinery, New York, NY, USA, 189–201. DOI:[https://doi.org/10.1145/944705.944723](https://doi.org/10.1145/944705.944723)

@@ -1,9 +1,8 @@
 ---
+layout: project
 title: Gimel
-# href: https://github.com/Riib11
+abstract: A laissez-faire God starts life anew.
 ---
-
-_A laissez-faire God starts life anew._
 
 Inspired by [Dwarf Fortress](http://www.bay12games.com/dwarves/), Gimel focusses on the fortress-building aspect where the player influences the behavior of units in an indirect way to guide emergent productivity.
 In other words, rather than schedule the specific actions of specific units, the player defines incentive rules to which each unit responds according to their personal traits e.g. skills, occupation, personality, etc.

@@ -31,14 +31,18 @@ description: >-
 tabs:
   - categories
   - projects
-  - media
+  # - media
   - about
 
 collections:
   projects_active:
+    output: true
   projects_passive:
+    output: true
   projects_stable:
+    output: true
   projects_forsaken:
+    output: true
 
 url: riib11.github.io
 # baseurl: "" # the subpath of your site, e.g. /blog

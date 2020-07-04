@@ -1,20 +1,14 @@
 {% for project in site.projects_active %}
-  <div class="panel"><div>
+{% unless project.is-index %}
+  <div class="panel" id="{{ project.title | slugify }}"><div>
     <div class="header">
       <!-- title -->
-      <!-- if project has href -->
-      {% if project.href %}
-        <a href="{{ project.href }}" class="title">{{ project.title }}</a>
-      <!-- if project does not have href -->
-      {% else %}
-        <span class="title">{{ project.title }}</span>
-      {% endif %}
-      <!-- collapse button -->
-      {% if include.collapsable == "true" %}
-        <span class="toggle-collapse title" onclick="document.getElementById('{{ project.title | slugify }}').classList.toggle('hidden')">+</span>
-      {% endif %}
+      <a href="/projects_active/{{ project.title | slugify }}.html" class="title">{{ project.title }}</a>
     </div>
-    <!-- content -->
-    <div class="content hidden" id="{{ project.title | slugify }}">{{ project.content | markdownify }}</div>
+    <!-- abstract -->
+    <div class="abstract">
+      {{ project.abstract }}
+    </div>
   </div></div>
+{% endunless %}
 {% endfor %}

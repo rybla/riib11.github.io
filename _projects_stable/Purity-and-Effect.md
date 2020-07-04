@@ -1,9 +1,11 @@
 ---
+layout: project
 title: Purity and Effect
 href: https://github.com/Riib11/Reed-Thesis
+abstract: (My undergraduate thesis for Reed College) Implementing imperative effects in purely declarative programming languages using monads, algebraic effects and handlers, and freer monads.
 ---
 
-_My undergraduate thesis for Reed College._
+{% include github_panel.html title='Purity and Effect' href='https://github.com/Riib11/Thesis-Purity-and-Effect' %}
 
 There exists a dilemma of two programming language design philosophies: _imperative_ languages and _declarative_ languages.
 Imperative languages are well-adapted for real-world programming, one reason being their ability to interact with _implicit contexts_, which is formalized by the concept of _performing effects_.
@@ -18,3 +20,9 @@ The design process follows a progression of five languages:
 4. _Alge_ extends _Func_ with algebraic effects with handlers, and finally
 5. _Frer_ extends _Mona_ with a freer-monadic effects (a monadic implementation of algebraic effects with handlers).
 The effect framework of _Frer_ meets the goals of the design challenge, and a subsequent discussion analyzes its significance.
+
+<!-- TODO: include some of these links perhaps:
+
+Henry is currently writing a thesis on [side-effectful](https://en.wikipedia.org/wiki/Side_effect_(computer_science)) [functional](https://en.wikipedia.org/wiki/Functional_programming) [programming](https://en.wikipedia.org/wiki/Programming_language) [language](https://en.wikipedia.org/wiki/Language) [design](https://en.wikipedia.org/wiki/Programming_language#Design_and_implementation), in the context of [type theory](https://en.wikipedia.org/wiki/Type_theory) and [formal verification](https://en.wikipedia.org/wiki/Curry–Howard_correspondence).
+
+ -->
