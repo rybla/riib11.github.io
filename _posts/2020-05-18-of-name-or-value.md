@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Of Name or Value?
-abstract: A narrative demonstration of call-by-name's nature in the dual calculus of Gentzen's sequential calculus.
+abstract: A narrative demonstration of call-by-name's reflection of call-by-value in the dual calculus of Gentzen's sequential calculus.
 author: Henry Blanchette
 categories: computics short-story
 ---

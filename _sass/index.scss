@@ -7,9 +7,15 @@
   margin-bottom: 20px;
 }
 
+// .card > div {
+//   padding: 4px;
+//   margin-top: 40px;
+//   margin-bottom: 40px;
+//
+//   background-color: white;
+// }
 
 .card {
-
   padding: 10px;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -18,14 +24,37 @@
 
   .title {
     display: block;
-    margin-bottom: 8px;
+
+    margin-top: 0;
+    margin-bottom: 10px;
+
     margin-left: -30px;
     padding-left: 30px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 
-    font-size: $title-font-size;
-    color: white;
     background-color: black;
-    box-shadow: -5px 5px 10px black;
+    box-shadow: $box-shadow-normal-down;
+
+    > div {
+      margin-top: 0;
+      margin-bottom: 0;
+
+      margin-left: -30px;
+      padding-left: 30px;
+      padding-right: 4px;
+      padding-top: 0;
+      padding-bottom: 0;
+
+      font-size: $title-font-size;
+      color: white;
+      background-color: black;
+    }
+  }
+
+  .title:hover {
+    background: linear-gradient(to right, black, lime, orange);
   }
 
   .abstract {
@@ -36,7 +65,7 @@
   }
 
   hr {
-    // box-shadow: 0 10px 10px black;
+
   }
 
   .data {

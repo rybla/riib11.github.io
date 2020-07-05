@@ -8,16 +8,18 @@ layout: default
 {%- for post in site.posts -%}
 
     <!-- card -->
-    <div class="card bordered">
+    <div class="card">
 
         <!-- title -->
 
-        <a href="{{ post.url | relative_url }}" class="title">{{ post.title }}</a>
+        <a href="{{ post.url | relative_url }}" class="title">
+          <div>{{ post.title }}</div>
+        </a>
 
         <!-- <hr> -->
 
         <!-- subtitle -->
-        {%- if post.subtitle != "" -%}
+        {%- if post.abstract != "" -%}
         <div class="abstract">
           {{ post.abstract }}
         </div>

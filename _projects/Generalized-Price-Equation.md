@@ -2,9 +2,10 @@
 layout: project
 title: Generalized Price Equation
 abstract: Simulating abstract genealogies to experiment with applications of the Generalized Price Equation for modeling hyperparental evolution.
+status: active
 ---
 
-{% include github_panel.html title='Generalized Price Equation' href='https://github.com/ReedArtificialLifeLab/PriceEquation' %}
+{% include panel_github.html href="https://github.com/ReedArtificialLifeLab/PriceEquation" %}
 
 In evolutionary theory, The [Price Equation](https://en.wikipedia.org/wiki/Price_equation) describes how a trait's frequency changes overtime throughout generations of a population, in terms of the covariance between trait frequency and fitness (in terms of number of children).
 The [Generalized Price Equation (GPE)](https://www.biorxiv.org/content/10.1101/2020.03.19.999052v1) generalizes the Price Equation to contexts outside of biological genealogies.

@@ -44,7 +44,7 @@ header {
   z-index: 1;
 
   background-color: black;
-  box-shadow: 0 0 20px black;
+  box-shadow: $box-shadow-large;
 
   .title {
     display: block;
@@ -66,19 +66,14 @@ header {
   .tab {
     display: inline-block;
     margin-right: 10px;
-    padding: 1px;
+    padding: 2px;
     margin-bottom: 20px;
 
-    background: linear-gradient(to right, white 20%, black 20% 80%, white 80%);
+    background: linear-gradient(to right, white 30%, black 30% 70%, white 70%);
 
-    div {
+    > div {
       display: inline-block;
-      width: 90px;
-
-      // padding-left: 3px;
-      // padding-right: 6px;
-      // padding-top: 3px;
-      // padding-bottom: 6px;
+      width: 80px;
       padding-top: 2px;
       padding-bottom: 2px;
       padding-left: 5px;
@@ -95,9 +90,9 @@ header {
   }
 
   .tab:hover {
-    background: linear-gradient(to right, lime 30%, black 30% 70%, orange 70%);
+    background: $background-highlight-sharp;
 
-    div {
+    > div {
       background-color: black;
       color: white;
     }
@@ -111,6 +106,7 @@ header {
 
 main {
   width: 600px;
+  min-height: calc(100vh - 319px);
   padding-left: 40px;
   position: relative;
   z-index: 0;
@@ -132,7 +128,7 @@ a {
 
 img {
   max-width: 100%;
-  box-shadow: 0 0 20px black;
+  box-shadow: 0 0 20px $color-shadow;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -191,5 +187,5 @@ footer {
 
   color: white;
   background-color: black;
-  box-shadow: 0 0 20px black;
+  box-shadow: $box-shadow-large;
 }

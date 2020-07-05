@@ -2,6 +2,7 @@
 layout: project
 title: Gimel
 abstract: A laissez-faire God starts life anew.
+status: passive
 ---
 
 Inspired by [Dwarf Fortress](http://www.bay12games.com/dwarves/), Gimel focusses on the fortress-building aspect where the player influences the behavior of units in an indirect way to guide emergent productivity.

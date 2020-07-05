@@ -16,7 +16,7 @@
 
 # title: riib11
 titles:
-  - endoblog
+  - epiblog
   - compugustics
   - computics
   - hyperscript
@@ -35,14 +35,16 @@ tabs:
   - about
 
 collections:
-  projects_active:
+  projects:
     output: true
-  projects_passive:
-    output: true
-  projects_stable:
-    output: true
-  projects_forsaken:
-    output: true
+  # projects_active:
+  #   output: true
+  # projects_passive:
+  #   output: true
+  # projects_stable:
+  #   output: true
+  # projects_forsaken:
+  #   output: true
 
 url: riib11.github.io
 # baseurl: "" # the subpath of your site, e.g. /blog
@@ -55,14 +57,15 @@ linkedin_username: henry-blanchette
 linkedin_uid: henry-blanchette-520542a1
 
 # Build settings
-markdown:     kramdown
-permalink:    /:year-:month-:day/:title
-paginate:     20
+markdown: kramdown
+permalink: /:year-:month-:day/:title
+paginate: 20
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-toc
   # - jekyll-remote-theme
 
 # Exclude from processing.
@@ -71,3 +74,12 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+toc:
+  min_level: 1
+  max_level: 6
+  no_toc_section_class: no_toc_section
+  list_class: section-nav
+  sublist_class: ''
+  item_class: toc-entry
+  item_prefix: toc-

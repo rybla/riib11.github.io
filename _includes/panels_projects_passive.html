@@ -1,9 +1,10 @@
-{% for project in site.projects_passive %}
+{% for project in site.projects %}
+{% if project.status == "passive" %}
 {% unless project.is-index %}
   <div class="panel" id="{{ project.title | slugify }}"><div>
     <div class="header">
       <!-- title -->
-      <a href="/projects_passive/{{ project.title | slugify }}.html" class="title">{{ project.title }}</a>
+      <a href="/projects/{{ project.title | slugify }}.html" class="title">{{ project.title }}</a>
     </div>
     <!-- abstract -->
     <div class="abstract">
@@ -11,4 +12,5 @@
     </div>
   </div></div>
 {% endunless %}
+{% endif %}
 {% endfor %}

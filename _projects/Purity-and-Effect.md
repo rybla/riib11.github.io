@@ -3,9 +3,12 @@ layout: project
 title: Purity and Effect
 href: https://github.com/Riib11/Reed-Thesis
 abstract: (My undergraduate thesis for Reed College) Implementing imperative effects in purely declarative programming languages using monads, algebraic effects and handlers, and freer monads.
+status: stable
 ---
 
-{% include github_panel.html title='Purity and Effect' href='https://github.com/Riib11/Thesis-Purity-and-Effect' %}
+{% include panel_github.html href="https://github.com/Riib11/Thesis-Purity-and-Effect" %}
+
+{% include panel_doc.html href="https://github.com/Riib11/Thesis-Purity-and-Effect/raw/master/writing/drafts/BlanchetteHenry_FinalThesis.pdf" %}
 
 There exists a dilemma of two programming language design philosophies: _imperative_ languages and _declarative_ languages.
 Imperative languages are well-adapted for real-world programming, one reason being their ability to interact with _implicit contexts_, which is formalized by the concept of _performing effects_.
