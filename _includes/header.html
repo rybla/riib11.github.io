@@ -13,14 +13,14 @@
 </script>
 
 <!-- navigation -->
-{%- if site.pages.size > 0 -%}
+{% if site.pages.size > 0 %}
 <div class="navigation">
 
-  {%- for tab in site.tabs -%}
+  {% for tab in site.tabs %}
   <a href="/{{ tab | escape }}">
     <div class="tab"><div>{{ tab }}</div></div>
   </a>
-  {%- endfor -%}
+  {% endfor %}
 
 </div>
-{%- endif -%}
+{% endif %}

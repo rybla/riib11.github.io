@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  <head>{%- include head.html -%}</head>
+  <head>{% include head.html %}</head>
 
   <body>
 
-    <header class="frame">{%- include header.html -%}</header>
+    <header class="frame">{% include header.html %}</header>
     <main class="frame">{{ content }}</main>
-    <footer class="frame">{%- include footer.html -%}</footer>
+    <footer class="frame">{% include footer.html %}</footer>
 
   </body>
 

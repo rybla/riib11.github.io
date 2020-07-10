@@ -37,14 +37,14 @@ tabs:
 collections:
   projects:
     output: true
-  # projects_active:
-  #   output: true
-  # projects_passive:
-  #   output: true
-  # projects_stable:
-  #   output: true
-  # projects_forsaken:
-  #   output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: category
 
 url: riib11.github.io
 # baseurl: "" # the subpath of your site, e.g. /blog

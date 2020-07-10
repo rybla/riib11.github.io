@@ -3,9 +3,9 @@ layout: default
 ---
 
 <!-- cards -->
-{%- if site.posts.size > 0 -%}
+{% if site.posts.size > 0 %}
 <div class="cards">
-{%- for post in site.posts -%}
+{% for post in site.posts %}
 
     <!-- card -->
     <div class="card">
@@ -19,36 +19,37 @@ layout: default
         <!-- <hr> -->
 
         <!-- subtitle -->
-        {%- if post.abstract != "" -%}
+        {% if post.abstract != "" %}
         <div class="abstract">
           {{ post.abstract }}
         </div>
-        {%- endif -%}
+        {% endif %}
 
         <hr>
 
         <div class="data">
 
-            {%- if post.date != "" -%}
+            {% if post.date != "" %}
             <div class="date">
               {{ post.date | date: "%d/%m/%Y" }}
             </div>
-            {%- endif -%}
+            {% endif %}
 
             <!-- categories -->
-            {%- if post.categories.size > 0 -%}
+            {% if post.categories.size > 0 %}
+            {% assign categories_sorted = post.categories | sort %}
             <div class="categories">
-              {%- for category in post.categories -%}
+              {% for category in categories_sorted %}
                 <!-- <span class="category">#{{ category | escape }}</span> -->
                 <a href="/categories/#{{ category }}" class="category">#{{ category | escape }}</a>
-              {%- endfor -%}
+              {% endfor %}
             </div>
-            {%- endif -%}
+            {% endif %}
 
         </div>
 
     </div>
 
-{%- endfor -%}
+{% endfor %}
 </div>
-{%- endif -%}
+{% endif %}
