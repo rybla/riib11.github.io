@@ -14,5 +14,5 @@ Henry's academic interests have centered around mathematics, computer science, a
 
 - currently a graduate student in computer science as the [University of Maryland](https://umd.edu); expected to graduate in ~2026
 - graduated with Bachelors of Arts in computer science from [Reed College](https://www.reed.edu) in May 2020
-    - thesis: <a href="{{ "/projects/purity-and-effect.html" | relative_url }}">Purity and Effect</a>
+    - thesis: <a href="{{ "/projects/purity-and-effect/" | relative_url }}">Purity and Effect</a>
   <!-- - thesis: [Purity and Effect](https://riib11.github.io/projects_stable/purity-and-effect.html) -->
