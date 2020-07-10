@@ -2,8 +2,8 @@
 layout: project
 title: Generalized Price Equation
 abstract: Simulating abstract genealogies to experiment with applications of the Generalized Price Equation for modeling hyperparental evolution.
-status: active
 permalink: /projects/generalized-price-equation/
+status: active
 ---
 
 {% include panel_github.html href="https://github.com/ReedArtificialLifeLab/PriceEquation" %}

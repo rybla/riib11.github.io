@@ -3,6 +3,7 @@ layout: project
 title: Purity and Effect
 href: https://github.com/Riib11/Reed-Thesis
 abstract: (My undergraduate thesis for Reed College) Implementing imperative effects in purely declarative programming languages using monads, algebraic effects and handlers, and freer monads.
+permalink: /projects/purity-and-effect/
 status: stable
 ---
 

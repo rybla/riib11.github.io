@@ -8,7 +8,6 @@ This is a collection of the main projects I have worked on or am working on. Mos
 
 I work on projects with a variety of different themes, but mostly focus on software development, amateur scientific research, and building theoretical frameworks.
 
-
 # Active
 
 {% include panels_projects_active.html %}

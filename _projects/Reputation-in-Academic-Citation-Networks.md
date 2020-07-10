@@ -2,6 +2,7 @@
 layout: project
 title: Reputation in Academic Citation Networks
 abstract: Investigation of reputation measures in citation networks for papers in major computer science publications.
+permalink: /projects/reputation-in-academic-citation-networks
 status: stable
 ---
 

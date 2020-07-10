@@ -2,6 +2,7 @@
 layout: project
 title: Gimel
 abstract: A laissez-faire God starts life anew.
+permalink: /projects/gimel/
 status: passive
 ---
 
