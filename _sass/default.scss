@@ -114,67 +114,97 @@ main {
   font-size: $normal-font-size;
   font-family: normal;
   color: black;
-}
 
-p {
-  text-align: left;
-  line-height: 1.5;
-}
+  p {
+    text-align: left;
+    line-height: 1.5;
+  }
 
-a {
-  color: $a-color;
-  text-decoration: none;
-}
+  a {
+    color: $a-color;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
 
-img {
-  max-width: 100%;
-  box-shadow: 0 0 20px $color-shadow;
-}
+  img {
+    max-width: 100%;
+    box-shadow: 0 0 20px $color-shadow;
+  }
 
-h1, h2, h3, h4, h5, h6 {
-  box-shadow: -10px 0 0 0 white, -40px 0 0 0 black;
+  h1, h2, h3, h4, h5, h6 {
+    box-shadow: -10px 0 0 0 white, -40px 0 0 0 black;
 
-  font-weight: normal;
-  font-family: title;
-  font-style: normal;
-}
+    font-weight: normal;
+    font-family: title;
+    font-style: normal;
+  }
 
-h1 { font-size: $h1-font-size; }
-h2 { font-size: $h2-font-size; }
-h3 { font-size: $h3-font-size; }
-h4 { font-size: $h4-font-size; }
-h5 { font-size: $h5-font-size; }
-h6 { font-size: $h6-font-size; font-variant: small-caps; }
+  h1 { font-size: $h1-font-size; }
+  h2 { font-size: $h2-font-size; }
+  h3 { font-size: $h3-font-size; }
+  h4 { font-size: $h4-font-size; }
+  h5 { font-size: $h5-font-size; }
+  h6 { font-size: $h6-font-size; font-variant: small-caps; }
 
-pre {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  overflow-x: scroll;
+  pre {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow-x: scroll;
 
-  background-color: black;
-  color: white;
+    background-color: black;
+    color: white;
 
-  box-shadow: 0 0 20px black;
-}
+    box-shadow: 0 0 20px black;
+  }
 
-pre code {
+  pre code {
 
-}
+  }
 
-blockquote {
-  display: block;
+  blockquote {
+    display: block;
 
-  margin: 0;
-  margin-top: 1em;
-  margin-bottom: 1em;
+    margin: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
 
-  padding-left: 20px;
-  padding-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 
-  // border-left: 2px solid gray inset;
-  box-shadow: 5px 0 0 white inset, 10px 0 0 0 gray inset;
+    // border-left: 2px solid gray inset;
+    box-shadow: 5px 0 0 white inset, 10px 0 0 0 gray inset;
+  }
+
+  table, th, tr, th {
+    border-collapse: collapse;
+  }
+
+  tr {
+    border: 1px solid black;
+  }
+
+  th {
+
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    background-color: black;
+    color: white;
+    vertical-align: text-top;
+
+    font-weight: normal;
+  }
+
+  td {
+    padding: 5px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+    vertical-align: text-top;
+  }
 }
 
 //

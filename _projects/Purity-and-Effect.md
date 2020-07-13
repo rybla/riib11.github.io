@@ -7,9 +7,10 @@ permalink: /projects/purity-and-effect/
 status: stable
 ---
 
+<center>
 {% include panel_github.html href="https://github.com/Riib11/Thesis-Purity-and-Effect" %}
-
 {% include panel_doc.html href="https://github.com/Riib11/Thesis-Purity-and-Effect/raw/master/writing/drafts/BlanchetteHenry_FinalThesis.pdf" %}
+</center>
 
 There exists a dilemma of two programming language design philosophies: _imperative_ languages and _declarative_ languages.
 Imperative languages are well-adapted for real-world programming, one reason being their ability to interact with _implicit contexts_, which is formalized by the concept of _performing effects_.

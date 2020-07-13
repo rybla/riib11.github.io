@@ -5,14 +5,28 @@ permalink: /about/
 ---
 
 This is Henry Blanchette's website.
-The purpose of this website is to informally shape Henry's projects and items of interest for public reference.
-<!-- The primary topics covered here are: programming languages, computaric logic, mathematics, philosophy, evolution, game theory, game design. -->
+The purpose of this website is to informally share Henry's projects and items of interest for public reference.
+Some common topics are programming, computics, mathematics, philosophy, game theory, game design, politics, and economics.
 
-# Academics
+# Research
 
-Henry's academic interests have centered around mathematics, computer science, and philosophy.
+Henry's research interests have centered around programming languages, simulation, mathematical modeling, and data analysis.
 
-- currently a graduate student in computer science as the [University of Maryland](https://umd.edu); expected to graduate in ~2026
-- graduated with Bachelors of Arts in computer science from [Reed College](https://www.reed.edu) in May 2020
-    - thesis: <a href="{{ "/projects/purity-and-effect/" | relative_url }}">Purity and Effect</a>
-  <!-- - thesis: [Purity and Effect](https://riib11.github.io/projects_stable/purity-and-effect.html) -->
+time | event | association
+--- | --- | ---
+2020 Summer | <a href="{{ "/projects/generalized-price-equation/" | relative_url }}">Generalized Price Equation</a> | with [Mark Bedau](http://people.reed.edu/~mab/) for the Artificial Life Lab at Reed College
+2020 Summer | Separation Logic in Agda | with [Jim Fix](https://jimfix.github.io) at [Reed College](https://www.reed.edu)
+2019 Summer | Gradual Verification | with [Jonathan Aldrich](http://www.cs.cmu.edu/~aldrich/) for REUSE at [CMU](https://www.cs.cmu.edu)
+2018 Summer | <a href="{{ "/projects/reputation-in-academic-citation-networks/" | relative_url }}">Reputation in Academic Citation Networks</a> | with Eitan Frachtenburg at [Reed College](https://www.reed.edu)
+2018 Summer | Vector Calculus Vizualizations | with Kyle Ormsby for [Project Project](http://people.reed.edu/~ormsbyk/projectproject/posts/milnor-fibrations.html) at [Reed College](https://www.reed.edu)
+2017 Summer | Milnor Fibration Vizualizations | with Kyle Ormsby for Project Project at [Reed College](https://www.reed.edu)
+
+# Education
+
+Henry's education has centered around mathematics, computer science, and philosophy.
+
+time | event
+---- | -----
+2020 Fall | began PhD program in computer science at [University of Maryland](https://umd.edu)
+2020 Spring | graduated undergraduate program at [Reed College](https://www.reed.edu) with BA in computer science. <a href="{{ "/projects/purity-and-effect/" | relative_url }}">Thesis: Purity and Effect</a>
+2016 Fall | began undergraduate program at [Reed College](https://www.reed.edu)

@@ -6,9 +6,10 @@ permalink: /projects/reputation-in-academic-citation-networks
 status: stable
 ---
 
+<center>
 {% include panel_github.html href="https://github.com/Riib11/SocialNetworks/" %}
-
 {% include panel_doc.html href="https://github.com/Riib11/SocialNetworks/raw/master/report/Report.pdf" %}
+</center>
 
 The data set I used for this study is the record of papers published in a selection of computer systems conferences and a few control, non-computer systems conferences from 2017.
 The original format was the raw PDF's of all of these papers.

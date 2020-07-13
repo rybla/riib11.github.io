@@ -6,11 +6,11 @@ permalink: /resources/
 
 The following links organize by source the resources that I enjoy. Each Resource page further categorizes resources by topic.
 
-- [Books]({{ '/books' | prepend: site.baseurl }})
-- [People]({{ '/people' | prepend: site.baseurl }})
-- [Podcasts]({{ '/podcasts' | prepend: site.baseurl }})
-- [Channels]({{ '/channels' | prepend: site.baseurl }})
-- [Blogs]({{ '/blogs' | prepend: site.baseurl }})
+- [Books]({{ '/books' | relative_url }})
+- [People]({{ '/people' | relative_url }})
+- [Podcasts]({{ '/podcasts' | relative_url }})
+- [Channels]({{ '/channels' | relative_url }})
+- [Blogs]({{ '/blogs' | relative_url }})
 
 <!-- <script src="https://d3js.org/d3.v3.min.js"></script> -->
 <!-- <center><div id="graph"></div></center> -->
