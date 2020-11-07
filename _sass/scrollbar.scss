@@ -1,41 +1,37 @@
-// pre::-webkit-scrollbar {
-//   display: none;
-// }
+// the scrollbar.
+::-webkit-scrollbar {
 
-// /* width */
-// pre::-webkit-scrollbar {
-//   // width: 2px;
-//   height: 2px;
-// }
-//
-//
-// /* Track */
-// pre::-webkit-scrollbar-track {
-//   border-bottom: 2px dotted white;
-// }
-//
-// /* Handle */
-// pre::-webkit-scrollbar-thumb {
-//   // background: black;
-//   box-shadow: 0 0 0 1px green inset;
-//   // border-bottom: 2px solid black;
-//   // border: 2px solid black;
-// }
+}
 
-// /* Handle on hover */
-// ::-webkit-scrollbar-thumb:hover {
-//   background: red;
-// }
+// the buttons on the scrollbar (arrows pointing upwards and downwards).
+::-webkit-scrollbar-button {
 
-// html::-webkit-scrollbar {
-//   width: 6px;
-//   height: 6px;
-// }
-//
-// html::-webkit-scrollbar-track {
-//   background: white;
-// }
-//
-// html::-webkit-scrollbar-thumb {
-//   background: black;
-// }
+}
+
+// the draggable scrolling handle.
+::-webkit-scrollbar-thumb {
+  color: red;
+  background-color: red;
+}
+
+// the track (progress bar) of the scrollbar.
+::-webkit-scrollbar-track {
+  color: red;
+  background-color: red;
+}
+
+// the track (progress bar) NOT covered by the handle.
+::-webkit-scrollbar-track-piece {
+  color: red;
+  background-color: red;
+}
+
+// the bottom corner of the scrollbar, where both horizontal and vertical scrollbars meet.
+::-webkit-scrollbar-corner {
+
+}
+
+// the draggable resizing handle that appears at the bottom corner of some elements.
+::-webkit-resizer {
+
+}

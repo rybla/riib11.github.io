@@ -4,6 +4,7 @@ title: New Features for Sharing Nontext Content
 abstract: I express my frustration with the current state of podcast-sharing capabilities, and outline what kinds of solutions I'd like to see.
 author: Henry Blanchette
 categories: technology
+table_of_contents: true
 ---
 
 Sharing text online in the form of urls, quotes, or just raw text has been a core part of how content is shared online. For almost any kind of content on the internet, even nontext content such as video or audio, there is always an associated url that links to it or some representative text. However, I think that this leaves a lot of room for improvement as nontext content becomes a more developed medium.

@@ -1,26 +1,13 @@
 <!-- title -->
-<a href="/" class="title" id="site_title">{{ site.titles }}</a>
-<div class="hidden">
-  {% for title in site.titles %}
-  <span class="site_title_option">{{ title }}</span>
-  {% endfor %}
-</div>
-<script type="text/javascript">
-  var site_title_options = document.getElementsByClassName("site_title_option");
-  var site_title_i = Math.floor(Math.random() * site_title_options.length);
-  var site_title = site_title_options[site_title_i].innerText;
-  document.getElementById("site_title").innerText = site_title;
-</script>
+<a class="site-title un-a" href="/">
+  <div>{{ site.title }}</div>
+</a>
 
 <!-- navigation -->
-{% if site.pages.size > 0 %}
-<div class="navigation">
-
-  {% for tab in site.tabs %}
-  <a href="/{{ tab | escape }}">
-    <div class="tab"><div>{{ tab }}</div></div>
+<div class="site-navigation">
+  {% for page-title in site.page-titles %}
+  <a class="site-navigation-item un-a" href="/{{ page-title | escape }}">
+    <div>{{ page-title }}</div>
   </a>
   {% endfor %}
-
 </div>
-{% endif %}

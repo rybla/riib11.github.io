@@ -2,54 +2,40 @@
 layout: default
 ---
 
-<!-- cards -->
-{% if site.posts.size > 0 %}
-<div class="cards">
-{% for post in site.posts %}
+<div class="feed">
+  {% for post in site.posts %}
+  <div class="feed-item">
 
-    <!-- card -->
-    <div class="card">
+    <!-- title -->
+    <a class="feed-item-title un-a" href="{{ post.url | relative_url }}">
+      <div>{{ post.title }}</div>
+    </a>
 
-        <!-- title -->
+    <!-- body -->
+    <div class="feed-item-body"><div class="feed-item-body-inner">
 
-        <a href="{{ post.url | relative_url }}" class="title">
-          <div>{{ post.title }}</div>
-        </a>
+      <!-- abstract -->
+      <div class="feed-item-abstract">{{ post.abstract }}</div>
 
-        <!-- <hr> -->
+      <!-- data -->
+      <div class="feed-item-data">
 
-        <!-- subtitle -->
-        {% if post.abstract != "" %}
-        <div class="abstract">
-          {{ post.abstract }}
-        </div>
-        {% endif %}
+        <!-- date -->
+        <div class="feed-item-date">{{ post.date | date: "%Y/%m/%d" }}</div><br>
 
-        <hr>
-
-        <div class="data">
-
-            {% if post.date != "" %}
-            <div class="date">
-              {{ post.date | date: "%d/%m/%Y" }}
-            </div>
-            {% endif %}
-
-            <!-- categories -->
-            {% if post.categories.size > 0 %}
-            {% assign categories_sorted = post.categories | sort %}
-            <div class="categories">
-              {% for category in categories_sorted %}
-                <!-- <span class="category">#{{ category | escape }}</span> -->
-                <a href="/categories/#{{ category }}" class="category">#{{ category | escape }}</a>
-              {% endfor %}
-            </div>
-            {% endif %}
-
+        <!-- categories -->
+        <div class="feed-item-categories">
+          {% for category in post.categories %}
+          <a class="feed-item-category" href="/categories/#{{ category | escape }}">
+            <div>#{{ category }}</div>
+          </a>
+          {% endfor %}
         </div>
 
-    </div>
+      </div>
 
-{% endfor %}
+    </div></div>
+
+  </div>
+  {% endfor %}
 </div>
-{% endif %}

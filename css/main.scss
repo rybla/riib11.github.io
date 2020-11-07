@@ -2,18 +2,23 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-// core
+// reference
+@import "colors";
+@import "constants";
+@import "fonts";
 
-@import "font";
-@import "color";
+// formatting
 @import "default";
+@import "header";
+@import "footer";
+@import "main";
 @import "index";
 @import "page";
 @import "post";
-@import "project";
-@import "panel";
 
-// accessories
+// special
+@import "table_of_contents";
+// @import "scrollbar";
 
-@import "hide";
-@import "scrollbar";
+// hyperstyle
+@import "hyperstyle_v1";

@@ -1,0 +1,17 @@
+---
+layout: page
+---
+
+{% assign categories_sorted = site.categories | sort %}
+{% for category in categories_sorted %}
+<h1 id="{{ category.first | escaper }}">{{ category.first }}</h1>
+<ul>
+  {% for post in category.last %}
+  <li>
+    <a href="{{ post.url | relative_url }}">
+      {{ post.title }}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %}

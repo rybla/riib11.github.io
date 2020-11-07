@@ -1,0 +1,31 @@
+header {
+  margin: 0;
+  padding: $padding-main-vertical $padding-main-horizontal;
+
+  background: $color-foreground;
+}
+
+
+.site-title {
+  margin-bottom: 10px;
+
+  display: block;
+
+  color: $color-background;
+  font-size: $font-size-site-title;
+
+  div {
+
+  }
+}
+
+.site-navigation {
+
+}
+
+.site-navigation-item {
+  padding-right: 10px;
+  display: inline-block;
+
+  color: $color-accent1;
+}

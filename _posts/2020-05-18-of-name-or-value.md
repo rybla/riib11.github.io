@@ -22,6 +22,8 @@ The following parable is borrowed from _[Call-by-value is dual to call-by-name](
 > And the devil handed back to the man the same valise that the man had just handed to him.
 
 
-###### References
+# References
 
-Philip Wadler. 2003. _Call-by-value is dual to call-by-name_. In Proceedings of the eighth ACM SIGPLAN international conference on Functional programming (ICFP '03). Association for Computing Machinery, New York, NY, USA, 189–201. DOI:[https://doi.org/10.1145/944705.944723](https://doi.org/10.1145/944705.944723)
+- Philip Wadler. 2003. _Call-by-value is dual to call-by-name_. [doi][wadlerp-2003]
+
+[wadlerp-2003]: https://doi.org/10.1145/944705.944723

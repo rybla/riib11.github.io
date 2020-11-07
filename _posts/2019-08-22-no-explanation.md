@@ -4,6 +4,7 @@ title: No Explanation
 abstract: Is it possible, and under what circumstances, for there to be no valid explanation of a phenomenon?
 author: Henry Blanchette
 categories: philosophy science
+status: updated 2019/08/22
 ---
 
 Can some phenomena be so complex that there cannot be an _understandable_ explanation for it? If so, could systems like brains and economies harbor such phenomena?
@@ -42,17 +43,17 @@ image.save('barcode_noise={0}.png'.format(noise))
 
 Simple enough. Here is a instance of Bar Code:
 
-![](/assets/barcode/barcode_noise=0.0.png)
+![](/assets/posts/no-explanation/barcode_noise=0.0.png)
 
 Of course, this is a _perfect_ instance of Bar Code. That is, this instance has no _noise_ that is not accounted for by the definition of Bar Code. Consider the following image:
 
-![](/assets/barcode/barcode_noise=0.1.png)
+![](/assets/posts/no-explanation/barcode_noise=0.1.png)
 
 This image is an instance of Bar Code with 10% random noise. The random noise is generated in the following way: each pixel in a perfect instance of Bar Code has a 10% chance of being flipped to the opposite color. Though the noise distorts the predictions that Bar Code yields about each pixel, Bar Code still seems like it can be a meaningful description.
 
 The following array shows instances of Bar Code ranging in the amount of random noise.
 
-![](/assets/barcode/barcode-array.png)
+![](/assets/posts/no-explanation/barcode-array.png)
 
 A phenomenon becomes clear: as the noise increases, Bar Code becomes a less and less useful way to recognize the image. At 50% noise in fact, it is mathematically equivelant to describe the image as "50% noise" as it is to describe it as "Bar Code with 50% noise" (in terms of predicting pixel values). At close to 50% noise, perhaps there is a better pattern than Bar Code at more accurately describing the pixels.
 

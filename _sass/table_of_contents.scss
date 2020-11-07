@@ -1,0 +1,25 @@
+.table-of-contents {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  ol {
+    padding-left: 20px;
+  }
+}
+
+.table-of-contents-content > ol {
+  margin-top: 10px;
+}
+
+.table-of-contents-toggle {
+  display: block;
+  width: 100%;
+
+  background-color: $color-foreground;
+  color: $color-accent1;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

@@ -1,98 +1,66 @@
-//
-// cards
-//
-
-.cards {
-  padding: 0;
-  margin-bottom: 20px;
+.feed {
+  padding-top: 30px;
 }
 
-// .card > div {
-//   padding: 4px;
-//   margin-top: 40px;
-//   margin-bottom: 40px;
-//
-//   background-color: white;
-// }
+.feed-item {
+  margin-bottom: $margin-bottom-feed-item;
+}
 
-.card {
-  padding: 10px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+.feed-item-title {
+  display: block;
+  width: 100%;
 
-  background-color: white;
+  margin-left: -$padding-main-horizontal;
+  padding: $padding-vertical-feed-item $padding-main-horizontal;
 
-  .title {
-    display: block;
+  background-color: $color-foreground;
+  color: $color-background;
 
-    margin-top: 0;
-    margin-bottom: 10px;
+  font-size: $font-size-feed-item-title;
+}
 
-    margin-left: -30px;
-    padding-left: 30px;
-    padding-right: 4px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+.feed-item-body {
 
-    background-color: black;
-    box-shadow: $box-shadow-normal-down;
+}
 
-    > div {
-      margin-top: 0;
-      margin-bottom: 0;
+.feed-item-body-inner {
+  margin: $margin-feed-item-body-inner-vertical $margin-feed-item-body-inner-horizontal;
+  overflow-y: auto;
+}
 
-      margin-left: -30px;
-      padding-left: 30px;
-      padding-right: 4px;
-      padding-top: 0;
-      padding-bottom: 0;
+.feed-item-abstract {
+  display: block;
+  float: left;
+  width: $max-width-body - 2*$padding-main-horizontal - 2*$margin-feed-item-body-inner-horizontal - $width-feed-item-data - 10px;
+  max-width: 100%;
 
-      font-size: $title-font-size;
-      color: white;
-      background-color: black;
-    }
-  }
+  font-size: $font-size-normal;
+}
 
-  .title:hover {
-    background: linear-gradient(to right, black, lime, orange);
-  }
+.feed-item-data {
+  display: block;
+  float: right;
+  vertical-align: top;
+  width: $width-feed-item-data;
+}
 
-  .abstract {
-    padding-left: 10px;
-    padding-right: 10px;
+.feed-item-date {
+  display: block;
+  float: right;
 
-    text-align: left;
-  }
+  font-size: $font-size-normal;
+  font-style: $font-style-date;
+}
 
-  hr {
+.feed-item-categories {
+  display: block;
+  float: right;
+  text-align: right;
+}
 
-  }
+.feed-item-category {
+  display: inline-block;
+  margin-left: 5px;
 
-  .data {
-    margin-top: 10px;
-    display: block;
-    height: 20px;
-
-    font-size: $small-font-size;
-  }
-
-  .date {
-    float: left;
-    width: 50%;
-
-    font-style: italic;
-  }
-
-  .categories {
-    float: right;
-    width: 50%;
-  }
-
-  .category {
-    margin-left: 5px;
-    float: right;
-
-    font-style: italic;
-  }
-
+  font-size: $font-size-normal;
 }

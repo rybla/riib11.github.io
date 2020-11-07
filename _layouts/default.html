@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <head>{% include head.html %}</head>
 
+
   <body>
 
-    <header class="frame">{% include header.html %}</header>
-    <main class="frame">{{ content }}</main>
-    <footer class="frame">{% include footer.html %}</footer>
+    <header>{% include header.html %}</header>
+    <main>{{ content }}</main>
+    <footer>{% include footer.html %}</footer>
 
   </body>
 

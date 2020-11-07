@@ -1,6 +1,0 @@
-{% for project in site.projects.active %}
-  <div class="panel">
-    <a href="{{ project.href }}" class="title">{{ project.title }}</a>
-    <div class="content">{{ project.content | markdownify }}</div>
-  </div>
-{% endfor %}
