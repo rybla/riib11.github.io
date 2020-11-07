@@ -6,7 +6,7 @@ permalink: /about/
 
 This is Henry Blanchette's website.
 The purpose of this website is to informally share Henry's projects and items of interest for public reference.
-Some common topics are programming, computics, mathematics, philosophy, game theory, game design, politics, and economics.
+Some common topics are programming, computics, mathematics, philosophy, game theory, game design, politics, and (crypto)economics.
 
 # Research
 
