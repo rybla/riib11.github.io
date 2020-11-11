@@ -12,7 +12,7 @@ Some common topics are programming, computics, mathematics, philosophy, game the
 
 Henry's research interests have centered around programming languages, simulation, mathematical modeling, and data analysis.
 
-time | event | association
+time | topic | association
 --- | --- | ---
 **2020** | <a href="{{ "/projects/generalized-price-equation/" | relative_url }}">Generalized Price Equation</a> | with [Mark Bedau](http://people.reed.edu/~mab/) for the Artificial Life Lab at Reed College
 **2020** | Separation Logic in Agda | with [Jim Fix](https://jimfix.github.io) at [Reed College](https://www.reed.edu)

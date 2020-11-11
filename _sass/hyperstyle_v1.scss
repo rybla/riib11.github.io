@@ -73,6 +73,12 @@ img {
   box-shadow: $box-shadow-panel;
 }
 
+.full-width {
+  width: $max-width-body + 2*$padding-main-horizontal;
+  max-width: calc(100% + 2*#{$padding-main-horizontal});
+  margin-left: -$padding-main-horizontal;
+}
+
 // code and syntax highlighting
 
 code {
