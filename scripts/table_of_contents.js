@@ -24,50 +24,46 @@ function make_table_of_contents() {
     if (hl >= 0) hls.push([hl, elem.innerText, elem]);
   }
 
+
   let toc_ol = document.createElement("ol");
   table_of_contents_content_elem.appendChild(toc_ol);
+  let ols = [toc_ol]; // hl => ol
 
-  let i = [0];
-  let prev_hl = [0];
+  let prev_hl = 0;
 
-  function go(ol) {
-    while (i[0] < hls.length) {
+  for (let i = 0; i < hls.length; i ++) {
+    let hl = hls[i][0];
+    let text = hls[i][1];
+    let id = escape(text.split(" ").join("-"));
+    let elem = hls[i][2];
 
-      let hl_entry = hls[i[0]];
-      let hl = hl_entry[0];
-      let text = hl_entry[1];
-      let id = escape(text.split(" ").join("-"));
-      let elem = hl_entry[2];
-
-      // same level
-      if (hl == prev_hl[0]) {
-        let li = document.createElement("li");
-        ol.appendChild(li);
-        let a = document.createElement("a");
-        li.appendChild(a);
-        a.href = "#"+id;
-        a.innerText = text;
-        elem.id = id;
-      } else
-
-      // indent
-      if (hl > prev_hl[0]) {
-        prev_hl[0] ++;
-        let ol_indent = document.createElement("ol");
-        ol.appendChild(ol_indent);
-        go(ol_indent);
-      } else
-
-      // outdent
-      if (hl < prev_hl[0]) {
-        prev_hl[0] --;
-        return;
+    // go outer
+    if (hl > prev_hl) {
+      while (hl > prev_hl) {
+        let ol = document.createElement("ol");
+        ols[prev_hl].appendChild(ol);
+        ols.push(ol);
+        prev_hl ++;
       }
+    } else
 
-      i[0] ++;
+    // go inner
+    if (hl < prev_hl) {
+      while (hl < prev_hl) {
+        ols.pop(); // remove outermost ol
+        prev_hl --;
+      }
     }
+
+    // add li to the appropriate ol
+    let li = document.createElement("li");
+    ols[hl].appendChild(li);
+    let a = document.createElement("a");
+    li.appendChild(a);
+    a.href = "#"+id;
+    a.innerText = text;
+    elem.id = id;
   }
-  go(toc_ol);
 
 }
 

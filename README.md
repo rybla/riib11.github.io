@@ -10,7 +10,7 @@ Some common topics are programming, computics, mathematics, philosophy, game the
 - [ ] automated posts' references section
 - [ ] link to feed.xml
 - [ ] feed pagination (for index)
-- [ ] optional posts' "status" data element
+- [x] optional posts' "status" data element
 - [x] mobile compatibility
   - [x] screen scaling
   - [x] hyperstyle elements
