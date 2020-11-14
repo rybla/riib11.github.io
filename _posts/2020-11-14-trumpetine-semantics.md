@@ -17,8 +17,8 @@ During Trump’s 2015 campaign and his following four years of presidency, the m
 - "Lock her up"
 - "I could shoot someone on 5th avenue, and they’d still vote for me"
 - "I will release my tax returns"
-- Mexican immigrants are drug dealers and rapists.
-- There were "fine people on both sides" in the Charlettesville protests/riots.
+- Mexican immigrants are drug dealers and rapists
+- There were "fine people on both sides" in the Charlettesville protests/riots ([Trump press conference][fine-people])
 - "I think I've done more for the black community than any other president, and let's take a pass on president Lincoln because he did good, although, its always questionable." ([Fox interview][more-for-black-comm])
 - Haiti, El Salvador, and african countries are shithole countries ([Time report][shithole-countries])
 - Buying Greenland ([Trump tweet][greenland-tower])
@@ -36,6 +36,9 @@ In these kinds of arguments, the answer is always obvious to each side. Trump do
 
 So what does Trump mean when he says (or more often, tweets) something? What does he mean when he gives you a silly yet catchy nickname? What does he mean when he capitalizes a random word? What does he mean when he capitalizes all the letters in a word? What does he mean when he hints at something serious but gives no hint to whether he intends a serious undertone or is just being over the top about everything as always? Is Trump the greatest dog-whistler of all time or does he have a weirdly calibrated impulse to say what the crowd wants to hear, on the national stage, 24/7?
 
+# Case Study: Fine People at Charlottesville
+
+TODO
 
 # Plausible Deniability
 
@@ -58,3 +61,4 @@ The reason that Trump supporters like Trump is the same reason that Trump critic
 [greenland-tower]: https://twitter.com/realDonaldTrump/status/1163603361423351808?ref_src=twsrc%5Etfw
 [worst-trade-deal]: https://youtu.be/4fEb5niN8Kg
 [best-words]: https://www.washingtonpost.com/video/national/trump-i-have-the-best-words/2017/04/05/53a9ae4a-19fd-11e7-8598-9a99da559f9e_video.html
+[fine-people]: https://youtu.be/JmaZR8E12bs
