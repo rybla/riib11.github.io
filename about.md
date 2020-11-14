@@ -8,6 +8,11 @@ This is Henry Blanchette's website.
 The purpose of this website is to informally share Henry's projects and items of interest for public reference.
 Some common topics are programming, computics, mathematics, philosophy, game theory, game design, politics, and (crypto)economics.
 
+# Profiles
+
+- [Github](https://github.com/riib11)
+- [LinkedIn](https://www.linkedin.com/in/henry-blanchette-520542a1/)
+
 # Research
 
 Henry's research interests have centered around programming languages, simulation, mathematical modeling, and data analysis.
