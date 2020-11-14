@@ -3,6 +3,7 @@ layout: post
 title: Trumpetine Semantics
 abstract: The power of being a bad communicator.
 categories: politics
+table_of_contents: true
 ---
 
 The power of bad communication.
