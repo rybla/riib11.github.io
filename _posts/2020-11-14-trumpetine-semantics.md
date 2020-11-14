@@ -5,7 +5,7 @@ abstract: The power of being a bad communicator.
 categories: politics
 ---
 
-The power of being a bad communicator.
+The power of bad communication.
 
 _Thesis_: Trump is an impulsive opportunist with an uncanny sense of self-aware-yet-unashamed narcissism. He knows he’s a narcissist and still lives that part out to the fullest, and it works for him.
 
