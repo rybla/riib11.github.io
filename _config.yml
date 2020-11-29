@@ -29,6 +29,10 @@ page-titles:
   - archive
   - about
 
+collections:
+  - working
+    # - output: true
+
 # Build settings
 # theme: minima
 plugins:
