@@ -2,7 +2,7 @@
 layout: post
 title: Augmentation 1
 categories: short-story
-abstract: Were they speical because they were mine?
+abstract: Were they special because they were mine?
 table_of_contents: false
 ---
 
