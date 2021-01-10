@@ -15,7 +15,7 @@ _Thesis_: Trump is an impulsive opportunist with an uncanny sense of self-aware-
 
 During Trump’s 2015 campaign and his following four years of presidency, the most common kind of argument I’ve had relating to Trump is about the meaning of his words. Just to name a few:
 
-- "Lock her up"
+- "Lock her up" in reference to Hillary Clinton's involvement in the [Bengazi email scandal](https://www.bbc.com/news/world-us-canada-31806907)
 - "I could shoot someone on 5th avenue, and they’d still vote for me"
 - "I will release my tax returns"
 - Mexican immigrants are drug dealers and rapists
@@ -26,8 +26,10 @@ During Trump’s 2015 campaign and his following four years of presidency, the m
 - "I'm very highly educated. I know words, I know the best words. But there's no better word than stupid." ([Trump rally][best-words])
 - Trump makes hand motions that could be making fun of mentally-disabled people
 - "This has been the worst trade deal in the history of trade deals, maybe ever" ([Presidential debate][worst-trade-deal])
-- Defending tarrifs
-- Not conceding the election after it’s called for Joe Biden by major news networks
+- Defending tarrifs against China because Trump thinks tarriffing is a good policy, or as a threat against China?
+- Not conceding the election after it’s called for Joe Biden by major news networks.
+- "We will never concede" and then "Even though I totally disagree with the outcome of the election, and the facts bear me out, nevertheless there will be an orderly transition on January 20th".
+- Did Trump incite the January 2021 storming of the US capitol building, including the ensuing violence.
 
 In these kinds of arguments, the answer is always obvious to each side. Trump doesn’t speak in a complicated way that needs unpacking, and it’s always clear that Trump himself puts little time into preparing his prose. Trump attributes most of this ability to instinct. So, with these factors in mind, it seems clear that an interpretation of Trump’s output should be at least as simple. And yet it is not. In my observation, it seems that each person interprets Trump’s words in almost exactly the way that Trump would expect or be ready to play off of. A few main ways:
 
