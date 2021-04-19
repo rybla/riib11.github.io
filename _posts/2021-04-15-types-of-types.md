@@ -21,7 +21,7 @@ resource for these words.
 | abstract           | type (type theory), kind (type theory), set (set theory), collection, variety, category (category theory), group (abstract algebra), lot, genre, division, class (OOP), circle, assortment, aggregation, batch, bundle, bunch, conglomerate, cluster (statistics), sample (statistics), gathering, level (type theory), share (economics), chunk (software), fragment (software), partition (software, set theory), grouping, configuration, conformation, design, framework, methodology, derivation, selection, classification, frame, pattern (type theory), theory (category theory), topic, span, sphere, affinity, stretch, case (type theory) , homology (category theory), sort (type theory) |
 | social/political   | cast, gang, band, club, faction, party, assembly, cartel, clique, covery, covey, league, suite, rank, tier, sector, department, standard, echelon, school, arragenement, organization, system, constitution, alignment, formation, cult, structure, religion, history, field, domain, estate, house, dynasty, empire, rule, reign, government, administration, jurisdiction, management, legion, dominion, regimen, tenure, order, kingdom, varna, association, alliance                                                                                                                                                                                                                              |
 | artistic           | style, orchestration/orchestra, ensemble, band, sinfonietta, choir, chorus, chorale, verse, hymn, paean, song, production, composition, tune, theme, motif, subject                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| biological/genetic | strain, ilk, species, breed, family, ancestry, generation, kin, progeny, legacy, lineage, brood, kindred, folk, genealogy, pedigree, bloodline, race, stock, tribe, clan, descent, scions, issue, organism, parentage, stemma, genus, phylum, kith, cognate, brotherhood                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| biological/genetic | strain, ilk, species, breed, family, ancestry, generation, kin, progeny, legacy, lineage, brood, kindred, folk, genealogy, pedigree, stock, tribe, descent, scions, issue, organism, parentage, stemma, genus, phylum, kith, cognate                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | natural/temporal   | bag, flock, herd, pack, pool, branch, world, tree, realm, dimension, place, age, epoch, era, period, sheave (category theory), fiber (abstract algebra), glob (category theory), space, site (category theory)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | technical          | grade, caliber, gradation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
@@ -164,11 +164,8 @@ biological/genetic
 - folk
 - genealogy
 - pedigree
-- bloodline
-- race
 - stock
 - tribe
-- clan
 - descent
 - scions
 - issue
@@ -179,7 +176,6 @@ biological/genetic
 - phylum
 - kith
 - cognate
-- brotherhood
 
 
 natural/physical/temporal
