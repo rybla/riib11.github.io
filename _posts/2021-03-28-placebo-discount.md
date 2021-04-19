@@ -38,17 +38,9 @@ by randomized, placebo-controlled clinical trials clinical trials (usually
 considered the
 "[gold standard](https://www.nccih.nih.gov/health/placebo-effect)" of clinical
 trials) to determine the efficacy of medical interventions, placebos are not
-used in consumer products such as over-the-counter drugs. A
-[survey](https://www.bmj.com/content/347/bmj.f3757) of 853 Kaiser Permanente
-North California patients showed that while patients valued honesty and
-transparency, they were also mostly favorable to the use and recommendation of
-placebo treatments. Basically, patients were willing to take advantage of the
-placebo effect as long as they knew there was a chance that the pill they are
-prescribed had a chance of being a placebo.
-
-So why not take advantage of the placebo effect in consumer products by offering
-bundles of placebo and non-placebo doses to buy? Well, there are a few reasons I
-can think of:
+used in consumer products such as over-the-counter drugs. Why not take advantage
+of the placebo effect in consumer products by offering bundles of placebo and
+non-placebo doses to buy? Well, there are a few reasons I can think of:
 
 - users assume they are taking a placebo, so will not worry about side-effects
   or mixing drugs
@@ -80,9 +72,9 @@ the pack, the placebo and non-placebo doses are not distinguished. For the sake
 of safety, however, the same instructions and warning for taking doses of the
 drug also apply to taking doses from a deal 2 pack.
 
-Deal 2 could be offered at, say, a 40-50% discount to reflect how marginal
-production is roughly half that of deal 1. This could be called the _placebo
-discount_! It's a win-win since the buyer at a lower cost takes advantage of the
-placebo effect (which is often comparable to the non-placebo effect of the drug)
-and the seller makes rougly the same (or perhaps slightly more) profits as if
-they sold a deal 2 pack.
+Deal 2 could be offered a somewhere in the range of a 35-45% discount to reflect
+how marginal production is roughly half the cost that of deal 1. This could be
+called the _placebo discount_! It's a win-win since the buyer at a lower cost
+takes advantage of the placebo effect (which is often comparable to the
+non-placebo effect of the drug) and the seller makes rougly the same (or perhaps
+slightly more) profits as if they sold a deal 2 pack.
