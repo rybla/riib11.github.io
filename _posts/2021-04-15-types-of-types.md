@@ -298,7 +298,7 @@ distinguish levels of the heirarchy. With these retroactive renamings:
 - _sort_ := _type2_
 - type of type of ... := _typeN_
 
-### Case Study: Abstract Algebra
+### Abstract Algebra
 
 Abstract algebra upon set theory with a (non-technical) variety of structures,
 the most commonly-recognized name among them being "group." The name is fitting
@@ -326,7 +326,7 @@ selection:
 - [topology](https://en.wikipedia.org/wiki/Topology)
 - [space](https://en.wikipedia.org/wiki/Hilbert_space)
 
-### Case Study: Category Theory
+### Category Theory
 
 When modern mathematics was first formalized in the 19th and 20th centuries, a
 new standard basis for all of mathematics was formalized: _set theory_. The
