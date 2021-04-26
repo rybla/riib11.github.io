@@ -37,7 +37,7 @@ variety of styles:
     Russian Revolution of 1917
   - e.g. [Aesop's fables](https://aesopfables.com), such as the fable of "the
     fox and the grapes" which parallels the propensity to publically deride that
-    which one is jealous of
+    which one desires but cannot achieve
   - e.g. the Star Trek episode "A Private Little War" which parallels the US
     involvement in the Vietnam War
 
