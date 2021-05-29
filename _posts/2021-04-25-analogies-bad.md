@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An Analogy is Like a Thing that is a Bad Argument
-categories: communication
+categories: writing
 abstract:
   Analogies are easily misused, with great effectiveness, as if they are
   arguments or explanations. Still, analogies can be used well to make a claim
