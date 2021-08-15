@@ -10,7 +10,7 @@ author: Henry Blanchette
 table_of_contents: true
 ---
 
-## Moral Empiricism
+## Moral Theories and Metaethics
 
 A _moral claim_ is a true judgment of the morality of an action i.e. whether or
 not an action _ought_ to be taken. An _ethical theory_ is a theory that explains
