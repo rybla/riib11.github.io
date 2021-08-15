@@ -2,8 +2,10 @@
 layout: post
 title: Moral Empiricism
 categories: philosophy
-abstract: What are the consequences of the view that moral truths are empirical
-truths about human nature i.e. derivable empirically by studying human nature and behavior.
+abstract:
+  What are the consequences of the view that moral truths are empirical truths
+  about human nature i.e. derivable empirically by studying human nature and
+  behavior.
 author: Henry Blanchette
 table_of_contents: true
 ---
