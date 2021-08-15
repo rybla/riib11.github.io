@@ -167,7 +167,7 @@ false (since objective moral claims are false) or fundamentally misunderstood by
 their speakers (they think they are making an objective claim, but they are
 actually making a subjective one). Under this, a moral relativist must reject
 basically everything currently established about morality, yielding just that
-each person has their own correct, personal, and entirely unique moral theory
+each person has their own correct, personal, and entirely unique ethical theory
 judged by their intuitions.
 
 The second steep drawback of moral relativism is that it contradicts the usual
@@ -237,7 +237,7 @@ about the social organizations of particular humans (and perhaps other things).
 Moral constructivism solves a lot of metaethical problems, since it gives an
 entire account for how ethical theories are justified, and, even better,
 corresponds plausibly to how ethical theories actually are justified. A moral
-constructivist says that a society negotiates a moral theory, through explicit
+constructivist says that a society negotiates a ethical theory, through explicit
 exchanges, implicit norms, etc., and at any given point there is a fact of the
 matter about how that society has organized itself in order to specify a moral
 theory.
@@ -249,21 +249,21 @@ negotiated moral stance, which is something that can be and is agreed upon by
 many people (especially in that society).
 
 However, some of the problems of moral subjectivism still do leak through to
-some extent, where an individual’s subjective moral theory is replaced by an
-individual society’s moral theory. There is still the problem of contradicting
+some extent, where an individual’s subjective ethical theory is replaced by an
+individual society’s ethical theory. There is still the problem of contradicting
 the usual meaning of morality itself: two different societies can have clashing
-moral theories that are irreconcilable, and circumstances can arise where
-following both moral theories is impossible. For many societal/cultural
+ethical theories that are irreconcilable, and circumstances can arise where
+following both ethical theories is impossible. For many societal/cultural
 features, this is not a huge surprise or problem. Of course there are societal
 differences in how people do things which seem weird when viewed from another
 society. But when it comes to morality, the force of “ought” is impossible to
 escape. If a society morally condones doing something that another society finds
 morally wrong, then there can be a moral obligation for conflict, as each
-society views their moral theory as of course developed within their own society
-but still applicable everywhere. A moral constructivist maintains that we can as
-a society make moral judgements, but admits that to check to see if the moral
-judgements are correct is to do nothing more than check if they follow morality
-according to the norms and customs accepted by the society.
+society views their ethical theory as of course developed within their own
+society but still applicable everywhere. A moral constructivist maintains that
+we can as a society make moral judgements, but admits that to check to see if
+the moral judgements are correct is to do nothing more than check if they follow
+morality according to the norms and customs accepted by the society.
 
 And this does not just apply to co-existent societies with contradiction moral
 theories. Most people accept that there has been moral progress over at least
@@ -274,7 +274,7 @@ the societies of the past would probably not view present society as being more
 moral (and many would view it as being much less moral). Never along the arc of
 “moral progress” does a moral constructivist see a change from a “worse” ethical
 theory to a “better” ethical theory, except from the point of view of our modern
-constructed moral theory by which we judge the past.
+constructed ethical theory by which we judge the past.
 
 This appears to contradict what most people agree on about the claim of moral
 progress and what has happened over threat theme period. Usually the claim of
@@ -284,17 +284,17 @@ constructivist, those people were not wrong about morality at the time, since
 morality _was_ just their socially constructed system of moral rules also at the
 time. E.g. There’s nothing morally wrong with slavery _at the time_ and in the
 places where is was accepted. Only looking back do we say that slavery _is wrong
-now_ according to our modern society’s moral theory.
+now_ according to our modern society’s ethical theory.
 
 ## Moral Empiricism
 
-_Moral empiricism_ is the view that the fact of which moral theory is correct is
-merely an _empirical_ fact about _human nature_.
+_Moral empiricism_ is the view that the fact of which ethical theory is correct
+is merely an _empirical_ fact about _human nature_.
 
 Moral empiricism is similar to moral relativism in that it admits there is no
-moral theory that is correct in an extra-human objective way. But it avoids many
-typical problems of moral relativism because it does not admit inconsistent
-moral theories among humans which is (usually) the relevant group.
+ethical theory that is correct in an extra-human objective way. But it avoids
+many typical problems of moral relativism because it does not admit inconsistent
+ethical theories among humans which is (usually) the relevant group.
 
 Moral empiricism is similar to moral constructivism in that it finds the source
 of morality to be human-centric as opposed to the universe in general without
@@ -306,9 +306,9 @@ Moral empiricism does not reduce to moral intuitionism, since intuitions are
 merely a symptom of human nature. Moral intuitions are not a part of human
 nature, but are caused by aspects of humans that are accounted for by the
 pattern of human nature. In this way, there can by certain statistical
-correlations between moral intuitions and the correct moral theory as sought by
-empirically investigating human nature, since the influences of human nature can
-be invariant while other extra-human influences vary.
+correlations between moral intuitions and the correct ethical theory as sought
+by empirically investigating human nature, since the influences of human nature
+can be invariant while other extra-human influences vary.
 
 // TODO: Give a more specific idea of what is included in the pattern "human
 nature" e.g. biological patterns over time, social patters over time, etc.
@@ -321,7 +321,7 @@ what people mean by "morality"
 compare/contrast with other (similar) metaethical theories
 
 // TODO: give interesting caveat about how moral empiricism allows for different
-moral theories to be true for pre-humans, post-humans, and also aliens
+ethical theories to be true for pre-humans, post-humans, and also aliens
 
 // TODO: address problem of animals: actually, this is not so hard. We feel
 negligible moral sympathy for animal cruelty by other animals than we do for
