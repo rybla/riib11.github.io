@@ -4,7 +4,7 @@ title: A Monotheistic Foundation for the Epistemology of Science
 categories: philosophy science
 abstract: A view of the epistomology of science centered around God.
 author: Henry Blanchette
-table_of_contents: false
+table_of_contents: true
 ---
 
 Two years ago, I described a view I was developing that science is grounded in
