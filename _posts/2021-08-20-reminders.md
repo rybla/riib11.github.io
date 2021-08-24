@@ -39,7 +39,7 @@ recollection other than vague memories of attending physiology classes in
 undergraduate, which couldn’t possible account entirely. I am something like
 40-45 years old now.
 
-One stabled bundle of hand-written pages stood out. It had a red sticky note
+One stapled bundle of hand-written pages stood out. It had a red sticky note
 attached to its top right corned, and a yellow message on it said “trust me.”
 The pages described a day in the life of someone who wrote both in a style and
 about a situation eerily similar to mine — someone who called themselves
@@ -98,5 +98,5 @@ with red ink which hastily spelled
 “Do not take. Keep safe. Find source.”
 
 Halfway through that last paragraph, the page had clearly been torn away.
-Several following pages were clearly torn out as well, which I deduced from a
+Several following pages appeared to be torn out as well, which I deduced from a
 few remnant corners left in the staple. I then put the notes
