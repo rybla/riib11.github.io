@@ -82,7 +82,7 @@ built upon to form higher levels of explanation.
 
 Note that this inaccessible source that accounts for the instantiation of
 induction is not a part of the universe, as it cannot be observed definitionally
-(otherwise induction would not need to be an axiom).
+(otherwise induction would not be needed to be an axiom).
 
 So, this source is outside of the universe, and is all powerful in that it
 accounts for the basic patterns that ultimately account for all patterns. I call
