@@ -8,15 +8,14 @@ table_of_contents: true
 ---
 
 Two years ago, I described a view I was developing that science is grounded in
-an implicit monotheism in this Metagnosis episode:
+an implicit monotheism:
 [On God: Science and Modernity](https://metagnosis.simplecast.com/episodes/on-god-science-modernity).
-This essay serves as a short exposition of a more developed version of this
-view: Monotheistic Foundation for the Epistemology of Science.
+This essay is a short exposition of a more developed version of this view: A
+Monotheistic Foundation for the Epistemology of Science.
 
 ## Two Axioms
 
-The basis for the epistemology of science can be formulated as having two
-axioms:
+The epistemology of science can be formulated as having two axioms:
 
 - The axiom of an _universal objectivity_: the universe (everything that can be
   observed) is objective
@@ -33,14 +32,14 @@ places, and observers.
 The axiom of natural induction is required for any reasoning beyond the purely
 deductive (i.e. logic and, arguably, mathematics), and the _natural_ restriction
 ensures that not all possible inductions are considered valid (i.e. they must be
-natural inductions). The question of what qualifies an induction as natural is
-specified by a particular account of natural induction, which is an empirical
-investigation into how natural induction is actually used (i.e. "natural
-induction" definitionally refers to whatever we are using when we agree with
-some inductive arguments and disagree with others).
+_natural_ inductions). The question of which conditions qualify an induction as
+natural is specified by a particular account of natural induction, which should
+be resolved by an empirical investigation into how natural induction is actually
+used (i.e. "natural induction" definitionally refers to whatever we are using
+when we agree with some inductive arguments and disagree with others).
 
-These two axioms are in fact axioms because they are assumed in the epistemology
-of science and are not derivable.
+These two are in fact axioms because they are assumed in the epistemology of
+science and are not derivable.
 
 - Universal objectivity is not derivable since, without it, it is consistent to
   assume that universal subjectivity is false.
@@ -56,20 +55,20 @@ Universal objectivity implies that there is exactly one universe, as the
 universe is everything that can be observed and all observers observe the same
 universe.
 
-In the universe, natural induction implies that there are derivable patterns
-(via induction) that have no derivable patterns (since they appeal to only
-induction). (Claim #1) This arises from the fact that there must be finitely
-many downward levels of explanation in any explanation hierarchy. (Claim #2)
-Patterns in the _base_ (lowest level) of an explanation hierarchy only appeal to
-induction. Note that the choice of hierarchies here is irrelevant as long as the
-choice is consistent. Typically scientists use a roughly standardized hierarchy
-of explanations, for example in order from higher-to-lower level:
+In the universe, natural induction implies that there are patterns that have no
+further explanation (as they appeal to only induction). (Claim #1) This arises
+from the fact that there must be finitely many downward levels of explanation in
+any explanation hierarchy. (Claim #2) Patterns in the _base_ (lowest level) of
+an explanation hierarchy only appeal to induction. Note that the choice of
+hierarchy here is irrelevant as long as the choice is consistent. Typically
+scientists use a roughly standardized hierarchy of explanations, for example in
+order from higher-to-lower level:
 
-> Biology > Chemistry > Physics
+> ... > Biology > Chemistry > Physics
 
-Biological patterns are explained in terms of biological or physical patterns.
-Physical patterns are explained in terms of physical but never biological
-patterns.
+Biological patterns can be explained in terms of biological, chemical, or
+physical patterns. Physical patterns can be explained in terms of physical
+patterns but not in terms of biological patterns.
 
 All this goes to show that the epistemology of science postulates a single
 objective universe in which basic and unquestionable patterns (which we may be
@@ -80,8 +79,8 @@ A simple way of describing this set of beliefs is that the epistemology of
 science postulates some inaccessible source that accounts for why there are the
 basic patterns in the universe that there are.
 
-TODO: Make the end of this section more clear and better argued. Right now it is
-not well logically-connected
+TODO: Make the end of this section more clear and better argued, right now its a
+little incoherent
 
 This inaccessible source is outside of the universe, as it is postulated as
 unobservable (otherwise induction would not be an axiom). The scientific project
@@ -96,7 +95,7 @@ certainly in common with those ideas, this idea of God describes Him as
 omnipotent and omniscient. I do not attempt to take a stance here on the
 omnibenevolence of this God, but I think it can be argued.
 
-If you don’t want to call this source God, that’s fine. But I think "God" is a
+If you don’t want to _call_ this source God, that’s fine. But I think "God" is a
 fitting name for such an extra-universal entity that is the basis for
 understanding reality.
 
