@@ -42,10 +42,16 @@ there could not be some physical way that minds can do that isn't explainable in
 terms of just the more basic physical processes that clearly arent under the
 human mind's control (some are deterministic, some are stochastic). While this
 is sometimes used as an argument against the existence of (libertarian) free
-will, it is actually a reductio ad absurdum of the approach itself. The question
-should not be about the definition of "choice", is should be about the thing
+will, it is actually a reductio ad absurdum of the approach itself. This shoudl
+not be an argument about the definition of words, it should be about the thing
 that we refer to when we say "choice". Choice is a social construct (as opposed
-to a physical one) that is referred to all the time, so it certainly exists.
+to a physical one) that is used to refer to actual actions all the time, so it
+certainly exists. To refute its existence is to deny that people can communicate
+meaning with language. Note, however, that I am not claiming that everyone's
+conceptions about the properties of choice are true --- I am only asserting that
+"choice" refers to something real, even if its users would also make false
+claims about the things being referred to. I.e. "choice" means whatever kind of
+thing it is that is referred to when people talk about choice.
 
 With this consideration, come back to the concern about choosing to believe. It
 does sometimes appear that people end up believing what they believe regardless
