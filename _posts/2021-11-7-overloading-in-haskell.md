@@ -4,8 +4,10 @@ title: Overloaded Functions in Haskell
 categories: computics
 abstract:
   Basic Haskell functions do not support overloading i.e. the same name can
-  refer to different functions. This post demonstrates a comparison between three approaches to implementing overloading in Haskell: typeclasses, templates, and singletons (mesaprogramming)
-  a kind of overloading for functions in Haskell.
+  refer to different functions. This post demonstrates a comparison between
+  three approaches to implementing overloading in Haskell -- typeclasses,
+  templates, and singletons (mesaprogramming) a kind of overloading for
+  functions in Haskell.
 author: Henry Blanchette
 table_of_contents: false
 ---
