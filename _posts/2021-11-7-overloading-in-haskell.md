@@ -92,7 +92,7 @@ then GHC would reject, telling us
 
 (Of course, this can be disabled via the language extensions `FlexibleInstances`
 and `FlexibleContexts`, but it turns out this just makes typeclass constraint
-resolution fair for our purposes.)
+resolution fail for our purposes.)
 
 In this way, typeclasses don't provide fully-general overloading capability
 where the different overload modes can have arbitrarily different types (e.g.
