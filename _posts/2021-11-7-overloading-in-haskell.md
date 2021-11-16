@@ -4,24 +4,36 @@ title: Overloaded Functions in Haskell
 categories: computics
 abstract:
   Basic Haskell functions do not support overloading i.e. the same name can
-  refer different functions which are distinguished by inferred signature. This
-  post demonstrates a mesaprogram to achieve a kind of overloading for functions
-  in Haskell.
+  refer to different functions. This post demonstrates a comparison between three approaches to implementing overloading in Haskell: typeclasses, templates, and singletons (mesaprogramming)
+  a kind of overloading for functions in Haskell.
 author: Henry Blanchette
 table_of_contents: false
 ---
 
 ## Introduction
 
-The following module `Overload` exports a function `negate` that is "overloaded"
-for both `Int` and `Bool`.
+A common metaprogrammatic feature is overloading. A function is _overloaded_ (by
+name) if multiple implementations of possibly different types can all be
+referred to by the same name (in the same scope). Overloading has many practical
+uses (such as optional arguments, default argument values, function classes,
+etc.), and is simple to describe, so I though it would be a nice way to
+demonstrate a comparison between a few different kinds of approaches to
+metaprogramming.
+
+The running example in the next few sections will be the overloading of a
+function `negate` to work on both integers and booleans.
+
+I conclude with a overview of the advantages and drawbacks of the different
+approaches, and some ideas about the generalization of my favored approach.
 
 ## Overloading with Typeclasses
 
 Haskell provides a nice interface (with a complicated backend) for a restricted
-form of overloading via _typeclasses_. A typeclass is a way of classifying types
-by _methods_ (to match the object-oriented terminology for classes) which haves
-types containing the classified type.
+form of overloading via typeclasses. A _typeclass_ is a way of classifying types
+by _methods_ (to match the object-oriented terminology for (abstract) classes)
+which haves types containing the classified type. If a typeclass has a method,
+then every type in that typeclass must have a corresponding implementation of
+that method for the type.
 
 To implement an overloaded `negate`, we make a class `Nullable a` with a method
 `negate :: a -> a`, and then instantiate this class for `Int` and `Bool`.
@@ -48,11 +60,11 @@ negate 1 ==> -1
 negate True ==> False
 ```
 
-The typeclass implementation and usage of overloading is very concise. Which
-overload to use is resolved via typeclass constraint solving, and to the user
-this looks just like overload resolving in languages that have built-in
-overloading. However, this simple interface hides a lot of backend complexity in
-how that constraint-solving works.
+The implementation and usage of overloading is very concise for this typeclass
+approach. Which overload to use is resolved via typeclass constraint solving,
+and to the user this looks just like overload resolving in languages that have
+built-in overloading (e.g. Java). However, this simple interface hides a lot of
+backend complexity in how that constraint-solving works.
 
 Additionally notice that, in order to write `Negateable a`, we had to choose a
 form for the type of `negate`, in this case, `a -> a`. This is due to the way
@@ -70,7 +82,7 @@ instance Negatable (Bool -> Bool) where
   negate = \b -> not b
 ```
 
-then GHC would tell us
+then GHC would reject, telling us
 
 > All instance types must be of the form (T a1 ... an) where a1 ... an are
 > _distinct type variables_, and each type variable appears at most once in the
@@ -80,7 +92,7 @@ then GHC would tell us
 and `FlexibleContexts`, but it turns out this just makes typeclass constraint
 resolution fair for our purposes.)
 
-In this way, typeclasses don't provide fully-generate overloading capability
+In this way, typeclasses don't provide fully-general overloading capability
 where the different overload modes can have arbitrarily different types (e.g.
 take different numbers of arguments).
 
@@ -89,8 +101,11 @@ take different numbers of arguments).
 <!-- TODO: desribe how quoting/unquoting works somewhere -->
 
 Templates (via Template Haskell) offer more general megaprogramming capabilities
-than typeclasses. Templates are metaprograms that are executed (via _splicing_)
-before typechecking the base program.
+than typeclasses. Templates are metaprograms that are executed before
+typechecking the base program. Templates rely on quoting and unquoting --
+_quoting_ is the conversion of a string into syntax (encoded by a datatype), and
+_unquoting_ is the conversion of syntax into code which is _spliced_ (i.e.) into
+the base program.
 
 To implement an overloaded `negate`, we write it as a template function that
 takes an extra argument, the `NegateMode`, which specifies which overload for
@@ -147,10 +162,10 @@ lauded type system.
 
 Many probably admit these drawbacks but still find the power of templates to be
 worth the cost. After all, most languages are much less safe than Haskell, and
-they are still used prolifically. So why not allow a very powerful feature,
-fully under the user's control, that makes Haskell much more slick? This is a
+they are still used prolifically. So, why not allow a very powerful feature
+(which is completely optional) that makes Haskell much more slick? This is a
 tempting point of view, and maybe I will adopt it one day. But for now, I am
-still naive enough to look for an alternative.
+still naive enough to seek an alternative.s
 
 Additionally, You might think that it is a little annoying and probably
 unnecessary to have to provide a the extra `NegateMode` argument. And maybe for
@@ -222,14 +237,17 @@ negate _ True ==> False
 ```
 
 where Haskell's type inference would figure out the type of `_`, which uniquely
-specifies the singleton constructor. Though I doubt this is easily accomplished.
+specifies the singleton constructor. Though I doubt this is easily accomplished,
+if possible in Haskell at all.
 
 ## Overloading with Π
 
 As described before, singletons are an implementation in Haskell of a restricted
 kind of dependent types. That is, they allow the output type of functions to
 depend on the values of its arguments. But how would we implement overloading
-with fully-fledged dependent types? We use Agda:
+with fully-fledged dependent types? The feature that we need is Π-types i.e.
+dependent functions -- `negate` is a dependent function because its output type
+`NegateType mode` depends on its input value `mode`.
 
 ```agda
 module OverloadPi where
@@ -245,12 +263,12 @@ NegateType : NegateMode → Set
 NegateType Negateℤ = ℤ → ℤ
 NegateType NegateBool = Bool → Bool
 
-negate : ∀ mode → NegateType mode
+negate : ∀ (mode : NegateMode) → NegateType mode
 negate Negateℤ = λ x → - x
 negate NegateBool = λ b → not b
 ```
 
-Then using `negate` looks exaclty like in the singletons approach:
+Using `negate` looks exaclty like in the singletons approach:
 
 ```agda
 negate Negateℤ 1ℤ ==> -1ℤ
@@ -307,4 +325,4 @@ mesaprogramming defines data, in the base language to specify metaprogrammatic
 behavior and then performs the metaprogrammatic behavior by pattern-matching on
 the specification data as an extra argument.
 
-I will write more about mesaprogramming in full generality in later posts.
+I will write more about mesaprogramming more generally in later posts.
