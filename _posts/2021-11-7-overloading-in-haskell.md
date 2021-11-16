@@ -251,7 +251,7 @@ with fully-fledged dependent types? The feature that we need is Π-types i.e.
 dependent functions -- `negate` is a dependent function because its output type
 `NegateType mode` depends on its input value `mode`.
 
-```agda
+```
 module OverloadPi where
 
 open import Data.Integer
@@ -272,7 +272,7 @@ negate NegateBool = λ b → not b
 
 Using `negate` looks exaclty like in the singletons approach:
 
-```agda
+```
 negate Negateℤ 1ℤ ==> -1ℤ
 negate NegateBool true ==> false
 ```
