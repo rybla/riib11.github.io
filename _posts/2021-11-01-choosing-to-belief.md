@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Is Belief a Choice?
-categories:
+categories: philosophy
 abstract:
   Do you choose to belief something, or do you recognize that you already
   believe it?
