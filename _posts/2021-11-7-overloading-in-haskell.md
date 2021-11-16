@@ -100,8 +100,6 @@ take different numbers of arguments).
 
 ## Overloading with Templates
 
-<!-- TODO: desribe how quoting/unquoting works somewhere -->
-
 Templates (via Template Haskell) offer more general megaprogramming capabilities
 than typeclasses. Templates are metaprograms that are executed before
 typechecking the base program. Templates rely on quoting and unquoting --
