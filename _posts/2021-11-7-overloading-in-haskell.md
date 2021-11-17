@@ -247,7 +247,8 @@ kind of dependent types. That is, they allow the output type of functions to
 depend on the values of its arguments. But how would we implement overloading
 with fully-fledged dependent types? The feature that we need is Π-types i.e.
 dependent functions -- `negate` is a dependent function because its output type
-`NegateType mode` depends on its input value `mode`.
+`NegateType mode` depends on its input value `mode`. The following Agda program
+implements.
 
 ```plaintext
 module OverloadPi where
@@ -296,7 +297,7 @@ any other language that offers these features respectively):
   - advantages: very extensible, very concise implementation
   - drawbacks: verbose usage (explicit mode argument), type-dangerous,
     anti-modular
-- singletons
+- singletons/dependent types
   - advantages: type-safe, extensible
   - drawbacks: verbose usage (explicit mode argument)
 
@@ -321,8 +322,8 @@ than how normal metaprogramming relies on features _on top of_ the base language
 to handle metaprogrammatic behaviors (as is most explicit in the templates
 approach, but also present in the typeclass approach if you think of typeclasses
 as a metaprogrammatic feature on top of the Haskell base language),
-mesaprogramming defines data, in the base language to specify metaprogrammatic
-behavior and then performs the metaprogrammatic behavior by pattern-matching on
-the specification data as an extra argument.
+mesaprogramming defines data _embedded in_ the base language to specify
+metaprogrammatic behavior and then performs the metaprogrammatic behavior by
+pattern-matching on this data as an extra argument.
 
 I will write more about mesaprogramming more generally in later posts.
