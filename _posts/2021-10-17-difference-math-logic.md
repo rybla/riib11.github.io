@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Difference Between Mathematics and Logic
-categories: computics philosophy
+categories: computics philosophy mathematics
 abstract: What is the difference between mathematics and logic?
 author: Henry Blanchette
 table_of_contents: false

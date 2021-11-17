@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Overloaded Functions in Haskell
-categories: computics
+categories: computics Haskell
 abstract:
   Basic Haskell functions do not support overloading i.e. the same name can
   refer to different functions. This post demonstrates a comparison between
