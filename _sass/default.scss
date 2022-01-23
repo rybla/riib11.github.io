@@ -12,7 +12,7 @@ body {
   max-width: $max-width-body;
 
   background-color: $color-background;
-  box-shadow: 0 0 5px 0  $color-foreground;
+  box-shadow: 0 0 5px 0 $color-foreground;
 
   font-family: spectral;
 }
@@ -21,9 +21,15 @@ button {
   font-family: spectral;
 }
 
-code {
+p > code {
+  font-size: $font-size-code-inline;
+}
+
+pre > code {
   // font-family: firacode;
   font-family: dankmono;
+  color: $color-code;
+  font-size: $font-size-code-block;
 }
 
 a {
