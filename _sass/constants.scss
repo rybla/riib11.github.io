@@ -1,43 +1,8 @@
-// font-size
-$font-size-site-title: 24pt;
-$font-size-page-title: 20pt;
-$font-size-navigation-item: 12pt;
-$font-size-feed-item-title: 18pt;
-$font-size-post-title: 20pt;
-$font-size-h1: 18pt;
-$font-size-h2: 17pt;
-$font-size-h3: 16pt;
-$font-size-h4: 15pt;
-$font-size-h5: 14pt;
-$font-size-h6: 13pt;
-$font-size-normal: 12pt;
-$font-size-code-inline: 10pt;
-$font-size-code-block: 12pt;
-
-// font-style
-$font-style-date: italic;
-$font-style-status: italic;
-
-// margin
-$margin-bottom-feed-item: 60px;
-$margin-feed-item-body-inner-vertical: 10px;
-$margin-feed-item-body-inner-horizontal: 10px;
-$margin-post-title-underbar-vertical: 10px;
-$margin-post-title-underbar-horizontal: 0;
-
-// padding
-$padding-main-vertical: 20px;
-$padding-main-horizontal: 40px;
-$padding-feed-top: $margin-bottom-feed-item;
-$padding-vertical-feed-item: 6px;
-$padding-heading-vertical: 0px;
-$padding-heading-horizontal: 20px;
-$padding-pre-vertical: 10px;
-$padding-pre-horizontal: $padding-main-horizontal;
-
-// width
-$max-width-body: 600px;
-$width-feed-item-data: 150px;
-
-// height
-$height-pre-scrollbar: 6px;
+$font-size-h0: 26pt;
+$font-size-h1: 24pt;
+$font-size-h2: 22pt;
+$font-size-h3: 20pt;
+$font-size-h4: 18pt;
+$font-size-h5: 16pt;
+$font-size-h6: 14pt;
+$font-size-body: 12pt;

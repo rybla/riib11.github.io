@@ -8,39 +8,25 @@ layout: default
     <a class="un-a" href="#">{{ page.title }}</a>
   </div>
 
-  <div class="post-data">
-
-    {% if page.status %}
-      <!-- status -->
-      <br><div class="post-status">[{{ page.status }}]</div>
-    {% endif %}
-
-    <br>
-
-    <!-- date -->
-    <div class="post-date">{{ page.date | date: "%Y/%m/%d" }}</div>
-
-    <br>
-
-    <!-- categories -->
-    <div class="post-categories">
-      {% for category in page.categories %}
-      <a class="post-category" href="/categories/#{{ category | escape }}">
-        <div>#{{ category }}</div>
-      </a>
-      {% endfor %}
-    </div>
-
+  <!-- categories -->
+  <div class="post-categories">
+    {% for category in page.categories %}
+    <a class="category un-a" href="/categories/#{{ category | escape }}">
+      <div>{{ category }}</div>
+    </a>
+    {% endfor %}
   </div>
 
-  <br>
+  <!-- date -->
+  <div class="post-date">{{ page.date | date: "%Y/%m/%d" }}</div>
 
-  <div class="post-title-underbar"></div>
+  {% if page.status %}
+    <!-- status -->
+    <div class="post-status">[{{ page.status }}]</div>
+  {% endif %}
 
   {% if page.table_of_contents  %}
     {% include table_of_contents.html %}
-
-    <div class="post-title-underbar"></div>
   {% endif %}
 
   <div class="post-content">

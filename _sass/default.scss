@@ -1,53 +1,6 @@
-html {
-  margin: 0;
-  padding: 0;
-
-  background-color: $color-background0;
-}
-
 body {
-  margin: auto;
-  padding: 0;
-
-  max-width: $max-width-body;
-
-  background-color: $color-background;
-  box-shadow: 0 0 5px 0 $color-foreground;
-
-  font-family: spectral;
 }
-
-button {
-  font-family: spectral;
-}
-
-p > code {
-  font-size: $font-size-code-inline;
-}
-
-pre > code {
-  // font-family: firacode;
-  font-family: dankmono;
-  color: $color-code;
-  font-size: $font-size-code-block;
-}
-
-a {
-  color: $color-accent2;
-  text-decoration: underline;
-}
-
-.un-a {
-  color: $color-text;
-  text-decoration: none;
-}
-
-.hidden {
-  display: none;
-  visibility: hidden;
-}
-
-.collapsed-vertical {
-  height: 0;
-  overflow-y: hidden;
+main {
+  max-width: 40em;
+  padding: 2em 1em;
 }

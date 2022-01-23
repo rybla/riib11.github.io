@@ -60,6 +60,8 @@ function make_table_of_contents() {
     ols[hl].appendChild(li);
     let a = document.createElement("a");
     li.appendChild(a);
+    a.classList.add("un-a");
+    a.classList.add("table-of-contents-item");
     a.href = "#"+id;
     a.innerText = text;
     elem.id = id;

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Metaprogramming via Dependent Types
+title: Mesaprogramming
 categories: computics
 abstract:
   In general, metaprogramming is implemented in a type-unsafe way i.e. it
