@@ -237,8 +237,71 @@ negate _ True ==> False
 ```
 
 where Haskell's type inference would figure out the type of `_`, which uniquely
-specifies the singleton constructor. Though I doubt this is easily accomplished,
-if possible in Haskell at all.
+specifies the singleton constructor. This idea is not directly impossible in
+Haskell though.
+
+However, can can do something similar by using typeclasses and injective type
+families. In the following module `OverloadSingletonI`, there are three main
+changes upon `OverloadSingleton`:
+
+1. The type family `OverloadType` is injective. This is necessary because TODO.
+2. The class `SOverloadModeI` can provide `SOverloadMode` as a sort of implicit
+   argument via a typeclass constraint. TODO: justify use of typeclasses
+3. The function `negate` now uses the `sOverloadMode` method provided by the
+   `SOverloadModeI` typeclass constraint in order to call `negate'` which takes
+   the argument explicitly. TODO: explain how typeclass constraint is like an
+   implicit argument.
+
+```haskell
+{-# LANGUAGE GADTs, KindSignatures, DataKinds, RankNTypes, TypeFamilies, TypeFamilyDependencies, AllowAmbiguousTypes, ScopedTypeVariables #-}
+
+module OverloadSingletonI where
+
+import Prelude hiding (negate)
+
+data NegateMode = NegateInt | NegateBool
+
+data SNegateMode :: NegateMode -> * -> * where
+  SNegateInt :: SNegateMode NegateInt (Int -> Int)
+  SNegateBool :: SNegateMode NegateBool (Bool -> Bool)
+
+type family NegateType (mode :: NegateMode) = r | r -> mode where
+  NegateType NegateInt = Int -> Int
+  NegateType NegateBool = Bool -> Bool
+
+class SNegateModeI (mode :: NegateMode) where
+  sNegateMode :: SNegateMode mode (NegateType mode)
+
+instance SNegateModeI NegateInt where
+  sNegateMode = SNegateInt
+
+instance SNegateModeI NegateBool where
+  sNegateMode = SNegateBool
+
+negate :: forall (mode :: NegateMode). SNegateModeI mode => NegateType mode
+negate = negate' sNegateMode
+
+negate' :: forall (mode :: NegateMode). SNegateMode mode (NegateType mode) -> NegateType mode
+negate' SNegateInt = \x -> (- x)
+negate' SNegateBool = \b -> not b
+
+negate_1 :: Int
+negate_1 = negate (1 :: Int)
+
+negate_True :: Bool
+negate_True = negate True
+```
+
+Usage now looks like this:
+
+```haskell
+negate (1 :: Int) :: Int ==> -1
+negate True :: Bool ==> False
+```
+
+Note that the type annotations are now necessary in order for type inference to
+work. This is because, otherwise, the output type is just a type variable, and
+GHC would try to solve `Int -> t ~ NegateType mode` which it cannot.
 
 ## Overloading with Π
 
