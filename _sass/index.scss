@@ -1,66 +1,26 @@
 .feed {
-  padding-top: 30px;
+  padding: 1em 0;
 }
 
 .feed-item {
-  margin-bottom: $margin-bottom-feed-item;
+  margin-bottom: 2.5em;
 }
 
 .feed-item-title {
   display: block;
-  width: 100%;
+  margin-bottom: 0.2em;
 
-  margin-left: -$padding-main-horizontal;
-  padding: $padding-vertical-feed-item $padding-main-horizontal;
-
-  background-color: $color-foreground;
-  color: $color-background;
-
-  font-size: $font-size-feed-item-title;
-}
-
-.feed-item-body {
-
-}
-
-.feed-item-body-inner {
-  margin: $margin-feed-item-body-inner-vertical $margin-feed-item-body-inner-horizontal;
-  overflow-y: auto;
-}
-
-.feed-item-abstract {
-  display: block;
-  float: left;
-  width: $max-width-body - 2*$padding-main-horizontal - 2*$margin-feed-item-body-inner-horizontal - $width-feed-item-data - 10px;
-  max-width: 100%;
-
-  font-size: $font-size-normal;
-}
-
-.feed-item-data {
-  display: block;
-  float: right;
-  vertical-align: top;
-  width: $width-feed-item-data;
-}
-
-.feed-item-date {
-  display: block;
-  float: right;
-
-  font-size: $font-size-normal;
-  font-style: $font-style-date;
+  font-size: $font-size-h3;
+  color: black;
 }
 
 .feed-item-categories {
-  display: block;
-  float: right;
-  text-align: right;
+  margin-bottom: 0.2em;
 }
 
-.feed-item-category {
-  display: inline-block;
-  margin-left: 5px;
+.feed-item-date {
+  margin-bottom: 0.4em;
+}
 
-  font-size: $font-size-normal;
+.feed-item-abstract {
 }

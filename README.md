@@ -1,8 +1,9 @@
 # README
 
-This is Henry Blanchette's website.
-The purpose of this website is to informally share Henry's projects and items of interest for public reference.
-Some common topics are programming, computics, mathematics, philosophy, game theory, game design, politics, and (crypto)economics.
+This is Henry Blanchette's website. The purpose of this website is to informally
+share Henry's projects and items of interest for public reference. Some common
+topics are programming, computics, mathematics, philosophy, game theory, game
+design, politics, and (crypto)economics.
 
 ## TODO
 
@@ -15,6 +16,6 @@ Some common topics are programming, computics, mathematics, philosophy, game the
   - [x] screen scaling
   - [x] hyperstyle elements
 - [x] automated posts' table of contents with links to header ids
-- [x] syntax highlighting with matching theme
+- [ ] syntax highlighting with matching theme
 - [x] "categories" page
 - [x] "projects" page

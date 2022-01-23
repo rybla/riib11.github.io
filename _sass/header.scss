@@ -1,31 +1,29 @@
 header {
-  margin: 0;
-  padding: $padding-main-vertical $padding-main-horizontal;
+  // padding: 2em 1em;
+  // width: (10 - 2em);
 
-  background: $color-foreground;
+  padding-left: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+  background-color: $color-dark;
+  color: white;
 }
 
-
-.site-title {
-  margin-bottom: 10px;
-
+.header-title {
   display: block;
+  margin-bottom: 0.5em;
 
-  color: $color-background;
-  font-size: $font-size-site-title;
-
-  div {
-
-  }
+  font-size: $font-size-h0;
+  color: white;
 }
 
-.site-navigation {
-
+.header-navigation {
 }
 
-.site-navigation-item {
-  padding-right: 10px;
+.header-navigation-item {
   display: inline-block;
+  margin-right: 1em;
 
-  color: $color-accent1;
+  color: white;
 }

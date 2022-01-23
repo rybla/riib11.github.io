@@ -1,13 +1,15 @@
+<header>
 <!-- title -->
-<a class="site-title un-a" href="/">
+<a class="header-title un-a" href="/">
   <div>{{ site.title }}</div>
 </a>
 
 <!-- navigation -->
-<div class="site-navigation">
+<div class="header-navigation">
   {% for page-title in site.page-titles %}
-  <a class="site-navigation-item un-a" href="/{{ page-title | escape }}">
-    <div>{{ page-title }}</div>
+  <a class="header-navigation-item un-a" href="/{{ page-title | escape }}">
+    {{ page-title }}
   </a>
   {% endfor %}
 </div>
+</header>

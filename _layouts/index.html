@@ -3,38 +3,31 @@ layout: default
 ---
 
 <div class="feed">
+  
   {% for post in site.posts %}
   <div class="feed-item">
+
     <!-- title -->
-    <a class="feed-item-title un-a" href="{{ post.url | relative_url }}">
-      <div>{{ post.title }}</div>
-    </a>
+    <div><a class="feed-item-title un-a" href="{{ post.url | relative_url }}">
+        <div>{{ post.title }}</div>
+      </a></div>
+    
+    <!-- categories -->
+    <div class="feed-item-categories">
+      {% for category in post.categories %}
+      <a class="category un-a" href="/categories/#{{ category | escape }}">
+        {{ category }}
+      </a>
+      {% endfor %}
+    </div>
 
-    <!-- body -->
-    <div class="feed-item-body"><div class="feed-item-body-inner">
-
-      <!-- abstract -->
-      <div class="feed-item-abstract">{{ post.abstract }}</div>
-
-      <!-- data -->
-      <div class="feed-item-data">
-
-        <!-- date -->
-        <div class="feed-item-date">{{ post.date | date: "%Y/%m/%d" }}</div><br>
-
-        <!-- categories -->
-        <div class="feed-item-categories">
-          {% for category in post.categories %}
-          <a class="feed-item-category" href="/categories/#{{ category | escape }}">
-            <div>#{{ category }}</div>
-          </a>
-          {% endfor %}
-        </div>
-
-      </div>
-
-    </div></div>
+    <!-- date -->
+    <div class="feed-item-date">{{ post.date | date: "%Y/%m/%d" }}</div>
+    
+    <!-- abstract -->
+    <div class="feed-item-abstract">{{ post.abstract }}</div>
 
   </div>
   {% endfor %}
+  
 </div>

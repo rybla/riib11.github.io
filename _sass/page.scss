@@ -1,19 +1,16 @@
 .page {
-
 }
 
 .page-title {
-  font-size: $font-size-page-title;
+  display: block;
+  margin-bottom: 0.4em;
+
+  font-size: $font-size-h0;
+  color: black;
 }
 
 .page-title-underbar {
-  border: none;
-  border-bottom: 1px solid $color-foreground;
-
-  width: 110%;
-  margin-left: -5%;
 }
 
 .page-content {
-
 }

@@ -1,0 +1,96 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.un-a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-size: $font-size-h1;
+}
+h2 {
+  font-size: $font-size-h2;
+}
+h3 {
+  font-size: $font-size-h3;
+}
+h4 {
+  font-size: $font-size-h4;
+}
+h5 {
+  font-size: $font-size-h5;
+}
+h6 {
+  font-size: $font-size-h6;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+pre {
+  width: calc(100% - 2em);
+  padding: 1em;
+  overflow: scroll;
+  box-shadow: -0.3em 0 0 0 $color-dark;
+  background-color: rgb(240, 240, 240);
+}
+
+ol {
+  padding-left: 1em;
+}
+
+ul {
+  padding-left: 1em;
+}
+
+th {
+  text-align: left;
+}
+
+table,
+td {
+  border: 1px solid black;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+
+  box-shadow: 0 0 0 1px black inset;
+}
+
+thead {
+  background-color: black;
+}
+
+th {
+  padding: 0.2em;
+  vertical-align: top;
+
+  color: white;
+  font-weight: normal;
+}
+
+tbody {
+}
+
+tr {
+}
+
+td {
+  padding: 0.2em;
+  vertical-align: top;
+}
