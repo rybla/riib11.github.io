@@ -8,7 +8,7 @@
 <div class="header-navigation">
   {% for page-title in site.page-titles %}
   <a class="header-navigation-item un-a" href="/{{ page-title | escape }}">
-    {{ page-title }}
+    {{ page-title | capitalize }}
   </a>
   {% endfor %}
 </div>

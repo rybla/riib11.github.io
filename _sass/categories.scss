@@ -2,7 +2,8 @@
   display: inline-block;
   margin: 0;
   margin-top: 1em;
-  padding: 0 0.1em;
+  padding: 0 0.2em;
+  border-radius: 0.2em;
 
   // box-shadow: 0 0 0 0.1em rgb(214, 214, 214); // black;
   background-color: rgb(214, 214, 214);
@@ -10,9 +11,9 @@
 
 .category {
   display: inline-block;
-  padding: 0 0.1em;
+  padding: 0 0.2em;
   margin-right: 0.2em;
+  border-radius: 0.2em;
 
-  // box-shadow: 0 0 0 0.1em black;
   background-color: rgb(214, 214, 214);
 }
