@@ -1,9 +1,13 @@
 ---
 ---
 
+html {
+  margin: 0;
+  padding: 0;
+}
+
 @import "fonts";
 @import "colors";
-@import "constants";
 @import "font_sizes";
 
 @import "base";
