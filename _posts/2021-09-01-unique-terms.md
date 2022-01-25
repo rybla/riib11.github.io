@@ -9,7 +9,7 @@ author: Henry Blanchette
 table_of_contents: false
 ---
 
-## In the polymorphic λ-calculus
+# In the polymorphic λ-calculus (System F)
 
 The polymorphic λ-calculus has the following grammar
 
@@ -46,7 +46,7 @@ proj2 = ...
 proj<i> = proj2 o ... o proj2 o proj1 :: (... * a * ...) -> a
 ```
 
-## In the dependently-typed λ-calculus
+# In the dependently-typed λ-calculus
 
 ```
 <judgment> ::= <term> :: <term>
@@ -67,6 +67,4 @@ id = λ A x . x :: Π (A : U) (x : A) . A
 apply = λ A B f x . f x :: Π (A : U) (B : U) (f : A -> B) (x : A) -> B
 
 const = λ A B x y . x :: Π (A : U) (B : U) (x : A) (y : B) -> A
-
-
 ```

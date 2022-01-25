@@ -10,6 +10,8 @@ author: Henry Blanchette
 table_of_contents: false
 ---
 
+# Contrasting Puzzle and Strategy Games
+
 What distinguishes a puzzle game from a strategy game?
 
 To be clear, I have the following meanings in mind:
@@ -131,7 +133,7 @@ distinguished it from a puzzle, this implies that
 Strategy games are puzzles where the computational power provided to players is
 insufficient to compute the solution.
 
-## Solving a Strategy Game
+# Solving a Strategy Game
 
 On important condition on this claim is the “computation power provided to
 players” part. The computational power provided to players could be whatever

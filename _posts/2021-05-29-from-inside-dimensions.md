@@ -9,7 +9,7 @@ author: Henry Blanchette
 table_of_contents: false
 ---
 
-## The Usual World
+# The Usual World
 
 In order to compare dimension-related experiences between different
 configurations, first let's categorize dimension-related experiences and the
@@ -45,7 +45,7 @@ numbers describing relative spacial positions to be different, for example). But
 are these changes _really_ different, or are they different ways of talking
 about the same thing?
 
-## Invariant Transformations
+# Invariant Transformations
 
 To answer this question, we need to specify what mean by "different" and "same".
 What we want to achieve in the answer is that dimensional configurations that
@@ -85,7 +85,7 @@ configuration should be in a different category from the transformed
 configuration; the original configuration and the transformed configuration are
 distinguishable from an inside perspectve.
 
-## Variant Transformations
+# Variant Transformations
 
 What other kinds of transformations can be done to configurations that produce
 new categories? i.e. variant **transformations** or **variants**.
