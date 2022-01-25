@@ -3,6 +3,18 @@ html {
   padding: 0;
 }
 
+@media (max-width: 550px) {
+  html {
+    font-size: $font-size-root-mobile;
+  }
+}
+
+@media (min-width: 551px) {
+  html {
+    font-size: $font-size-root-desktop;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -23,28 +35,40 @@ h6 {
   font-weight: normal;
 }
 
+div,
 p {
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+  word-break: normal;
+}
+
+p,
+blockquote,
+li {
   line-height: 1.4 * $font-size-body;
 }
 
 pre {
   width: calc(100% - 2em);
-  padding: 1em;
+  padding: 1rem;
   overflow: scroll;
-  box-shadow: -0.3em 0 0 0 $color-dark;
+  box-shadow: -0.3rem 0 0 0 $color-dark;
   background-color: rgb(240, 240, 240);
 }
 
 ol {
-  padding-left: 1.5em;
+  padding-left: 1.5rem;
 }
 
 ol > ol {
-  padding-left: 1.2em;
+  padding-left: 1.2rem;
 }
 
 ul {
-  padding-left: 1em;
+  padding-left: 1rem;
 }
 
 th {
@@ -68,7 +92,7 @@ thead {
 }
 
 th {
-  padding: 0.2em;
+  padding: 0.2rem;
   vertical-align: top;
 
   color: white;
@@ -82,13 +106,13 @@ tr {
 }
 
 td {
-  padding: 0.2em;
+  padding: 0.2rem;
   vertical-align: top;
 }
 
 blockquote {
-  box-shadow: -1em 0 0 0 white, -1.1em 0 0 0 black, 1em 0 0 0 white,
-    1.1em 0 0 0 black;
+  box-shadow: -1rem 0 0 0 white, -1.1rem 0 0 0 black, 1rem 0 0 0 white,
+    1.1rem 0 0 0 black;
 }
 
 pre::-webkit-scrollbar {

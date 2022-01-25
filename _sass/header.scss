@@ -1,17 +1,17 @@
 header {
-  // padding: 2em 1em;
+  // padding: 2rem 1rem;
   // width: (10 - 2em);
 
-  padding-left: 1em;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-left: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 
   background-color: $color-dark;
   color: white;
 }
 
 .header-title {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5rem;
 
   font-size: $font-size-h0 !important;
   color: white;
@@ -27,12 +27,12 @@ header {
 
 .header-navigation-item {
   display: inline-block;
-  margin-right: 0.5em;
+  margin-right: 0.5rem;
 
   color: white;
 }
 
 .header-navigation-item-separator {
   display: inline-block;
-  margin-right: 0.5em;
+  margin-right: 0.5rem;
 }
