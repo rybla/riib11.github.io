@@ -4,7 +4,7 @@ layout: page
 
 {% assign categories_sorted = site.categories | sort %}
 {% for category in categories_sorted %}
-<h3 class="category-title" id="{{ category.first | escaper }}">{{ category.first }}</h3>
+<h1 class="category-title" id="{{ category.first | escaper }}">{{ category.first }}</h1>
 <ul>
   {% for post in category.last %}
   <li>

@@ -11,11 +11,14 @@ header {
 }
 
 .header-title {
-  display: block;
   margin-bottom: 0.5em;
 
-  font-size: $font-size-h0;
+  font-size: $font-size-h0 !important;
   color: white;
+
+  a {
+    color: white;
+  }
 }
 
 .header-navigation {

@@ -8,9 +8,9 @@ layout: default
   <div class="feed-item">
 
     <!-- title -->
-    <div><a class="feed-item-title un-a" href="{{ post.url | relative_url }}">
-        <div>{{ post.title }}</div>
-      </a></div>
+    <div class="feed-item-title">
+      <a class="un-a" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </div>
     
     <!-- categories -->
     <div class="feed-item-categories">

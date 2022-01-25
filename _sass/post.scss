@@ -2,7 +2,7 @@
 }
 
 .post-title {
-  font-size: $font-size-h0;
+  font-size: $font-size-h0 !important;
 
   margin-bottom: 0.4em;
 }
@@ -23,4 +23,8 @@
 
 img {
   width: 100%;
+}
+
+.table-of-contents {
+  margin: 2em 0;
 }

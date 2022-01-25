@@ -1,8 +1,10 @@
-$font-size-h0: 26pt;
-$font-size-h1: 24pt;
-$font-size-h2: 22pt;
-$font-size-h3: 20pt;
-$font-size-h4: 18pt;
-$font-size-h5: 16pt;
-$font-size-h6: 14pt;
-$font-size-body: 12pt;
+$font-size-body: 16px;
+
+$font-size-h0: $font-size-body + 14px;
+$font-size-h1: $font-size-body + 12px;
+$font-size-h2: $font-size-body + 10px;
+$font-size-h3: $font-size-body + 8px;
+$font-size-h4: $font-size-body + 6px;
+$font-size-h5: $font-size-body + 4px;
+$font-size-h6: $font-size-body + 2px;
+$font-size-code: $font-size-body - 2px;
