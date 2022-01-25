@@ -90,3 +90,12 @@ blockquote {
   box-shadow: -1em 0 0 0 white, -1.1em 0 0 0 black, 1em 0 0 0 white,
     1.1em 0 0 0 black;
 }
+
+pre::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+pre {
+  -ms-overflow-style: none; /* IE, Edge */
+  scrollbar-width: none; /* Firefox */
+}
