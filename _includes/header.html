@@ -6,10 +6,12 @@
 
 <!-- navigation -->
 <div class="header-navigation">
+  <span class="header-navigation-item-separator">|</span>
   {% for page-title in site.page-titles %}
   <a class="header-navigation-item un-a" href="/{{ page-title | escape }}">
     {{ page-title | capitalize }}
   </a>
+  <span class="header-navigation-item-separator">|</span>
   {% endfor %}
 </div>
 </header>

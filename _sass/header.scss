@@ -22,11 +22,17 @@ header {
 }
 
 .header-navigation {
+  font-size: $font-size-body;
 }
 
 .header-navigation-item {
   display: inline-block;
-  margin-right: 1em;
+  margin-right: 0.5em;
 
   color: white;
+}
+
+.header-navigation-item-separator {
+  display: inline-block;
+  margin-right: 0.5em;
 }
