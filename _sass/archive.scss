@@ -1,0 +1,11 @@
+.archive-item-date {
+  font-style: italic;
+}
+
+@media (max-width: $max-width-mobile) {
+  .archive-item-date-container {
+    display: none;
+  }
+}
+
+// @media (min-width: $min-width-desktop) {}

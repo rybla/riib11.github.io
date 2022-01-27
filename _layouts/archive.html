@@ -5,7 +5,7 @@ layout: page
 <ul>
   {% for post in site.posts %}
   <li>
-    {{ post.date | date: "%Y/%m/%d" }}:
+    <span class="archive-item-date-container">[<span class="archive-item-date">{{ post.date | date: "%Y/%m/%d" }}</span>]</span>
     <a href="{{ post.url | relative_url }}">
       {{ post.title }}
     </a>
