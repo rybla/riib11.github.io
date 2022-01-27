@@ -7,18 +7,19 @@
 
 .feed-item-title {
   display: block;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.4rem;
 
   font-size: $font-size-h1 !important;
   color: black;
 }
 
 .feed-item-categories {
-  margin-bottom: 0.2rem;
 }
 
 .feed-item-date {
+  // margin-top: -0.4rem;
   margin-bottom: 0.4rem;
+  font-style: italic;
 }
 
 .feed-item-abstract {
