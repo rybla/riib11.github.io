@@ -58,3 +58,11 @@ quarantine if I continued to lack symptoms. I decided to work from home one more
 time the next day just to be sure, but I figured I was safe to go out and buy
 groceries, etc. as normal as long as I wore a mask. My plan was to return to the
 office on June 22.
+
+On June 22, I successfully returned to my normal office-going work schedule. I
+wore a surgical mask while in the office and public areas until June 26 (which
+is the end of the 10-day period that the CDC reccomended to continue wearing a
+mask after developing symptoms).
+
+As on July 9, I have not, at far as I can tell, experienced any ["long COVID"](https://www.cdc.gov/coronavirus/2019-ncov/long-term-effects/index.html)
+symptoms, such as [brain fog](https://www.health.harvard.edu/blog/brain-fog-memory-and-attention-after-covid-19-202203172707).
