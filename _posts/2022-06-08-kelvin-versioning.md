@@ -125,7 +125,7 @@ practically force users to just trust the project developer. Semvar has been
 widely settled upon as the best way to select and encode a minimal set of
 semantic relationships that's worth the continuous effort.
 
-### kevler
+### kelver
 
 Historical semantic relationships are, however, only backwards-facing.
 Future-facing semantic relationships are also important and are most commonly
