@@ -228,10 +228,10 @@ change a new version represents, and kelver needs some similar kind of
 quantification.
 
 Here I propose an augmented kelver, __staver__, that preserves the spirit of the
-original kelver while vastlye improving its usefulness, feasibility, and
+original kelver while vastly improving its usefulness, feasibility, and
 incentivization of good organization by encoding slightly more information.
 
-- __staver__: the vesion is a pair of natural numnbers, the _stability_ which
+- __staver__: the version is a pair of natural numbers, the _stability_ which
   counts down from a developer-chosen number, and the _patch_ which counts up
   from 0, written `stability.patch`. A new _stability_ version indicates a new
   feature or compatibility-breaking change (which should be the same, for the
@@ -241,13 +241,13 @@ incentivization of good organization by encoding slightly more information.
 
 When the developer chooses a starting stability version, they may want to
 overshoot slightly in case they have to make more breaking changes down the road
-than they expected, but its much much more feasible to anditipate how many more new
+than they expected, but its much much more feasible to anticipate how many more new
 features you'll add and breaking changes you'll have to make than how many bugs
 you'll have to fix. And for the projects that desire some sort of
-stability-focussed versioning like kelver or staver, new features are
+stability-focused versioning like kelver or staver, new features are
 essentially synonymous with breaking changes, since a new feature is outside the
 specification of the previous stability version. Additionally, all bugs in the
-same stability version can be addressed without worry of the stability
+same stability version can be addressed without the worry of stability
 limitations, via patch versions. Kelver introduced a hack called "release
 candidates" which is similar to patch versions but don't count as real versions
 and in that way have none of the structure imposed upon them that software
@@ -255,14 +255,14 @@ engineers learned to make great use of. Patch versions maintain that usefulness,
 which still enforcing the restrictions of kelver when it comes to breaking
 changes.
 
-Since its so much more feasible for the developer to choose precise stability
+Since it's so much more feasible for the developer to choose precise stability
 versions rather than being strongly incentivized to overshoot, the stability
 version can be expected to be much more precise. Of course, sometimes developers
 will still want to overshoot due to large uncertainties about the future of the
 project, but then as the future becomes more certain and the stability version
-falls quickly, it is more sensitively capturing the solidification of the future
-of the project than kelver where you can only really affort to start dropping
-the version much once you are at the very end of a project.
+falls quickly, it more sensitively captures the solidification of the future
+of the project than kelver where you can only really afford to start dropping
+the version by much once you are at the very end of a project.
 
 ## Definitions of Versioning Schemes
 
