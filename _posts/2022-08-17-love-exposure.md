@@ -1,11 +1,11 @@
-----
+---
 layout: post
 title: Love Exposure
 abstract: The story of Aya Koike’s pursuit for love.
 author: Henry Blanchette
 categories: movie short-story
 table_of_contents: false
-----
+---
 
 _(This story is based on the Sion Sono's ["Love Exposure"](https://en.wikipedia.org/wiki/Love_Exposure))_
 
