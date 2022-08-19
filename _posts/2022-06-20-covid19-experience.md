@@ -1,18 +1,18 @@
 ---
 layout: post
-title: My Experience with the Great COVID-19 Virus
+title: My Experience with the Great SARS-CoV-2 Virus
 categories: biography
 abstract:
-  I recently contracted COVID-19. Here's my story.
+  I recently contracted SARS-CoV-2. Here's my story.
 author: Henry Blanchette
 table_of_contents: false
 ---
 
-I recently contracted the COVID-19 virus, with my symptoms starting on
-June 15 and my first positive tests (1 PCR and 1 rapid antigen) on
-June 17. I had attended a college reunion on the weekend June 11-12, which was a
-large gathering of hundreds of people. The event was almost entirely outside,
-but people were often very close together. The event lines up when I developed
+I recently contracted the SARS-CoV-2 virus, with my symptoms starting on June 15
+and my first positive tests (1 PCR and 1 rapid antigen) on June 17. I had
+attended a college reunion on the weekend June 11-12, which was a large
+gathering of hundreds of people. The event was almost entirely outside, but
+people were often very close together. The event lines up when I developed
 symptoms, and my family who attended the event with me also developed symptoms
 at the same time as me, even though we parted on June 13, so I heavily suspect
 that this event is where I contracted the virus.
@@ -32,27 +32,27 @@ felt during my sickness. I didn't feel very bad -- I've been sick with the
 seasonal flu much worse many times before -- but I could tell that it was not
 over with like I had thought that morning. I decided I would work form home the
 next day and also go to a testing center to get a PCR test. All the symptoms I
-had were consistent with a COVID contraction, so I thought it was likely. I
-slept fine that night, though with mild congestion.
+had were consistent with COVID-19, so I thought it was likely. I slept fine that
+night, though with mild congestion.
 
 On the morning of June 17, I felt the same as the night before except my
 headache was gone. I went to the testing center to take a PCR test. I would get
 the results of this test in about 24 hours. When I got back to my house, I
 notified my landlord (who is an older man) that I was concerned I may have
-COVID, and he offered me a rapid antigen test kit. I tested positive on this
-test, so started my quarantine. I asked my family if they had any symptoms, and
-they mentioned that my dad had developed a sore throat as well. He tested
-positive on a rapid antigen test as well. I felt very mild symptoms for the rest
-of the day, and slept fine.
+COVID-19, and he offered me a rapid antigen test kit. I tested positive on this
+test, and so started my quarantine. I asked my family if they had any symptoms,
+and they mentioned that my dad had developed a sore throat as well. They all
+then took rapid antgen tests and he tested positive. I felt very mild symptoms
+for the rest of the day, and slept fine.
 
 On June 18 my symptoms were slightly less severe. My mild congestion and sore
 throat persisted.
 
 On June 19 my symptoms were almost gone. My congestion was gone, and my sore
-throat manifested as about 2 short coughing sessions during the day.
+throat manifested as about two short coughing sessions during the day.
 
 One June 20 my symptoms were entirely gone. I still had a little big of phlegm
-in my throat that I spit up about 2 times during the day, but I didn't need to
+in my throat that I spit up about two times during the day, but I didn't need to
 cough. According to the CDC reccomendations, this was to be my last day of
 quarantine if I continued to lack symptoms. I decided to work from home one more
 time the next day just to be sure, but I figured I was safe to go out and buy
