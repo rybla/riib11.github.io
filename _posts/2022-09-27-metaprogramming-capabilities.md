@@ -14,35 +14,29 @@ language as data. Many advanced programming languages provide some sort of
 metaprogramming capabilities, for example:
 - Haskell
   - _templates_ (_TemplateHaskell_): splice syntax
-  - _type classes_:
-	splice function definitions
+  - _type classes_: splice function definitions
 - Agda
   - _reflection_: inspect syntax
-  - _macros_:  splice syntax - _syntax
-	notations_: splice syntax
+  - _macros_:  splice syntax - _syntax notations_: splice syntax
 - Coq
   - _reflection_ and  _templates_ (_Template-Coq_ via _MetaCoq_): inspect
-	syntax, splice syntax
+    syntax, splice syntax
   - _notations_: splice syntax 
-  - _tactics_: splice terms,
-	match on context
+  - _tactics_: splice terms, match on context
 - Lean
   - _macros_: splice syntax
-  - _notations_: splice syntax - _tactics_:
-	splice terms, match on context
+  - _notations_: splice syntax - _tactics_: splice terms, match on context
 - Rust
   - _macros_: splice syntax
 - C++
-  - _templates_: splice function and class definitions (used for
-	polymorphism)
+  - _templates_: splice function and class definitions (used for polymorphism)
   - _macros_: splice text
 - Python 
   - _meta classes_: splice classes 
   - _eval_: interpret syntax
 - JavaScript 
   - _proxies_: intercept semantics 
-  - _reflection_: inspect syntax -
-	_eval_: interpret syntax
+  - _reflection_: inspect syntax - _eval_: interpret syntax
 
 Overall, I group these capabilities into the following categories:
 - *Reflection* — inspect syntax. Examples: reflection, eval.
