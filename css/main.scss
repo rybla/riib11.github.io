@@ -1,10 +1,6 @@
----
----
-
-html {
-  margin: 0;
-  padding: 0;
-}
+--- 
+--- 
+// don't delete; removing this causes scss to break
 
 @import "fonts";
 @import "colors";
@@ -21,3 +17,5 @@ html {
 @import "archive";
 @import "table_of_contents";
 @import "categories";
+
+@import "highlight";
