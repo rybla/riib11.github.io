@@ -7,6 +7,8 @@ author: Henry Blanchette
 table_of_contents: true
 ---
 
+## Overview
+
 A *metaprogram* is a program that operates on the syntax of a programming
 language as data. Many advanced programming languages provide some sort of
 metaprogramming capabilities, for example:
