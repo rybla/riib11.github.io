@@ -8,7 +8,7 @@ abstract:
   workshops. What are the goals of such conferences, and how well do they
   achieve them in practice?
 author: Henry Blanchette
-table_of_contents: false
+table_of_contents: true
 ---
 
 # Introduction

@@ -12,13 +12,13 @@ function make_table_of_contents() {
   if (document.getElementsByClassName("post-content").length > 0) {
     elems = document.getElementsByClassName("post-content")[0].children;
   } else
-  if (document.getElementsByClassName("page-content").length > 0) {
-    elems = document.getElementsByClassName("page-content")[0].children;
-  }
+    if (document.getElementsByClassName("page-content").length > 0) {
+      elems = document.getElementsByClassName("page-content")[0].children;
+    }
 
   let l = 0; // level
   let hls = [];
-  for (let elem_i = 0; elem_i < elems.length; elem_i ++) {
+  for (let elem_i = 0; elem_i < elems.length; elem_i++) {
     let elem = elems[elem_i];
     let hl = header_level(elem);
     if (hl >= 0) hls.push([hl, elem.innerText, elem]);
@@ -31,10 +31,10 @@ function make_table_of_contents() {
 
   let prev_hl = 0;
 
-  for (let i = 0; i < hls.length; i ++) {
+  for (let i = 0; i < hls.length; i++) {
     let hl = hls[i][0];
     let text = hls[i][1];
-    let id = escape(text.split(" ").join("-"));
+    let id = text.split(" ").join("-");
     let elem = hls[i][2];
 
     // go outer
@@ -43,26 +43,26 @@ function make_table_of_contents() {
         let ol = document.createElement("ol");
         ols[prev_hl].appendChild(ol);
         ols.push(ol);
-        prev_hl ++;
+        prev_hl++;
       }
     } else
 
-    // go inner
-    if (hl < prev_hl) {
-      while (hl < prev_hl) {
-        ols.pop(); // remove outermost ol
-        prev_hl --;
+      // go inner
+      if (hl < prev_hl) {
+        while (hl < prev_hl) {
+          ols.pop(); // remove outermost ol
+          prev_hl--;
+        }
       }
-    }
 
     // add li to the appropriate ol
     let li = document.createElement("li");
     ols[hl].appendChild(li);
     let a = document.createElement("a");
     li.appendChild(a);
-    a.classList.add("un-a");
+    // a.classList.add("un-a");
     a.classList.add("table-of-contents-item");
-    a.href = "#"+id;
+    a.href = "#" + id;
     a.innerText = text;
     elem.id = id;
   }

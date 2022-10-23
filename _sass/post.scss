@@ -1,5 +1,4 @@
-.post {
-}
+.post {}
 
 .post-title {
   margin-bottom: 0.4rem;
@@ -8,24 +7,22 @@
   line-height: 1em;
 }
 
-.post-categories {
-}
+.post-categories {}
 
 .post-date {
   margin-bottom: 0.4rem;
   font-style: italic;
 }
 
-.post-status {
+.post-status {}
+
+.post-content {}
+
+p img {
+  width: calc(100% + 4em);
+  margin-left: -2em;
 }
 
-.post-content {
-}
-
-img {
-  width: 100%;
-}
-
-.table-of-contents {
-  margin: 2rem 0;
-}
+// .table-of-contents {
+//   margin: 2rem 0;
+// }

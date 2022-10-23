@@ -7,7 +7,7 @@ abstract:
   -- the fact that players are computationally constrained from using the
   solution strategies makes strategy games different from puzzles.
 author: Henry Blanchette
-table_of_contents: false
+table_of_contents: true
 ---
 
 # Contrasting Puzzle and Strategy Games
