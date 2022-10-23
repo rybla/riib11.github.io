@@ -25,7 +25,8 @@ metaprogramming capabilities, for example:
   - _tactics_: splice terms, match on context
 - Lean
   - _macros_: splice syntax
-  - _notations_: splice syntax - _tactics_: splice terms, match on context
+  - _notations_: splice syntax
+  - _tactics_: splice terms, match on context
 - Rust
   - _macros_: splice syntax
 - C++
@@ -36,7 +37,8 @@ metaprogramming capabilities, for example:
   - _eval_: interpret syntax
 - JavaScript 
   - _proxies_: intercept semantics 
-  - _reflection_: inspect syntax - _eval_: interpret syntax
+  - _reflection_: inspect syntax 
+  - _eval_: interpret syntax
 
 Overall, I group these capabilities into the following categories:
 - *Reflection* — inspect syntax. Examples: reflection, eval.
