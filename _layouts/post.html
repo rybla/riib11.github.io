@@ -4,37 +4,41 @@ layout: default
 
 <div class="post">
 
-  <div class="post-title">
-    <a class="un-a" href="#">{{ page.title }}</a>
-  </div>
+  <div class="post-header">
 
-  <!-- categories -->
-  <div class="post-categories">
-    {% for category in page.categories %}
-    <a class="category un-a" href="/categories/#{{ category | escape }}">
-      <div>{{ category }}</div>
-    </a>
-    {% endfor %}
-  </div>
+    <div class="post-title">
+      <a class="un-a" href="#">{{ page.title }}</a>
+    </div>
 
-  <!-- date -->
-  <div class="post-date">{{ page.date | date: "%Y/%m/%d" }}</div>
+    <!-- categories -->
+    <div class="post-categories">
+      {% for category in page.categories %}
+      <a class="category un-a" href="/categories/#{{ category | escape }}">
+        <div>{{ category }}</div>
+      </a>
+      {% endfor %}
+    </div>
 
-  {% if page.status %}
+    <!-- date -->
+    <div class="post-date">{{ page.date | date: "%Y/%m/%d" }}</div>
+
+    {% if page.status %}
     <!-- status -->
     <div class="post-status">[{{ page.status }}]</div>
-  {% endif %}
+    {% endif %}
 
-  {% if page.table_of_contents  %}
+    {% if page.table_of_contents %}
     {% include table_of_contents.html %}
-  {% endif %}
+    {% endif %}
+
+  </div>
 
   <div class="post-content">
     {{ content }}
   </div>
 
   {% if page.table_of_contents %}
-    <script src="/scripts/table_of_contents.js"></script>
+  <script src="/scripts/table_of_contents.js"></script>
   {% endif %}
 
 </div>

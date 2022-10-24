@@ -1,16 +1,15 @@
-.page {
-}
+.page {}
 
 .page-title {
   display: block;
-  margin-bottom: 0.4rem;
+  padding: 0.5rem 0rem;
 
-  font-size: $font-size-h0 !important;
+  box-shadow: -0.5rem 0 0 0 white, -1rem 0 0 0 #181d34;
+
   color: black;
+  font-size: $font-size-h0 !important;
 }
 
-.page-title-underbar {
-}
+.page-title-underbar {}
 
-.page-content {
-}
+.page-content {}

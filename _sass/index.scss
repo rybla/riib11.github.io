@@ -1,7 +1,11 @@
-.feed {}
+.feed {
+  margin-top: 1.5rem;
+}
 
 .feed-item {
   margin-bottom: 2.5rem;
+  padding: 0.5rem 0;
+  box-shadow: -0.5rem 0 0 0 white, -1rem 0 0 0 #181d34;
 }
 
 .feed-item-title {

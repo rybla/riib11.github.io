@@ -33,7 +33,7 @@ h4,
 h5,
 h6 {
   font-weight: normal;
-  line-height: 1em;
+  line-height: 1.8rem;
   padding-top: 1.5rem;
 }
 
@@ -66,7 +66,7 @@ li {
 }
 
 pre {
-  width: calc(100% - 2em);
+  width: calc(100% - 2rem);
   padding: 1rem;
   overflow: scroll;
   box-shadow: -0.3rem 0 0 0 $color-dark;

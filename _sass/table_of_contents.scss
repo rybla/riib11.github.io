@@ -1,12 +1,15 @@
 .table-of-contents {
-  margin: 2em 0;
-  padding: 0 1em;
+  margin-top: 1rem;
 
-  box-shadow: 0.4rem 0 0 0 gray inset;
+  // margin: 2rem 0;
+  // padding: 0 1rem;
+
+  // box-shadow: 0.4rem 0 0 0 gray inset;
+  // box-shadow: -2rem 0 0 0 #181d34;
 }
 
 .table-of-contents-label {
-  margin-bottom: 1rem;
+  margin-bottom: 0.2rem;
   font-variant: small-caps;
 
   font-size: $font-size-h6;
