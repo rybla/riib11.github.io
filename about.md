@@ -21,10 +21,10 @@ mathematical modeling, and data analysis.
 
 | time | topic | association |
 | --- | --- | --- |
-| **2022** | <a href="https://github.com/Riib11/zypr">Zypr</a> | with [Jacob Prinz][jacob_prinz]; at [University of Maryland][umd] |
-| **2022** | <a href="https://github.com/Riib11/shape-lang-purs">Shape</a> | with [Jacob Prinz][jacob_prinz]; at [University of Maryland][umd] |
-| **2022** | <a href="https://github.com/Riib11/lh-tactics-test">Liquid Proof Macros</a> ([acm](https://dl.acm.org/doi/abs/10.1145/3546189.3549921))  | with [Leonidas Lampropoulos][leo_lamp] and [Niki Vazou][niki_vazou]; at [University of Maryland][umd] |
-| **2021** | <a href="https://github.com/Riib11/block-types">Block Types</a> | with [Jacob Prinz][jacob_prinz]; at [University of Maryland][umd] |
+| **2022** | <a href="https://github.com/Riib11/zypr">Zypr</a> -- a zippy (zipper-based) structure editor | with [Jacob Prinz][jacob_prinz]; at [University of Maryland][umd] |
+| **2022** | <a href="https://github.com/Riib11/shape-lang-purs">Shape</a> -- a well-typed structure editor | with [Jacob Prinz][jacob_prinz]; at [University of Maryland][umd] |
+| **2022** | <a href="https://github.com/Riib11/lh-tactics-test">Liquid Proof Macros</a> ([acm](https://dl.acm.org/doi/abs/10.1145/3546189.3549921)) -- tactical metaprogramming for Liquid Haskell proofs | with [Leonidas Lampropoulos][leo_lamp] and [Niki Vazou][niki_vazou]; at [University of Maryland][umd] |
+| **2021** | <a href="https://github.com/Riib11/block-types">Block Types</a> -- generating dependently-typed terms using type-preserving mutations | with [Jacob Prinz][jacob_prinz]; at [University of Maryland][umd] |
 | **2021** | <a href="https://github.com/Riib11/liquid-monadic-selectionsort">Extensional Equality in Liquid Haskell</a> | with [Leo Lampropolous][leo_lamp], [Niki Vazou][niki_vazou], and [Michael Greenberg](https://mgree.github.io); at [University of Maryland][umd] |
 | **2020** | <a href="{{ "/projects/generalized-price-equation/" | relative_url }}">Generalized Price Equation</a> | with [Mark Bedau](http://people.reed.edu/~mab/); for the Artificial Life Lab at Reed College |
 | **2020** | Separation Logic in Agda | with [Jim Fix](https://jimfix.github.io); at [Reed College](https://www.reed.edu) |
