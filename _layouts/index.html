@@ -3,17 +3,17 @@ layout: default
 ---
 
 <div class="feed">
-  
+
   {% for post in site.posts %}
-  <div class="feed-item">
+  <div class="header feed-item">
 
     <!-- title -->
-    <div class="feed-item-title">
+    <div class="title feed-item-title">
       <a class="un-a" href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </div>
-    
+
     <!-- categories -->
-    <div class="feed-item-categories">
+    <div class="categories feed-item-categories">
       {% for category in post.categories %}
       <a class="category un-a" href="/categories/#{{ category | escape }}">
         {{ category }}
@@ -23,11 +23,11 @@ layout: default
 
     <!-- date -->
     <div class="feed-item-date">{{ post.date | date: "%Y/%m/%d" }}</div>
-    
+
     <!-- abstract -->
     <div class="feed-item-abstract">{{ post.abstract }}</div>
 
   </div>
   {% endfor %}
-  
+
 </div>

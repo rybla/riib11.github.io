@@ -1,14 +1,23 @@
 .page {}
 
-.page-title {
-  display: block;
-  padding: 0.5rem 0rem;
+// .page-title {
+//   display: block;
+//   padding: 0.5rem 0rem;
 
-  box-shadow: -0.5rem 0 0 0 white, -1rem 0 0 0 #181d34;
+//   // box-shadow:
+//   //   -0.5rem 0 0 0 $color-title-background,
+//   //   -1rem 0 0 0 $color-dark;
+//   box-shadow:
+//     -0.5rem 0 0 0 $color-title-background,
+//     -1rem 0 0 0 $color-dark,
+//     0.5rem 0 0 0 $color-title-background,
+//     1rem 0 0 0 $color-dark;
 
-  color: black;
-  font-size: $font-size-h0 !important;
-}
+//   background-color: $color-title-background;
+
+//   color: black;
+//   font-size: $font-size-h0 !important;
+// }
 
 .page-title-underbar {}
 

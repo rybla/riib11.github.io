@@ -4,24 +4,26 @@ layout: default
 
 <div class="page">
 
-  <div class="page-title">
-    <a class="un-a" href="#">{{ page.title }}</a>
-  </div>
+  <div class="header page-header">
+    <div class="title page-title">
+      <a class="un-a" href="#">{{ page.title }}</a>
+    </div>
 
-  <div class="page-title-underbar"></div>
+    <!-- <div class="page-title-underbar"></div> -->
 
-  {% if page.table_of_contents  %}
+    {% if page.table_of_contents %}
     {% include table_of_contents.html %}
 
-    <div class="post-title-underbar"></div>
-  {% endif %}
+    <!-- <div class="post-title-underbar"></div> -->
+    {% endif %}
+  </div>
 
-  <div class="page-content">
+  <div class="content page-content">
     {{ content }}
   </div>
 
   {% if page.table_of_contents %}
-    <script src="/scripts/table_of_contents.js"></script>
+  <script src="/scripts/table_of_contents.js"></script>
   {% endif %}
 
 </div>

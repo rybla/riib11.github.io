@@ -1,11 +1,11 @@
 .table-of-contents {
+  display: table;
+  margin: auto;
+
   margin-top: 1rem;
+  max-width: calc(100% - 2rem);
 
-  // margin: 2rem 0;
-  // padding: 0 1rem;
-
-  // box-shadow: 0.4rem 0 0 0 gray inset;
-  // box-shadow: -2rem 0 0 0 #181d34;
+  text-align: left;
 }
 
 .table-of-contents-label {

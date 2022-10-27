@@ -1,28 +1,17 @@
-.feed {
-  margin-top: 1.5rem;
-}
+.feed {}
 
 .feed-item {
-  margin-bottom: 2.5rem;
-  padding: 0.5rem 0;
-  box-shadow: -0.5rem 0 0 0 white, -1rem 0 0 0 #181d34;
+  margin-top: 1.5rem;
+  // padding: 1rem;
 }
-
-.feed-item-title {
-  display: block;
-  margin-bottom: 0.4rem;
-
-  font-size: $font-size-h1 !important;
-  line-height: 1em;
-  color: black;
-}
-
-.feed-item-categories {}
 
 .feed-item-date {
-  // margin-top: -0.4rem;
-  margin-bottom: 0.4rem;
   font-style: italic;
 }
 
-.feed-item-abstract {}
+.feed-item-abstract {
+  margin-top: 1rem;
+  padding: 0 1rem;
+
+  text-align: left;
+}

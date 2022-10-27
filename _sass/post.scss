@@ -1,33 +1,12 @@
 .post {}
 
-.post-header {
-  padding: 0.5rem 0rem;
-
-  box-shadow: -0.5rem 0 0 0 white, -1rem 0 0 0 #181d34;
-}
-
-.post-title {
-  margin-bottom: 0.6rem;
-
-  font-size: $font-size-h0 !important;
-  line-height: 1.8rem;
-}
-
 .post-categories {}
 
 .post-date {
   font-style: italic;
 }
 
-.post-status {}
-
-.post-content {}
-
 p img {
   width: calc(100% + 2rem);
   margin-left: -1rem;
 }
-
-// .table-of-contents {
-//   margin: 2rem 0;
-// }

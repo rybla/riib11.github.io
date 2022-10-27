@@ -4,14 +4,14 @@ layout: default
 
 <div class="post">
 
-  <div class="post-header">
+  <div class="header post-header">
 
-    <div class="post-title">
+    <div class="title post-title">
       <a class="un-a" href="#">{{ page.title }}</a>
     </div>
 
     <!-- categories -->
-    <div class="post-categories">
+    <div class="categories post-categories">
       {% for category in page.categories %}
       <a class="category un-a" href="/categories/#{{ category | escape }}">
         <div>{{ category }}</div>
@@ -33,7 +33,7 @@ layout: default
 
   </div>
 
-  <div class="post-content">
+  <div class="content post-content">
     {{ content }}
   </div>
 
