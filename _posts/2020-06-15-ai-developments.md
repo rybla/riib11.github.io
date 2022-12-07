@@ -54,10 +54,7 @@ Categories:
 | 2022-04 | [DALL-E 2](#dall-e-2)                 | image    | [Hierarchical Text-Conditional Image Generation with CLIP Latents](https://cdn.openai.com/papers/dall-e-2.pdf)                                                                                       |
 | 2022-08 | [Stable Diffusion](#stable-diffusion) | image    | [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion)                                                                                                                              |
 | 2022-09 | Whisper                               | speech   | [openai/whisper](https://github.com/openai/whisper)                                                                                                                                                  |
-| 2022-11 | ChatGPT                               | text     | [ChatGPT: Optimizing Language Models for Dialogue](https://openai.com/blog/chatgpt/)                                                                                                                 | **** |
-
-<iframe width="100%" height="400" src="https://time.graphics/embed?v=1&id=0a314e4efad32c8618520ae1df4f0efc" frameborder="0" allowfullscreen></iframe>
-<div><a  style="font-size: 12px; text-decoration: none;" title="Powered by Time.Graphics" href="https://time.graphics">Powered by Time.Graphics</a></div>
+| 2022-11 | ChatGPT                               | text     | [ChatGPT: Optimizing Language Models for Dialogue](https://openai.com/blog/chatgpt/)                                                                                                                 |
 
 ## AI Descriptions
 
