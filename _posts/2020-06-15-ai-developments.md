@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AI Developments 2020+
+title: AI Developments
 categories: technology software ai
 abstract: Tracking recent developments in and my thoughts about AI.
 author: Henry Blanchette
@@ -115,6 +115,9 @@ Blog: [Stable Diffusion Launch Announcement](https://stability.ai/blog/stable-di
 Blog: [Stable Diffusion Public Release](https://stability.ai/blog/stable-diffusion-public-release)
 
 ## Resources
+
+- [Deepmind][deepmind]
+- [Open AI][openai]
 
 [deepmind]: https://deepmind.com
 [openai]: https://openai.com
