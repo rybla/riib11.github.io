@@ -1,0 +1,17 @@
+Name,Announcement Date,Release Date,Category,Developer,Links
+AlphaGo,2016-01,,Game Player,Deepmind,https://www.nature.com/articles/nature16961
+AlphaGo Zero,2017-08,,Game Player,OpenAI,https://github.com/openai/gym
+AI Dungeon,2018-12,,Game Application,Latitude,https://play.aidungeon.io/main/home
+GPT-2,2019-02,,Text,Deepmind,https://www.deepmind.com/blog/alphago-zero-starting-from-scratch
+AlphaStar,2019-08,,Game Player,Deepmind,https://www.semanticscholar.org/paper/Language-Models-are-Unsupervised-Multitask-Learners-Radford-Wu/9405cc0d6169988371b2755e573cc28650d14dfe
+MuZero,2019-11,,Game Player,OpenAI,https://www.nature.com/articles/s41586-019-1724-z
+GPT-3,2020-05,,Text Completion,OpenAI,https://arxiv.org/abs/1911.08265
+DALL-E,2021-02,,Image Generation,OpenAI,https://arxiv.org/abs/2005.14165
+LaMDA,2021-05,,Text Completion,Deepmind,https://blog.google/technology/ai/lamda
+DALL-E 2,2022-04,,Image Generation,OpenAI,https://arxiv.org/abs/2102.12092
+Stable Diffusion,2022-08,,Image Generation,OpenAI,https://github.com/CompVis/stable-diffusion
+Whisper,2022-09,,Speach Recognition,Microsoft,https://github.com/openai/whisper
+ChatGPT,2022-11,,Text Completion,OpenAI,"https://openai.com/blog/chatgpt/, https://openai.com/blog/chatgpt
+"
+The New Bing,2023-02,,"Text Completion, Internet Search",Deepmind,https://www.bing.com/new
+Bard,2023-02,,Text Completion,Deepmind,https://blog.google/technology/ai/bard-google-ai-search-updates
