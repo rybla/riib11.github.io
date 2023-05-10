@@ -16,8 +16,10 @@ Of course, not all research in these kinds of fields are like that -- for exampl
 So, could an LLM-based AI agent be useful for exploring these logical framework? It can be taught to use the rules of the logical framework to prove new theorems very quickly, and further it could be trained to aim for _interesting_ theorems, as judged by previous similar theorems that were considered interesting.
 
 Current LLM technology imposes some serious limitations on how far you can go with this approach:
-- they aren't very good at resoning in unfamiliar logical frameworks (e.g. my [Slrj](https://gist.github.com/Riib11/9b0fba1f4119d4a026abb8ff69bfe121) conversation with ChatGPT), so you will need a way to automatically veryify or at least filter its proposed proofs and theorems in order to efficiently search
+- they aren't very good at resoning in unfamiliar logical frameworks (e.g. see my conversation about Slrj with ChatGPT below), so you will need a way to automatically veryify or at least filter its proposed proofs and theorems in order to efficiently search
 - they probably won't be very good at recognizing interesting theorems, so you will have to wade through lots of uninteresting, even if true, theorems
 - even to a human, its often not obvious if a theorem is interesting without discussing with other humans, which is a difficult process to automate, so this will probably be a bottleneck
+
+<script src="https://gist.github.com/Riib11/9b0fba1f4119d4a026abb8ff69bfe121.js"></script>
 
 I don't propose this idea as a general-purpose proof search technique. I don't think LLMs are particularly close to being able to extend the frontier of mathematics in even relatively less-advanced fields. But, I do think that in a very new field that an LLM agent like I describe above could be used for a very efficient first-pass search for interesting low-hanging fruit. In this way, a human agent could use such an LLM agent to quickly propose and iteratively explore many newly proposed fields of study to find one in which an interesting theorem is found that entices further study in that field in particular.
