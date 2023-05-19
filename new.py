@@ -5,7 +5,7 @@ abstract = input("abstract = ")
 title = input("title = ")
 today = date.today()
 
-filepath = f"_posts/{today.strftime('%Y-%m-%m')}-{slugify(title)}"
+filepath = f"_posts/{today.strftime('%Y-%m-%m')}-{slugify(title)}.md"
 
 with open(filepath, "w+") as file:
     file.write(
