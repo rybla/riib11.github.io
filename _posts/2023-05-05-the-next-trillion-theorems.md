@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Next Trillion Theorems
-categories: !TODO
+categories: mathematics ai
 abstract: Fields such as theoretical computer science and mathematics are game-like and full of low-hanging fruit of unclear value. Could recently-developed AI technology harvest a bounty?
 author: Henry Blanchette
 table_of_contents: false
