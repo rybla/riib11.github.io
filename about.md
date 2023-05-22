@@ -21,7 +21,10 @@ mathematical modeling, and data analysis.
 
 | time | topic | association |
 | --- | --- | --- |
-| **2022** | <a href="https://github.com/Riib11/zypr">Zypr</a> -- a zippy (zipper-based) structure editor | with [Jacob Prinz][jacob_prinz]; at [University of Maryland][umd] |
+| **2022-2023** | Liquid Flex -- extension of the [Flex](https://tangramflex.com/flex) language with refinement types | with [Tangram](https://www.tangramflex.com) |
+| **2022-2023** | Pantograph -- a zipper-interfaced well-typed structural editor | with [Jacob Prinz][jacob_prinz]; at [University of Maryland][umd] |
+| --- | --- | --- |
+| **2022** | <a href="https://github.com/Riib11/zypr">Zypr</a> -- a zipper-interfaced structure editor | with [Jacob Prinz][jacob_prinz]; at [University of Maryland][umd] |
 | **2022** | <a href="https://github.com/Riib11/shape-lang-purs">Shape</a> -- a well-typed structure editor | with [Jacob Prinz][jacob_prinz]; at [University of Maryland][umd] |
 | **2022** | <a href="https://github.com/Riib11/lh-tactics-test">Liquid Proof Macros</a> ([acm](https://dl.acm.org/doi/abs/10.1145/3546189.3549921)) -- tactical metaprogramming for Liquid Haskell proofs | with [Leonidas Lampropoulos][leo_lamp] and [Niki Vazou][niki_vazou]; at [University of Maryland][umd] |
 | **2021** | <a href="https://github.com/Riib11/block-types">Block Types</a> -- generating dependently-typed terms using type-preserving mutations | with [Jacob Prinz][jacob_prinz]; at [University of Maryland][umd] |
@@ -40,6 +43,7 @@ My employment has been in software engineering, theoretical computer science res
 
 | time | event                                                                                                                                           |
 | --- | --- |
+| **2022-2023** | worked as independent contractor at [Galois](https://galois.com/) with [Tangram](https://www.tangramflex.com) |
 | **2022** | worked as summer intern at [Galois](https://galois.com/), developing the [Cryptol langauge](https://cryptol.net/) and verifying cyber-physical systems using [Coq](https://coq.inria.fr/) |
 | **2021** | worked as summer intern at [Runtime Verification](https://runtimeverification.com/), verifying [Ethereum smart contracts](https://ethereum.org/en/developers/docs/smart-contracts/) using the [K Framework](https://kframework.org/) |
 | **2020** | began PhD program in computer science at [University of Maryland](https://umd.edu) |

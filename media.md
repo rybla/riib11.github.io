@@ -6,11 +6,11 @@ permalink: /media/
 
 Information for the respective media is recorded in these accounts:
 
+- [Github][github]
 - [Goodreads][goodreads]
 - [IMDB][imdb]
 - [YouTube][youtube]
 - [Steam][steam]
-- [Github][github]
 
 <!-- ## Mathematics
 
