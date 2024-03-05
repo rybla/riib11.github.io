@@ -21,9 +21,9 @@ I've been reading/listening to some Hanson recently on the topic of the future o
 - [To Imagine AI, Imagine No AI](https://www.overcomingbias.com/p/to-imagine-ai-imagine-no-ai)
 - [Zvi Mowshowitz & Robin Hanson Discuss AI Risk](https://m.youtube.com/watch?v=9XuVn6nljCM)
 
-Of course, Hanson has been publicly writing and discussing the future of AI since at least 2008 (viz [The Hanson-Yudkowsky AI-Foom Debate](https://www.lesswrong.com/tag/the-hanson-yudkowsky-ai-foom-debate), and [Yudkowsky vs Hanson on FOOM: Whose Predictions Were Better?](https://www.lesswrong.com/posts/gGSvwd62TJAxxhcGh/yudkowsky-vs-hanson-on-foom-whose-predictions-were-better)), but the topic has attracted a lot more attention recently due to recent advances in AI technology as well as some popular figures (including Yudkowsky himself) warning about a likely immanent AI doomsday.
+Of course, Hanson has been publicly writing and discussing the future of AI since at least 2008 (viz [The Hanson-Yudkowsky AI-Foom Debate](https://www.lesswrong.com/tag/the-hanson-yudkowsky-ai-foom-debate), and [Yudkowsky vs Hanson on FOOM: Whose Predictions Were Better?](https://www.lesswrong.com/posts/gGSvwd62TJAxxhcGh/yudkowsky-vs-hanson-on-foom-whose-predictions-were-better)), but the topic has attracted a lot more attention recently due to recent advances in AI technology as well as some popular figures (including Yudkowsky himself) warning about a likely imminent AI doomsday.
 
-In terms of the possibility that human-level AI (defined as an AI agent that can do any tasks that a general human can do for the same or cheaper cost) will arise in the near-term future, it appears that Hanson has similar views to [me]{% post_url 2023-04-03-ai-danger %}) -- that is, its very unlikely.
+In terms of the possibility that human-level AI (defined as an AI agent that can do any tasks that a general human can do for the same or cheaper cost) will arise in the near-term future, it appears that Hanson has similar views to [me]{{ site.baseurl }}{% post_url 2023-04-03-ai-danger %}) -- that is, its very unlikely.
 
 However, Hanson has found a different interesting and much less explored aspect to future of AI discussion, in particular relating to the alignment problem.
 
