@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Meritrocracy is wrong
-categories: technology
+categories: philosophy
 author: Henry Blanchette
 table_of_contents: false
 ---
