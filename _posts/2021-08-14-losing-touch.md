@@ -13,7 +13,7 @@ Lucy idly strode through the grove. The weather was overcast as always, but the
 greenery and air felt like Spring. Madame, we must return to the castle at once,
 said the heavily armored knight that was trailing behind her.
 
-"Why must we go now? So pleasant it is this morning", Lucy said halfheartedly.
+"Why must we go now? So pleasant it is this morning," Lucy said halfheartedly.
 
 It is almost nightfall, and there are terrible beasts that roam about after dark.
 Lucy glanced into a bush slightly off-path finding thousands of large gristly eyes staring back at her from the shadows. 
