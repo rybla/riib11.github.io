@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Meritrocracy is wrong
+title: Meritocracy is wrong
 categories: philosophy
 author: Henry Blanchette
 table_of_contents: false
