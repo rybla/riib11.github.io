@@ -1,6 +1,6 @@
 ---
 layout: post
-title: An Analogy is Like a Thing that is a Bad Argument
+title: An Analogy is Like a Bad Argument
 categories: writing
 abstract:
   Analogies are easily misused, with great effectiveness, as if they are
