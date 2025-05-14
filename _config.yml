@@ -5,7 +5,7 @@ description: >-
   Henry Blanchette's primary blog. Topics: programming languages, computarics,
   mathematics, philosophy, evolution, game theory, game design, economics.
 page-titles:
-  - projects
+  # - projects
   - media
   - categories
   - archive

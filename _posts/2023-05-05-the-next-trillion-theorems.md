@@ -20,6 +20,6 @@ Current LLM technology imposes some serious limitations on how far you can go wi
 - they probably won't be very good at recognizing interesting theorems, so you will have to wade through lots of uninteresting, even if true, theorems
 - even to a human, its often not obvious if a theorem is interesting without discussing with other humans, which is a difficult process to automate, so this will probably be a bottleneck
 
-<script src="https://gist.github.com/Riib11/9b0fba1f4119d4a026abb8ff69bfe121.js"></script>
+<script src="https://gist.github.com/rybla/9b0fba1f4119d4a026abb8ff69bfe121.js"></script>
 
 I don't propose this idea as a general-purpose proof search technique. I don't think LLMs are particularly close to being able to extend the frontier of mathematics in even relatively less-advanced fields. But, I do think that in a very new field that an LLM agent like I describe above could be used for a very efficient first-pass search for interesting low-hanging fruit. In this way, a human agent could use such an LLM agent to quickly propose and iteratively explore many newly proposed fields of study to find one in which an interesting theorem is found that entices further study in that field in particular.
