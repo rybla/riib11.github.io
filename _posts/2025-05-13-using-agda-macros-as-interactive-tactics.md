@@ -66,7 +66,19 @@ _ : ℕ → ℕ → ℕ
 _ = intros ?
 ```
 
-But this is interpreted differently than it might first appear. Agda is going to complain that it doesn't know what type `?` should have. This is because the evaluation of `intros ?` is blocked by the hole, and so macro expansion doesn't even get started. Because of this, we _can't_ inspect that intermediate state in the same way we could if this was a function application rather than a macro invocation.
+But this is interpreted differently than it might first appear. Agda is going to complain that it gets blocked at the hole (where `_64` is the value of the hole):
+
+```
+———— Error ———————————
+Failed to solve the following constraints:
+  unquote
+  (λ hole →
+     bindTC (inferType hole)
+     (λ α → bindTC (intro-helper zero α _64) (unify hole)))
+    (blocked on _64)
+```
+
+This is because `unquote` is blocked when trying to evaluate the hole, and so macro expansion doesn't even get started. Because of this, we _can't_ inspect that intermediate state in the same way we could if this was a function application rather than a macro invocation.
 
 # Proposal: Quoted Holes
 
@@ -82,10 +94,10 @@ is that we actually get a typed hole there that is _spliced_ into the result of 
 We can do this with non-hole terms via quotation e.g. something like
 
 ```
-intros (quote (x + y))
+intros (x + y)
 ```
 
-would literally splice `x + y` into the result of the macro expansion without first evaluating the expression. But this doesn't wok with holes since holes can't be quoted.
+would literally splice the `x + y` into the result of the macro expansion without first evaluating the expression. But this doesn't work with holes since holes can't be quoted.
 
 And that's exactly what we need: _quoted holes_.
 
