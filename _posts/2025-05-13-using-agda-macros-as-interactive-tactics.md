@@ -1,8 +1,10 @@
 ---
 layout: post
-title: Using Agda Macros as Tactics
+title: Using Agda Macros as Interactive Tactics
 categories: computics Agda
 author: Henry Blanchette
+abstract:
+  A proposal for how to use Agda's macro capabilities to emulate the features of interactive tactics LTac in Coq/Rocq. Agda's typed holes already get almost all the way there; they just need to handle interactive holes well!
 table_of_contents: true
 ---
 
