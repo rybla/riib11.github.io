@@ -22,8 +22,7 @@ mathematical modeling, and data analysis.
 | time | topic | association |
 | --- | --- | --- |
 | **2022-2023** | Liquid Flex -- extension of the [Flex](https://tangramflex.com/flex) language with refinement types | with [Tangram](https://www.tangramflex.com) |
-| **2022-2023** | Pantograph -- a zipper-interfaced well-typed structural editor | with [Jacob Prinz][jacob_prinz]; at [University of Maryland][umd] |
-| --- | --- | --- |
+| **2022-2023** | [Pantograph](https://pantographeditor.github.io/Pantograph/) ([acm](https://dl.acm.org/doi/10.1145/3704864)) -- a fluid and well-typed structure editor | with [Jacob Prinz][jacob_prinz]; at [University of Maryland][umd] |
 | **2022** | <a href="https://github.com/Riib11/zypr">Zypr</a> -- a zipper-interfaced structure editor | with [Jacob Prinz][jacob_prinz]; at [University of Maryland][umd] |
 | **2022** | <a href="https://github.com/Riib11/shape-lang-purs">Shape</a> -- a well-typed structure editor | with [Jacob Prinz][jacob_prinz]; at [University of Maryland][umd] |
 | **2022** | <a href="https://github.com/Riib11/lh-tactics-test">Liquid Proof Macros</a> ([acm](https://dl.acm.org/doi/abs/10.1145/3546189.3549921)) -- tactical metaprogramming for Liquid Haskell proofs | with [Leonidas Lampropoulos][leo_lamp] and [Niki Vazou][niki_vazou]; at [University of Maryland][umd] |

@@ -4,36 +4,17 @@ title: Media
 permalink: /media/
 ---
 
-Information for the respective media is recorded in these accounts:
+Various public media accouts:
 
-- [Github][github]
 - [Goodreads][goodreads]
+- [Github][github]
 - [IMDB][imdb]
-- [YouTube][youtube]
 - [Steam][steam]
+- [YouTube][youtube]
 
-<!-- ## Mathematics
-
-## Computics
-
-## Software Engineering
-
-## Economics
-
-## Politics
-
-## Culture
-
-## Science
-
-## Business
-
-## Technology
-
-##  -->
-
-[goodreads]: https://www.goodreads.com/review/list/91617543?ref=nav_mybooks
-[imdb]: https://www.imdb.com/user/ur118320767/ratings?ref_=nv_usr_rt_4
+[github]: https://github.com/rybla?tab=repositories
+[goodreads]: https://www.goodreads.com/review/list/91617543
+[imdb]: https://www.imdb.com/user/ur118320767/ratings/
 [steam]: https://steamcommunity.com/profiles/76561198147346901/
-[youtube]: https://www.youtube.com/user/SpiralSpawn52/playlists?view_as=subscriber
-[github]: https://github.com/riib11?tab=repositories
+[youtube]: https://www.youtube.com/user/SpiralSpawn52/
+
